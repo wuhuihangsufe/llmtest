@@ -1,0 +1,104 @@
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { remark } from 'remark';
+import html from 'remark-html';
+import remarkGfm from 'remark-gfm';
+import { ModelAnswer, Question } from './types';
+
+const answersDir = path.join(process.cwd(), '_answers');
+const baseUrl = process.env.BASE_URL || '';
+
+// Helper function to recursively copy a directory
+const copyDirSync = (src: string, dest: string) => {
+  fs.mkdirSync(dest, { recursive: true });
+  const entries = fs.readdirSync(src, { withFileTypes: true });
+  for (const entry of entries) {
+    const srcPath = path.join(src, entry.name);
+    const destPath = path.join(dest, entry.name);
+    if (entry.isDirectory()) {
+      copyDirSync(srcPath, destPath);
+    } else {
+      fs.copyFileSync(srcPath, destPath);
+    }
+  }
+};
+
+// Function to create a full HTML document string
+const createHtmlDoc = (mainContent: string): string => {
+  return `
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/css/markdown.css">
+    </head>
+    <body>
+      ${mainContent}
+    </body>
+    </html>
+  `;
+};
+
+export async function getAllQuestions(): Promise<Question[]> {
+  const questionDirs = fs.readdirSync(answersDir)
+    .filter(file => fs.statSync(path.join(answersDir, file)).isDirectory() && file.startsWith('question-'))
+    .sort((a, b) => parseInt(a.split('-')[1]) - parseInt(b.split('-')[1]));
+
+  const allQuestionsData = await Promise.all(
+    questionDirs.map(async (dirName) => {
+      const questionId = dirName.split('-')[1];
+      const questionDir = path.join(answersDir, dirName);
+
+      // --- Start of Image Handling Logic ---
+      const questionImagesDir = path.join(questionDir, 'images');
+      const publicVendorDir = path.join(process.cwd(), 'public', 'vendor', `question-${questionId}`, 'images');
+      
+      // Copy images to public directory if they exist
+      if (fs.existsSync(questionImagesDir)) {
+        copyDirSync(questionImagesDir, publicVendorDir);
+      }
+      // --- End of Image Handling Logic ---
+
+      const questionTextPath = path.join(questionDir, 'question.txt');
+      const questionText = fs.readFileSync(questionTextPath, 'utf8').trim();
+
+      const answerFiles = fs.readdirSync(questionDir).filter(file => file.endsWith('.md'));
+      
+      const answers: ModelAnswer[] = await Promise.all(
+          answerFiles.map(async (fileName) => {
+              const fullPath = path.join(questionDir, fileName);
+              const fileContents = fs.readFileSync(fullPath, 'utf8');
+              const matterResult = matter(fileContents);
+              
+              const processedContent = await remark()
+                .use(remarkGfm)
+                .use(html)
+                .process(matterResult.content);
+
+              let contentHtmlBody = processedContent.toString();
+              
+              // Regex to find src attributes starting with ./images/ or images/
+              // and replace with the absolute public URL.
+              const publicImagePath = `${baseUrl}/vendor/question-${questionId}/images/`;
+              contentHtmlBody = contentHtmlBody.replace(/src="(\.?\/)?images\//g, `src="${publicImagePath}`);
+
+              return {
+                  modelId: matterResult.data.modelId,
+                  modelDisplayName: matterResult.data.modelDisplayName,
+                  contentHtml: createHtmlDoc(contentHtmlBody),
+              };
+          })
+      );
+
+      return {
+        id: questionId,
+        text: questionText,
+        answers: answers,
+      };
+    })
+  );
+
+  return allQuestionsData;
+} 
