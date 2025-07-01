@@ -64,7 +64,9 @@ export async function getAllQuestions(): Promise<Question[]> {
       const questionTextPath = path.join(questionDir, 'question.txt');
       const questionText = fs.readFileSync(questionTextPath, 'utf8').trim();
 
-      const answerFiles = fs.readdirSync(questionDir).filter(file => file.endsWith('.md'));
+      const answerFiles = fs.readdirSync(questionDir)
+        .filter(file => file.endsWith('.md'))
+        .sort();
       
       const answers: ModelAnswer[] = await Promise.all(
           answerFiles.map(async (fileName) => {

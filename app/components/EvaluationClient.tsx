@@ -17,23 +17,12 @@ interface EvaluationState {
   };
 }
 
-// Fisher-Yates shuffle algorithm
-const shuffleArray = <T,>(array: T[]): T[] => {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-};
-
 export default function EvaluationClient({ allQuestions }: { allQuestions: Question[] }) {
   const router = useRouter();
   const supabase = createClient();
   
   const [userInfo, setUserInfo] = useState<{name: string, profile: object, startTime: string} | null>(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [shuffledAnswers, setShuffledAnswers] = useState<ModelAnswer[]>([]);
   const [evaluations, setEvaluations] = useState<EvaluationState>({});
   
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -59,9 +48,6 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
     });
     setEvaluations(initialEvals);
 
-    // 3. 为第一个问题随机排序答案
-    setShuffledAnswers(shuffleArray(allQuestions[0].answers));
-
   }, [allQuestions, router]);
 
   const handleUpdateEvaluation = (questionId: string, modelId: string, data: { score: number; pros: string[]; cons: string[] }) => {
@@ -77,7 +63,6 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
   const goToQuestion = (index: number) => {
     if (index >= 0 && index < allQuestions.length) {
       setCurrentQuestionIndex(index);
-      setShuffledAnswers(shuffleArray(allQuestions[index].answers)); // 切换问题时也随机化
     }
   };
   
@@ -126,9 +111,9 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
   const currentQuestion = allQuestions[currentQuestionIndex];
 
   return (
-    <div className="flex min-h-screen bg-gray-100">
+    <div className="flex h-screen bg-gray-100">
       {/* Left Sidebar for Navigation */}
-      <aside className="w-64 bg-white p-6 shadow-md hidden md:block">
+      <aside className="w-64 bg-white p-6 shadow-md hidden md:block overflow-y-auto">
         <h2 className="text-lg font-bold mb-4">问题列表</h2>
         <nav className="space-y-2">
           {allQuestions.map((q, index) => (
@@ -146,61 +131,61 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
       </aside>
 
       {/* Main Content */}
-      <main className="flex-1 p-6 lg:p-10">
-        <div className="max-w-7xl mx-auto">
+      <main className="flex-1 p-6 lg:p-10 flex flex-col">
+        <div className="flex-shrink-0">
           <div className="mb-8">
             <h1 className="text-2xl font-bold text-gray-800">
                 问题 {currentQuestion.id}/{allQuestions.length}:
             </h1>
             <p className="mt-1 text-lg text-gray-600">{currentQuestion.text}</p>
           </div>
-          
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {shuffledAnswers.map(answer => (
-              <EvaluationCard 
-                key={`${currentQuestion.id}-${answer.modelId}`}
-                questionId={currentQuestion.id}
-                answer={answer}
-                evaluation={evaluations[currentQuestion.id]?.[answer.modelId]}
-                onUpdate={handleUpdateEvaluation}
-              />
-            ))}
-          </div>
-
-          {/* Navigation Buttons and Submission */}
-          <div className="mt-10 flex justify-between items-center">
-             <button
-                onClick={() => goToQuestion(currentQuestionIndex - 1)}
-                disabled={currentQuestionIndex === 0}
-                className="px-4 py-2 bg-white border rounded-md disabled:opacity-50"
-             >
-                 上一个问题
-             </button>
-
-            {currentQuestionIndex === allQuestions.length - 1 && (
-                <button
-                    onClick={handleSubmit}
-                    disabled={isSubmitting || !isEvaluationComplete()}
-                    className="px-6 py-3 text-white bg-green-600 rounded-md hover:bg-green-700 disabled:bg-gray-400 font-bold"
-                >
-                    {isSubmitting ? '提交中...' : '完成并提交所有评价'}
-                </button>
-            )}
-
-             <button
-                onClick={() => goToQuestion(currentQuestionIndex + 1)}
-                disabled={currentQuestionIndex === allQuestions.length - 1}
-                className="px-4 py-2 bg-white border rounded-md disabled:opacity-50"
-             >
-                 下一个问题
-             </button>
-          </div>
-           {submitMessage && (
-                <p className={`mt-4 text-sm text-center ${submitMessage.includes('失败') ? 'text-red-600' : 'text-green-600'}`}>
-                    {submitMessage}
-                </p>
-            )}
         </div>
+          
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1">
+          {currentQuestion.answers.map(answer => (
+            <EvaluationCard 
+              key={`${currentQuestion.id}-${answer.modelId}`}
+              questionId={currentQuestion.id}
+              answer={answer}
+              evaluation={evaluations[currentQuestion.id]?.[answer.modelId]}
+              onUpdate={handleUpdateEvaluation}
+            />
+          ))}
+        </div>
+
+        {/* Navigation Buttons and Submission */}
+        <div className="mt-10 flex justify-between items-center flex-shrink-0">
+           <button
+              onClick={() => goToQuestion(currentQuestionIndex - 1)}
+              disabled={currentQuestionIndex === 0}
+              className="px-4 py-2 bg-white border rounded-md disabled:opacity-50"
+           >
+                上一个问题
+           </button>
+
+          {currentQuestionIndex === allQuestions.length - 1 && (
+              <button
+                  onClick={handleSubmit}
+                  disabled={isSubmitting || !isEvaluationComplete()}
+                  className="px-6 py-3 text-white bg-green-600 rounded-md hover:bg-green-700 disabled:bg-gray-400 font-bold"
+              >
+                  {isSubmitting ? '提交中...' : '完成并提交所有评价'}
+              </button>
+          )}
+
+           <button
+              onClick={() => goToQuestion(currentQuestionIndex + 1)}
+              disabled={currentQuestionIndex === allQuestions.length - 1}
+              className="px-4 py-2 bg-white border rounded-md disabled:opacity-50"
+           >
+                下一个问题
+           </button>
+        </div>
+         {submitMessage && (
+              <p className={`mt-4 text-sm text-center ${submitMessage.includes('失败') ? 'text-red-600' : 'text-green-600'}`}>
+                  {submitMessage}
+              </p>
+          )}
       </main>
     </div>
   );
