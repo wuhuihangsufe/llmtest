@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import type { Question, ModelAnswer } from '@/lib/types';
+import type { Question } from '@/lib/types';
 import { createClient } from '@/lib/supabase/client';
 import EvaluationCard from './EvaluationCard'; // 我们将创建这个新卡片组件
 

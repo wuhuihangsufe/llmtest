@@ -48,7 +48,7 @@ export default function WelcomePage() {
               <div className="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
                 <h2 className="!mt-0">关于我们与项目</h2>
                 <p>您好！我们是来自清华大学五道口金融学院财富管理研究中心的研究人员。</p>
-                <p>我们发起了这个项目，旨在建立一个以"人"为核心的评测基准，并创建一个高质量、开放的评测数据集，促进AI社区的透明与发展。</p>
+                <p>我们发起了这个项目，旨在建立一个以“人”为核心的评测基准，并创建一个高质量、开放的评测数据集，促进AI社区的透明与发展。</p>
               </div>
               
               <div className="mt-8 p-6 bg-white rounded-lg shadow-sm border border-gray-200">
@@ -68,7 +68,7 @@ export default function WelcomePage() {
             <div className="bg-white p-8 md:p-10 rounded-2xl shadow-xl border border-gray-200">
               <div className="prose prose-lg max-w-none text-gray-700">
                   <h2>您的任务：成为RIA评测官</h2>
-                  <p>接下来，您将化身为一位专业的"RIA评测官"。您的任务很简单：</p>
+                  <p>接下来，您将化身为一位专业的“RIA评测官”。您的任务很简单：</p>
                   <ul>
                       <li><strong>比较回答</strong>：我们会向您展示 60个相同的问题，以及 10个匿名RIA对这些问题的回答。</li>
                       <li><strong>打分评价</strong>：为每个回答打出 1-5星 的分数。</li>
