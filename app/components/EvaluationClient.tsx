@@ -17,13 +17,18 @@ interface EvaluationState {
   };
 }
 
+// 定义布局模式的类型
+type LayoutMode = '1x10' | '2x5';
+
 export default function EvaluationClient({ allQuestions }: { allQuestions: Question[] }) {
   const router = useRouter();
   const supabase = createClient();
   
   const [userInfo, setUserInfo] = useState<{name: string, profile: object, startTime: string} | null>(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [currentPageIndex, setCurrentPageIndex] = useState(0); // 升级为通用分页索引
   const [evaluations, setEvaluations] = useState<EvaluationState>({});
+  const [layoutMode, setLayoutMode] = useState<LayoutMode>('2x5'); // 默认改为 2x5
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState('');
@@ -63,6 +68,7 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
   const goToQuestion = (index: number) => {
     if (index >= 0 && index < allQuestions.length) {
       setCurrentQuestionIndex(index);
+      setCurrentPageIndex(0); // 切换问题时，重置分页索引
     }
   };
   
@@ -110,6 +116,30 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
 
   const currentQuestion = allQuestions[currentQuestionIndex];
 
+  // 新增：根据布局模式返回对应的CSS类
+  const getLayoutClasses = () => {
+    switch (layoutMode) {
+      case '1x10':
+        return 'grid-cols-1';
+      case '2x5':
+      default:
+        return 'grid-cols-1 md:grid-cols-2'; // 在中等屏幕上2列
+    }
+  };
+
+  // 根据布局和分页获取要展示的答案
+  const getAnswersToDisplay = () => {
+    const answers = currentQuestion.answers;
+    switch (layoutMode) {
+      case '1x10':
+        return answers.slice(currentPageIndex, currentPageIndex + 1);
+      case '2x5':
+      default:
+        // 每页2个，根据分页索引计算
+        return answers.slice(currentPageIndex * 2, currentPageIndex * 2 + 2);
+    }
+  };
+
   return (
     <div className="flex h-screen bg-gray-100">
       {/* Left Sidebar for Navigation */}
@@ -133,7 +163,7 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
       {/* Main Content */}
       <main className="flex-1 p-6 lg:p-10 flex flex-col">
         <div className="flex-shrink-0">
-          <div className="mb-8">
+          <div className="mb-8 p-6 bg-white rounded-lg shadow-md border border-gray-200">
             <h1 className="text-2xl font-bold text-gray-800">
                 问题 {currentQuestion.id}/{allQuestions.length}:
             </h1>
@@ -141,8 +171,8 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
           </div>
         </div>
           
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1">
-          {currentQuestion.answers.map(answer => (
+        <div className={`flex-1 grid ${getLayoutClasses()} gap-4 p-4 overflow-y-auto`}>
+          {getAnswersToDisplay().map(answer => (
             <EvaluationCard 
               key={`${currentQuestion.id}-${answer.modelId}`}
               questionId={currentQuestion.id}
@@ -151,6 +181,42 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
               onUpdate={handleUpdateEvaluation}
             />
           ))}
+        </div>
+
+        {/* 升级：通用分页器 */}
+        {(() => {
+            const totalPages = layoutMode === '1x10' ? 10 : 5;
+            const pageUnit = layoutMode === '1x10' ? '模型' : '组';
+            const navUnit = layoutMode === '1x10' ? '模型' : '组';
+
+            return (
+                <div className="mt-4 flex justify-between items-center flex-shrink-0 px-4">
+                    <button
+                        onClick={() => setCurrentPageIndex(prev => Math.max(0, prev - 1))}
+                        disabled={currentPageIndex === 0}
+                        className="px-4 py-2 bg-white border rounded-md disabled:opacity-50 text-sm"
+                    >
+                        上一个{navUnit}
+                    </button>
+                    <span className="text-sm font-semibold text-gray-700">
+                        {pageUnit} {currentPageIndex + 1} / {totalPages}
+                    </span>
+                    <button
+                        onClick={() => setCurrentPageIndex(prev => Math.min(totalPages - 1, prev + 1))}
+                        disabled={currentPageIndex === totalPages - 1}
+                        className="px-4 py-2 bg-white border rounded-md disabled:opacity-50 text-sm"
+                    >
+                        下一个{navUnit}
+                    </button>
+                </div>
+            );
+        })()}
+
+        {/* 页面布局选择器 */}
+        <div className="mt-6 flex justify-center items-center space-x-2 md:space-x-4 flex-shrink-0">
+            <span className="text-sm font-medium text-gray-700 hidden md:inline">页面布局:</span>
+            <button onClick={() => setLayoutMode('1x10')} className={`px-3 py-1.5 text-sm rounded-md transition-colors ${layoutMode === '1x10' ? 'bg-blue-600 text-white shadow-md' : 'bg-white border hover:bg-gray-50'}`}>1 × 10</button>
+            <button onClick={() => setLayoutMode('2x5')} className={`px-3 py-1.5 text-sm rounded-md transition-colors ${layoutMode === '2x5' ? 'bg-blue-600 text-white shadow-md' : 'bg-white border hover:bg-gray-50'}`}>2 × 5</button>
         </div>
 
         {/* Navigation Buttons and Submission */}

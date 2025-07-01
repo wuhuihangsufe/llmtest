@@ -38,7 +38,7 @@ export default function EvaluationCard({ questionId, answer, evaluation, onUpdat
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+    <div className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col h-full">
       <div className="p-4 bg-gray-700 text-white">
         <h3 className="text-xl font-bold">{answer.modelDisplayName}</h3>
       </div>
