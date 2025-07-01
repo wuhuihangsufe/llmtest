@@ -52,9 +52,9 @@ export default function EvaluationCard({ questionId, answer, evaluation, onUpdat
       <div className="p-4 bg-gray-50">
         {/* Scoring */}
         <div className="mb-4">
-          <p className="block text-sm font-medium text-gray-700 mb-2">评分</p>
-          <div className="flex space-x-1">
-            {[1, 2, 3, 4, 5].map(s => (
+          <p className="block text-sm font-medium text-gray-700 mb-2">评分 (1-10分)</p>
+          <div className="flex flex-wrap gap-2">
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(s => (
               <button
                 key={s}
                 onClick={() => handleScoreChange(s)}

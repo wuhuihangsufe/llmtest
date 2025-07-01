@@ -71,7 +71,7 @@ export default function WelcomePage() {
                   <p>接下来，您将化身为一位专业的“RIA评测官”。您的任务很简单：</p>
                   <ul>
                       <li><strong>比较回答</strong>：我们会向您展示 60个相同的问题，以及 10个匿名RIA对这些问题的回答。</li>
-                      <li><strong>打分评价</strong>：为每个回答打出 1-5星 的分数。</li>
+                      <li><strong>打分评价</strong>：为每个回答打出 1-10星 的分数。</li>
                       <li><strong>勾选标签</strong>：勾选每个回答的优缺点。</li>
                   </ul>
                   <p>整个评测过程预计需要 <strong>30 - 45分钟</strong>。感谢您投入宝贵的时间参与这个有意义的项目！</p>
