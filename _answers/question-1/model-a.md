@@ -1,6 +1,6 @@
 ---
 questionId: 1
-modelId: 'model-a'
+modelId: 'gemini'
 modelDisplayName: '匿名模型A'
 ---
 

@@ -1,19 +1,21 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import type { Question } from '@/lib/types';
 import { createClient } from '@/lib/supabase/client';
 import EvaluationCard from './EvaluationCard'; // 我们将创建这个新卡片组件
 
 // 定义评价数据的结构
+interface EvaluationData {
+  score: number;
+  pros: string[];
+  cons: string[];
+}
+
 interface EvaluationState {
   [questionId: string]: {
-    [modelId: string]: {
-      score: number;
-      pros: string[];
-      cons: string[];
-    };
+    [modelId: string]: EvaluationData;
   };
 }
 
@@ -32,30 +34,64 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState('');
+  const [isLoading, setIsLoading] = useState(true); // 新增：用于加载历史记录的loading状态
 
   // Effect to run on component mount
   useEffect(() => {
-    // 1. 获取用户信息
-    const storedUserInfo = localStorage.getItem('fineval_user_info');
-    if (!storedUserInfo) {
-      router.push('/'); // 如果没有用户信息，返回首页
-      return;
-    }
-    setUserInfo(JSON.parse(storedUserInfo));
+    const initialize = async () => {
+      // 1. 获取用户信息
+      const storedUserInfo = localStorage.getItem('fineval_user_info');
+      if (!storedUserInfo) {
+        router.push('/');
+        return;
+      }
+      const parsedUserInfo = JSON.parse(storedUserInfo);
+      setUserInfo(parsedUserInfo);
 
-    // 2. 初始化空的评价状态
-    const initialEvals: EvaluationState = {};
-    allQuestions.forEach(q => {
-      initialEvals[q.id] = {};
-      q.answers.forEach(a => {
-        initialEvals[q.id][a.modelId] = { score: 0, pros: [], cons: [] };
+      // 2. 初始化空的评价状态
+      const initialEvals: EvaluationState = {};
+      let lastQuestionId: string | null = null;
+      allQuestions.forEach(q => {
+        initialEvals[q.id] = {};
+        q.answers.forEach(a => {
+          initialEvals[q.id][a.modelId] = { score: 0, pros: [], cons: [] };
+        });
       });
-    });
-    setEvaluations(initialEvals);
 
-  }, [allQuestions, router]);
+      // 3. 加载用户历史进度
+      const { data: progress, error } = await supabase
+        .from('user_progress')
+        .select('question_id, model_id, evaluation_data')
+        .eq('user_id', parsedUserInfo.name);
 
-  const handleUpdateEvaluation = (questionId: string, modelId: string, data: { score: number; pros: string[]; cons: string[] }) => {
+      if (error) {
+        console.error('获取进度失败:', error);
+      } else if (progress && progress.length > 0) {
+        progress.forEach(item => {
+          if (initialEvals[item.question_id] && initialEvals[item.question_id][item.model_id]) {
+            initialEvals[item.question_id][item.model_id] = item.evaluation_data;
+            lastQuestionId = item.question_id;
+          }
+        });
+
+        // 恢复到上次作答的问题
+        if(lastQuestionId) {
+          const lastIndex = allQuestions.findIndex(q => q.id === lastQuestionId);
+          if (lastIndex !== -1) {
+            setCurrentQuestionIndex(lastIndex);
+          }
+        }
+      }
+      
+      setEvaluations(initialEvals);
+      setIsLoading(false);
+    };
+
+    initialize();
+  }, [allQuestions, router, supabase]);
+
+  const handleUpdateEvaluation = useCallback(async (questionId: string, modelId: string, data: EvaluationData) => {
+    // 立即更新UI
     setEvaluations(prev => ({
       ...prev,
       [questionId]: {
@@ -63,7 +99,25 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
         [modelId]: data,
       },
     }));
-  };
+
+    // 后台保存到数据库
+    if (userInfo) {
+      const { error } = await supabase
+        .from('user_progress')
+        .upsert({
+          user_id: userInfo.name,
+          question_id: questionId,
+          model_id: modelId,
+          evaluation_data: data,
+          updated_at: new Date().toISOString(),
+        });
+
+      if (error) {
+        console.error('保存进度失败:', error);
+        // 可以在这里给用户一些提示
+      }
+    }
+  }, [supabase, userInfo]);
 
   const goToQuestion = (index: number) => {
     if (index >= 0 && index < allQuestions.length) {
@@ -77,6 +131,36 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
         Object.values(questionEvals).every(modelEval => modelEval.score > 0)
     );
   }
+
+  const handleEarlySubmit = async () => {
+    if (!userInfo) {
+        setSubmitMessage("无法获取用户信息，请刷新重试。");
+        return;
+    }
+    setIsSubmitting(true);
+    setSubmitMessage("正在保存您的评测进度，请稍候...");
+
+    const submissionData = {
+        user_name: userInfo.name,
+        user_profile: userInfo.profile,
+        evaluation_data: evaluations,
+        duration_seconds: Math.floor((new Date().getTime() - new Date(userInfo.startTime).getTime()) / 1000),
+        status: 'in-progress', // 新增状态字段
+    };
+    
+    // 使用 upsert 来更新或插入提交
+    const { error } = await supabase.from('submissions').upsert(submissionData, { onConflict: 'user_name' });
+
+    setIsSubmitting(false);
+    if (error) {
+        setSubmitMessage(`保存失败: ${error.message}`);
+        console.error("Early submit error:", error);
+    } else {
+        setSubmitMessage('您的进度已成功保存！您可以随时关闭页面，下次使用相同昵称登录即可继续。');
+        // 5秒后自动清除消息
+        setTimeout(() => setSubmitMessage(''), 5000);
+    }
+  };
 
   const handleSubmit = async () => {
       if (!isEvaluationComplete()) {
@@ -96,22 +180,25 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
           user_profile: userInfo.profile,
           evaluation_data: evaluations,
           duration_seconds: Math.floor((new Date().getTime() - new Date(userInfo.startTime).getTime()) / 1000),
+          status: 'completed', // 状态为完成
       };
 
-      const { error } = await supabase.from('submissions').insert(submissionData);
-
-      setIsSubmitting(false);
+      // 最终提交也用 upsert，以防用户直接点这个
+      const { error } = await supabase.from('submissions').upsert(submissionData, { onConflict: 'user_name' });
 
       if (error) {
+          setIsSubmitting(false);
           setSubmitMessage(`提交失败: ${error.message}`);
       } else {
+          // 提交成功后，清理该用户的进度
+          await supabase.from('user_progress').delete().eq('user_id', userInfo.name);
           localStorage.removeItem('fineval_user_info');
           router.push('/thank-you');
       }
   };
 
-  if (!userInfo) {
-    return <div className="flex min-h-screen items-center justify-center">正在加载...</div>;
+  if (isLoading || !userInfo) {
+    return <div className="flex min-h-screen items-center justify-center">正在加载您的答题进度...</div>;
   }
 
   const currentQuestion = allQuestions[currentQuestionIndex];
@@ -144,6 +231,10 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
     <div className="flex h-screen bg-gray-100">
       {/* Left Sidebar for Navigation */}
       <aside className="w-64 bg-white p-6 shadow-md hidden md:block overflow-y-auto">
+        <div className="mb-6 text-center">
+          <p className="text-sm text-gray-500">当前用户</p>
+          <h2 className="text-lg font-bold text-blue-600 break-words">{userInfo?.name}</h2>
+        </div>
         <h2 className="text-lg font-bold mb-4">问题列表</h2>
         <nav className="space-y-2">
           {allQuestions.map((q, index) => (
@@ -229,15 +320,22 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
                 上一个问题
            </button>
 
-          {currentQuestionIndex === allQuestions.length - 1 && (
+           <div className="flex items-center space-x-4">
+              <button
+                  onClick={handleEarlySubmit}
+                  disabled={isSubmitting}
+                  className="px-6 py-3 text-white bg-blue-600 rounded-md hover:bg-blue-700 disabled:bg-gray-400 font-bold"
+              >
+                  {isSubmitting ? '处理中...' : '随时交卷 (保存进度)'}
+              </button>
               <button
                   onClick={handleSubmit}
                   disabled={isSubmitting || !isEvaluationComplete()}
                   className="px-6 py-3 text-white bg-green-600 rounded-md hover:bg-green-700 disabled:bg-gray-400 font-bold"
               >
-                  {isSubmitting ? '提交中...' : '完成并提交所有评价'}
+                  {isSubmitting ? '处理中...' : '完成并提交所有评价'}
               </button>
-          )}
+           </div>
 
            <button
               onClick={() => goToQuestion(currentQuestionIndex + 1)}

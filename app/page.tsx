@@ -2,20 +2,20 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { createClient } from '@/lib/supabase/client';
 
 export default function WelcomePage() {
   const router = useRouter();
+  const supabase = createClient();
   const [name, setName] = useState('');
   const [occupation, setOccupation] = useState('技术/开发');
   const [usageFrequency, setUsageFrequency] = useState('每天');
+  
+  const [isLoading, setIsLoading] = useState(false);
+  const [showConfirmation, setShowConfirmation] = useState(false);
+  const [formError, setFormError] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!name.trim()) {
-      alert('请输入您的昵称');
-      return;
-    }
-
+  const proceedToEvaluation = () => {
     const userInfo = {
       name: name.trim(),
       profile: {
@@ -24,13 +24,77 @@ export default function WelcomePage() {
       },
       startTime: new Date().toISOString(),
     };
-
     localStorage.setItem('fineval_user_info', JSON.stringify(userInfo));
     router.push('/evaluate');
   };
 
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const trimmedName = name.trim();
+    if (!trimmedName) {
+      setFormError('请输入您的昵称');
+      return;
+    }
+    setFormError('');
+    setIsLoading(true);
+
+    const { data, error } = await supabase
+      .from('submissions')
+      .select('user_name')
+      .eq('user_name', trimmedName)
+      .limit(1);
+
+    setIsLoading(false);
+
+    if (error) {
+      console.error('查询用户失败:', error);
+      setFormError('数据库查询失败，请稍后重试。');
+      return;
+    }
+
+    if (data && data.length > 0) {
+      setShowConfirmation(true);
+    } else {
+      proceedToEvaluation();
+    }
+  };
+
+  const handleConfirmation = (isCurrentUser: boolean) => {
+    setShowConfirmation(false);
+    if (isCurrentUser) {
+      proceedToEvaluation();
+    } else {
+      setFormError(`昵称 "${name.trim()}" 已被使用，建议使用 "${name.trim()}${Math.floor(Math.random() * 100)}" 或其他昵称。`);
+    }
+  };
+
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-800">
+    <div className="min-h-screen bg-gray-100 text-gray-800 relative">
+      
+      {/* Confirmation Modal */}
+      {showConfirmation && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-8 rounded-lg shadow-2xl text-center max-w-sm mx-auto">
+            <h3 className="text-xl font-bold mb-4">确认用户</h3>
+            <p className="mb-6">昵称 <span className="font-bold text-blue-600">"{name.trim()}"</span> 已存在。请问这是您本人吗？</p>
+            <div className="space-y-3">
+              <button
+                onClick={() => handleConfirmation(true)}
+                className="w-full px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors font-semibold"
+              >
+                是的，继续答题
+              </button>
+              <button
+                onClick={() => handleConfirmation(false)}
+                className="w-full px-6 py-3 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 transition-colors font-semibold"
+              >
+                不是我，换个昵称
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         
         <header className="text-center mb-16">
@@ -48,7 +112,7 @@ export default function WelcomePage() {
               <div className="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
                 <h2 className="!mt-0">关于我们与项目</h2>
                 <p>您好！我们是来自清华大学五道口金融学院财富管理研究中心的研究人员。</p>
-                <p>我们发起了这个项目，旨在建立一个以“人”为核心的评测基准，并创建一个高质量、开放的评测数据集，促进AI社区的透明与发展。</p>
+                <p>我们发起了这个项目，旨在建立一个以"人"为核心的评测基准，并创建一个高质量、开放的评测数据集，促进AI社区的透明与发展。</p>
               </div>
               
               <div className="mt-8 p-6 bg-white rounded-lg shadow-sm border border-gray-200">
@@ -68,7 +132,7 @@ export default function WelcomePage() {
             <div className="bg-white p-8 md:p-10 rounded-2xl shadow-xl border border-gray-200">
               <div className="prose prose-lg max-w-none text-gray-700">
                   <h2>您的任务：成为RIA评测官</h2>
-                  <p>接下来，您将化身为一位专业的“RIA评测官”。您的任务很简单：</p>
+                  <p>接下来，您将化身为一位专业的"RIA评测官"。您的任务很简单：</p>
                   <ul>
                       <li><strong>比较回答</strong>：我们会向您展示 60个相同的问题，以及 10个匿名RIA对这些问题的回答。</li>
                       <li><strong>打分评价</strong>：为每个回答打出 1-10星 的分数。</li>
@@ -94,6 +158,7 @@ export default function WelcomePage() {
                       className="appearance-none rounded-md relative block w-full px-4 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-base"
                       placeholder="请输入您的昵称"
                     />
+                    {formError && <p className="mt-2 text-sm text-red-600">{formError}</p>}
                   </div>
                   <div>
                     <label htmlFor="occupation" className="block text-sm font-semibold text-gray-800 mb-1">您的职业领域：</label>
@@ -133,9 +198,10 @@ export default function WelcomePage() {
                 <div className="pt-4 text-center">
                   <button
                     type="submit"
-                    className="w-full md:w-1/2 lg:w-auto inline-block py-4 px-12 border border-transparent text-lg font-bold rounded-full text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+                    disabled={isLoading || showConfirmation}
+                    className="w-full md:w-1/2 lg:w-auto inline-block py-4 px-12 border border-transparent text-lg font-bold rounded-full text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl disabled:bg-gray-400 disabled:cursor-not-allowed"
                   >
-                    开始评测
+                    {isLoading ? '查询中...' : '开始评测'}
                   </button>
                 </div>
               </form>

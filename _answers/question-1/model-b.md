@@ -2,7 +2,7 @@
 
 questionId: 1
 
-modelId: 'model-b'
+modelId: 'deepseek'
 
 modelDisplayName: '匿名模型B'
 
