@@ -67,7 +67,7 @@ FINEVAL/
     NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
 
     # 本地开发服务器地址
-    BASE_URL=http://localhost:3000
+    BASE_URL=http://localhost:10005
     ```
 
 4.  **设置Supabase数据库**
@@ -78,7 +78,7 @@ FINEVAL/
     ```bash
     npm run dev
     ```
-    现在，您可以在浏览器中打开 `http://localhost:3000` 来访问本地开发环境。
+    现在，您可以在浏览器中打开 `http://localhost:10005` 来访问本地开发环境。
 
 ## 部署上线
 

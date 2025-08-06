@@ -74,10 +74,16 @@ export async function getAllQuestions(): Promise<Question[]> {
               const fileContents = fs.readFileSync(fullPath, 'utf8');
               const matterResult = matter(fileContents);
               
+              // First, convert Obsidian-style image references ![[filename.png]] to standard markdown
+              let markdownContent = matterResult.content;
+              
+              // Convert ![[filename.png]] to ![](images/filename.png)
+              markdownContent = markdownContent.replace(/!\[\[([^\]]+\.(png|jpg|jpeg|gif|svg|webp))\]\]/gi, '![](images/$1)');
+              
               const processedContent = await remark()
                 .use(remarkGfm)
                 .use(html)
-                .process(matterResult.content);
+                .process(markdownContent);
 
               let contentHtmlBody = processedContent.toString();
               
