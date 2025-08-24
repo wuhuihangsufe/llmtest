@@ -76,5 +76,3 @@ modelDisplayName: 匿名模型G
 **建议：**
 
 即使是看好中国市场，也强烈建议进行**全球多元化配置**。您可以在多元化组合中分配一部分比例给沪深300指数ETF，同时配置其他国家和地区的股票ETF（如标普500 ETF、欧洲股票ETF、新兴市场股票ETF）以及全球债券ETF。这样的组合既能分享中国经济增长，又能有效分散风险，降低整体波动性，提升长期回报的稳定性。
-
-![个人资料照片](https://lh3.googleusercontent.com/a/ACg8ocKpA_ZL9nHmPxOLi0OWlErVQtiJ-_916XsWdRiml-8-fl_VZg=s64-c-mo)

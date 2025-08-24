@@ -1147,3 +1147,50 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
  ○ Compiling /favicon.ico ...
  ✓ Compiled /favicon.ico in 667ms
  GET /favicon.ico?favicon.45db1c09.ico 200 in 960ms
+ GET / 200 in 1521ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 235ms
+ GET /?a=WKtwuea&c=2RVM&m=fv3C&s=ba5a 200 in 271ms
+ GET /?s=index/index 200 in 176ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 2.2s
+ GET /arcgis 404 in 2898ms
+ GET /pma 404 in 2892ms
+ GET /nacos 404 in 2892ms
+ GET /api/jmreport 404 in 2902ms
+ GET /api/jeecg-boot 404 in 2901ms
+ GET /harbor 404 in 2902ms
+ GET /api/nacos 404 in 2953ms
+ GET /k3cloud 404 in 3015ms
+ GET /geoserver 404 in 2902ms
+ GET /manager/html 404 in 3020ms
+ GET /index.php?s=/Index/%09hink%07pp/invokefunction 404 in 3028ms
+ GET /error 404 in 3031ms
+ GET /js/ueditor/ueditor.all.js 404 in 3022ms
+ GET /jeecg-boot 404 in 2910ms
+ GET /jeecg-boot/jmreport/queryFieldBySql 404 in 3026ms
+ GET /WebReport/ReportServer 404 in 3039ms
+ GET /gateway/error 404 in 2915ms
+ GET /static/js/ueditor/ueditor.all.js 404 in 3018ms
+ GET /minio 404 in 2912ms
+ GET /Jeecg 404 in 3042ms
+ GET /ueditor/ueditor.all.js 404 in 3382ms
+ GET /smartbi/vision/index.jsp 404 in 3538ms
+ GET /v2/api-docs 404 in 3335ms
+ GET /actuator/env 404 in 3576ms
+ GET /geoserver/web 404 in 3427ms
+ GET /jmreport 404 in 3545ms
+ GET /wui/index.html 404 in 3194ms
+ GET /jeecg-boot 404 in 3428ms
+ GET /webroot/decision/login 404 in 3312ms
+ GET /druid/index.html 404 in 3569ms
+ GET /phpmyadmin 404 in 3431ms
+ GET /swagger-ui.html 404 in 3543ms
+ GET /public/index.php?c=api&a=check 404 in 3545ms
+ GET /api/error 404 in 3479ms
+ GET /xxl-job/toLogin 404 in 3131ms
+ GET /jenkins/login 404 in 3557ms
+ GET /actuator 404 in 3575ms
+ GET /ReportServer 404 in 3580ms
+ GET /xxl-job-admin/toLogin 404 in 3178ms
+ GET /zentao 404 in 2857ms
+ GET /xxl/toLogin 404 in 3126ms
