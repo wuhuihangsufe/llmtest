@@ -8,7 +8,8 @@ export default function WelcomePage() {
   const router = useRouter();
   const supabase = createClient();
   const [name, setName] = useState('');
-  const [occupation, setOccupation] = useState('技术/开发');
+  const [financialLearningYears, setFinancialLearningYears] = useState('无基础（0年）');
+  const [gender, setGender] = useState('不愿透露');
   const [usageFrequency, setUsageFrequency] = useState('每天');
   
   const [isLoading, setIsLoading] = useState(false);
@@ -19,13 +20,14 @@ export default function WelcomePage() {
     const userInfo = {
       name: name.trim(),
       profile: {
-        occupation,
+        financialLearningYears,
+        gender,
         usageFrequency,
       },
       startTime: new Date().toISOString(),
     };
     localStorage.setItem('fineval_user_info', JSON.stringify(userInfo));
-    router.push('/evaluate');
+    router.push('/guidance');
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -181,20 +183,33 @@ export default function WelcomePage() {
                     {formError && <FormError />}
                   </div>
                   <div>
-                    <label htmlFor="occupation" className="block text-sm font-semibold text-gray-800 mb-1">您的职业领域：</label>
+                    <label htmlFor="financialLearningYears" className="block text-sm font-semibold text-gray-800 mb-1">您的金融知识学习年限：</label>
                     <select
-                      id="occupation"
-                      name="occupation"
-                      value={occupation}
-                      onChange={(e) => setOccupation(e.target.value)}
+                      id="financialLearningYears"
+                      name="financialLearningYears"
+                      value={financialLearningYears}
+                      onChange={(e) => setFinancialLearningYears(e.target.value)}
                       className="appearance-none rounded-md relative block w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-base"
                     >
-                      <option>技术/开发</option>
-                      <option>产品/设计</option>
-                      <option>市场/运营</option>
-                      <option>学生</option>
-                      <option>教育/研究</option>
-                      <option>内容创作</option>
+                      <option>无基础（0年）</option>
+                      <option>初学者（1-2年）</option>
+                      <option>中级（3-5年）</option>
+                      <option>高级（5-10年）</option>
+                      <option>专家级（10年以上）</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label htmlFor="gender" className="block text-sm font-semibold text-gray-800 mb-1">您的性别：</label>
+                    <select
+                      id="gender"
+                      name="gender"
+                      value={gender}
+                      onChange={(e) => setGender(e.target.value)}
+                      className="appearance-none rounded-md relative block w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-base"
+                    >
+                      <option>不愿透露</option>
+                      <option>男性</option>
+                      <option>女性</option>
                       <option>其他</option>
                     </select>
                   </div>

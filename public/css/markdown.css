@@ -1,13 +1,14 @@
 /* A simple, clean stylesheet for rendered Markdown */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    line-height: 1.6;
+    font-family: "Times New Roman", "楷体", "KaiTi", "STKaiti", serif;
+    font-size: 16px; /* 恢复到16px */
+    line-height: 1.2; /* 行间距调整到1.2 */
     color: #333;
     padding: 1rem;
 }
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
     font-weight: 600;
 }
 h1 { font-size: 2em; }
@@ -15,12 +16,12 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.25em; }
 
 p {
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem; /* 段落间距缩短一半，从1rem降到0.5rem */
 }
 
 ul, ol {
     margin-left: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem; /* 列表间距也缩短一半，保持一致性 */
 }
 
 code {
