@@ -1,33 +1,37 @@
 ---
-questionId: 27
+questionId: 59
 modelId: Alice
 modelDisplayName: 匿名模型E
 ---
-资产的相关性是指不同资产价格或收益率之间相互关联的程度，通常用相关系数衡量，取值范围在-1到1之间。**相关系数越接近0，表示资产之间的联动性越弱，越有利于分散风险**。在构建投资组合时，选择相关性低的资产可以有效降低整体组合的波动性，提升风险调整后的收益。
+[药明康德](windlocal://open?!CommandParam\(1400%2CWindCode%3D603259.SH\)%27)2025年第二季度的财务数据显示其经营状况稳健，主要财务指标如下：
 
-### 为什么选择相关性低的资产？
+### 主要财务指标概览
 
-1. **降低系统性风险**：当资产之间相关性较低时，即使某一类资产遭遇下跌，其他资产也不太可能同步下跌，从而降低整体组合的系统性风险。
-2. **提升组合稳定性**：低相关性资产的加入有助于在市场波动时“对冲”损失，使组合表现更加平稳。
-3. **优化风险收益比**：通过合理搭配低相关性资产，可以在不牺牲收益的前提下，显著降低组合的波动率，提高夏普比率等风险调整指标。
+表格复制
 
-### 实际案例说明
+|指标|数值|
+|---|---|
+|**​[营业收入](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255842\)\)%27)​**|111.45 亿元|
+|**​[净利润](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255871\)\)%27)​**|49.45 亿元|
+|**​[每股收益](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D601297\)\)%27) (EPS)​**|1.70 元|
+|**​净资产收益率 (ROE)​**|8.00%|
+|**​总资产净利率 (ROA)​**|5.88%|
+|**​[营业总成本](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255846\)\)%27)​**|75.78 亿元|
+|**​[销售费用](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255851\)\)%27)​**|2.00 亿元|
+|**​[管理费用](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255852\)\)%27)​**|6.13 亿元|
+|**​[财务费用](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255853\)\)%27)​**|1.35 亿元|
 
-以黄金ETF与股票ETF的组合为例：
+### 同比增长率
 
-- **黄金ETF**（如黄金ETF）是一种投资于黄金价格变动的金融工具，具有明显的避险属性。
-- **股票ETF**（如沪深300ETF）则反映股票市场的整体表现，通常与经济增长预期密切相关。
+表格复制
 
-#### 相关性分析
+|指标|增长率|
+|---|---|
+|**​营业收入同比增长率​**|20.37%|
+|**​[净利润同比增长率](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D600169\)\)%27)​**|112.96%|
 
-|资产对|相关系数|说明|
-|---|---|---|
-|黄金ETF vs 沪深300ETF|0.2以下|在多数市场环境下，黄金与股票市场呈现低相关性，尤其在经济下行或市场恐慌时，黄金往往表现出与股票相反的走势。|
+药明康德在2025年第二季度实现了显著的[收入](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255841\)\)%27)和[利润](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255871\)\)%27)增长，尤其是[净利润](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D84959\)\)%27)同比增幅超过110%，显示出公司在盈利能力方面的大幅提升。同时，[ROE](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D84328\)\)%27)和[ROA](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D84336\)\)%27)也分别达到8.00%和5.88%，表明公司资产和资本的利用效率较高。
 
-#### 组合效果
+如需进一步了解药明康德的财务详情，可参考Wind金融终端中提供的完整数据。请注意，以上信息基于Wind提供的数据，可能存在后续调整的风险，建议以公司正式公告为准。
 
-- **经济上行期**：股票市场表现较好，黄金可能因避险需求下降而走弱，但股票的收益足以覆盖黄金的波动。
-- **经济下行期**：股票市场可能大幅下跌，而黄金则因其避险属性而上涨，从而对冲股票的下跌风险。
-- **长期收益风险比**：研究表明，加入低相关性资产（如黄金ETF）后，组合的年化波动率可从A股本身的约19%大幅降低至10%左右，最大回撤也减少了一半以上。
-
-因此，黄金ETF与股票ETF的组合是一个典型的低相关性资产配置案例，有助于在不同市场环境中实现更平稳的收益表现。
+以上数据仅为参考，**​不构成投资建议​**。
