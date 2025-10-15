@@ -1,7 +1,7 @@
 ---
 questionId: 5
 modelId: Gemeni
-modelDisplayName: 匿名模型H
+modelDisplayName: 匿名模型G
 ---
 以下是阿里巴巴 (BABA.N) 的最新数据快照，以及中国电商和宏观消费市场的最新数据：
 

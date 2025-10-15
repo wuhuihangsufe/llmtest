@@ -1,7 +1,7 @@
 ---
 questionId: 18
 modelId: Gemeni
-modelDisplayName: 匿名模型H
+modelDisplayName: 匿名模型G
 ---
 对于投资新手来说，构建一个包含与股市表现不完全相关的资产（比如**债券**或**黄金**）的投资组合，就像是“不要把所有鸡蛋放在同一个篮子里”。这背后的逻辑叫做**多元化**（Diversification），它对你的投资组合有几个非常重要的好处：
 

@@ -1,7 +1,7 @@
 ---
 questionId: 50
 modelId: Gemeni
-modelDisplayName: 匿名模型H
+modelDisplayName: 匿名模型G
 ---
 进行长期定投计划时，选择合适的基金至关重要。招商中证国新央企股东回报ETF联接基金（C/A类）和华泰柏瑞上证红利ETF联接基金（C/A类）都是跟踪特定指数的基金，适合长期定投，但它们的投资侧重点有所不同。
 

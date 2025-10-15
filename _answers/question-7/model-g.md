@@ -1,7 +1,7 @@
 ---
 questionId: 7
 modelId: Gemeni
-modelDisplayName: 匿名模型H
+modelDisplayName: 匿名模型G
 ---
 好的，关于中东地区局势紧张导致国际油价大幅上涨对航空公司利润产生的影响，以下为您进行详细分析。
 
