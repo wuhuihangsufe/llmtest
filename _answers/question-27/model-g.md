@@ -1,6 +1,6 @@
 ---
 questionId: 59
-modelId: i问财
+modelId: 问财
 modelDisplayName: 匿名模型G
 ---
 ### 药明康德2025年二季度业绩财报核心数据速览 🚀
@@ -42,4 +42,4 @@ modelDisplayName: 匿名模型G
 - 地缘政治风险（如中美关系）可能影响海外业务34。
 - 全球生物医药投融资增速下滑或导致需求波动35。
 
-![[question-59/images/i问财.png]]
+![[question-59/images/问财.png]]

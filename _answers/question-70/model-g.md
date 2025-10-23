@@ -1,6 +1,6 @@
 ---
 questionId: 70
-modelId: i问财
+modelId: 问财
 modelDisplayName: 匿名模型G
 ---
 ### 🚀 工银瑞信前沿医疗股票C（010685.OF）市场表现与投资分析
@@ -54,7 +54,7 @@ modelDisplayName: 匿名模型G
 #### 📈 **四、可视化：基金持仓与重仓股**
 
 工银前沿医疗股票c持仓市值占基金资产净值比
-![[question-70/images/i问财.png]]
+![[question-70/images/问财.png]]
 
 单位
 

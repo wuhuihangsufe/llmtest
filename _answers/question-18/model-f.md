@@ -1,6 +1,6 @@
 ---
 questionId: 18
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 好的，我们用一个简单易懂的比喻来解释：

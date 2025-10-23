@@ -1,6 +1,6 @@
 ---
 questionId: 7
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 中东局势紧张导致国际油价大幅上涨，会对航空公司利润产生**负面影响**，主要体现在以下几个方面：

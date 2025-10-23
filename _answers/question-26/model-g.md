@@ -1,6 +1,6 @@
 ---
 questionId: 26
-modelId: i问财
+modelId: 问财
 modelDisplayName: 匿名模型G
 ---
 ### 📈 山东黄金目标价分析
@@ -18,7 +18,7 @@ modelDisplayName: 匿名模型G
 - **最新价**：38.22元（截至2025-09-26）23
 
 山东黄金走势
-![[i问财.png]]
+![[问财.png]]
 #### 📊 **二、基本面驱动因素**
 
 1. **业绩高增长**：

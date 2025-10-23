@@ -60,25 +60,31 @@ FINEVAL/
 
 3.  **配置环境变量**
     - 复制 `.env.example` 文件并重命名为 `.env.local`。
-    - 在 `.env.local` 文件中填入您的 Supabase 项目信息和本地开发URL。
+    - 在 `.env.local` 中填入以下变量（根路径部署时 `NEXT_PUBLIC_BASE_PATH` 可留空）：
     ```env
     # Supabase
     NEXT_PUBLIC_SUPABASE_URL=YOUR_SUPABASE_URL
     NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
 
-    # 本地开发服务器地址
-    BASE_URL=http://localhost:10005
+    # 站点前缀（部署在子路径时设置，例如 /fineval；根路径留空）
+    NEXT_PUBLIC_BASE_PATH=
     ```
+    - 说明：
+      - 若部署在子路径（例如 `https://domain.com/fineval`），请将 `NEXT_PUBLIC_BASE_PATH` 设置为 `/fineval`。
+      - 兼容变量 `BASE_URL` 仍可用，但不再推荐；如使用，请确保与最终域名一致（例如 `https://your-project.vercel.app`）。
 
 4.  **设置Supabase数据库**
-    - 前往您的 Supabase 项目，创建一个名为 `submissions` 的表。
-    - 为 `submissions` 表开启行级安全策略 (RLS)，并添加一个新策略，允许 `anon` 和 `authenticated` 角色进行 `INSERT` 操作。
+    - 前往 Supabase 项目，创建 `submissions` 表。
+    - 开启 RLS，并为 `anon` 与 `authenticated` 角色添加允许 `INSERT` 的策略。
 
 5.  **启动本地服务器**
     ```bash
     npm run dev
     ```
-    现在，您可以在浏览器中打开 `http://localhost:10005` 来访问本地开发环境。
+    现在可在浏览器打开 `http://localhost:10005` 访问开发环境。
+6. 导出结果
+python scripts/export_supabase.py --table submissions --normalize --pretty
+
 
 ## 部署上线
 
@@ -90,8 +96,11 @@ FINEVAL/
     - 使用您的GitHub账号登录Vercel。
     - 选择导入您刚刚推送的仓库。
 
-3.  **在Vercel中配置环境变量**。
-    - 在项目设置的 "Environment Variables" 中，添加您在 `.env.local` 中配置的三个变量。
-    - **重要**: 将 `BASE_URL` 的值修改为您最终的Vercel线上域名 (例如: `https://your-project-name.vercel.app`)。
+3.  **在Vercel中配置环境变量**
+    - 在项目的 "Environment Variables" 中添加：
+      - `NEXT_PUBLIC_SUPABASE_URL`
+      - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+      - `NEXT_PUBLIC_BASE_PATH`（根路径部署留空；子路径例如 `/fineval`）
+    - 可选兼容：若继续使用 `BASE_URL`，请设置为线上域名（例如 `https://your-project-name.vercel.app`）。
 
-4.  **点击 "Deploy"**，Vercel将自动完成所有构建和部署工作。
+4.  **点击 "Deploy"**，Vercel 将自动完成构建与部署。

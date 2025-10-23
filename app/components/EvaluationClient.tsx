@@ -138,6 +138,25 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
       Object.values(questionEvals).every(modelEval => modelEval.score > 0)
     );
   }
+  // 新增：生成未完成评分的详细提示
+  const getIncompleteMessage = () => {
+    const items: string[] = [];
+    allQuestions.forEach(q => {
+      const missing = q.answers
+        .filter(a => !evaluations[q.id] || !evaluations[q.id][a.modelId] || evaluations[q.id][a.modelId].score <= 0)
+        .map(a => a.modelDisplayName);
+      if (missing.length > 0) {
+        items.push(`问题 ${q.id}（未评分：${missing.join('、')}）`);
+      }
+    });
+    if (items.length === 0) return '';
+    const limit = 8; // 提示最多显示8项，避免过长
+    const listed = items.slice(0, limit).join('；');
+    const remaining = items.length - limit;
+    return remaining > 0
+      ? `您还有未完成评分的项目：${listed}；等 ${remaining} 题。`
+      : `您还有未完成评分的项目：${listed}。`;
+  };
 
   const handleEarlySubmit = async () => {
     if (!userInfo) {
@@ -171,7 +190,8 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
 
   const handleSubmit = async () => {
     if (!isEvaluationComplete()) {
-      setSubmitMessage("您还有未完成评分的项目，请检查。");
+      const msg = getIncompleteMessage();
+      setSubmitMessage(msg || "您还有未完成评分的项目，请检查。");
       return;
     }
     if (!userInfo) {
@@ -363,8 +383,10 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
               </button>
               <button
                 onClick={handleSubmit}
-                disabled={isSubmitting || !isEvaluationComplete()}
-                className="px-2 md:px-3 py-1 text-white bg-green-600 rounded-md hover:bg-green-700 disabled:bg-gray-400 font-medium btn-hover transition-colors text-xs"
+                disabled={isSubmitting}
+                className={`px-2 md:px-3 py-1 text-white rounded-md font-medium btn-hover transition-colors text-xs ${
+                  isEvaluationComplete() ? 'bg-green-600 hover:bg-green-700' : 'bg-gray-400 hover:bg-gray-400 cursor-pointer'
+                }`}
               >
                 {isSubmitting ? '处理中...' : '完成提交'}
               </button>
@@ -406,4 +428,4 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
       </main>
     </div>
   );
-} 
+}

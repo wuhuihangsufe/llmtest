@@ -1,6 +1,6 @@
 ---
 questionId: 53
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 当然可以，下面我们用**通俗易懂**的语言来介绍 **A500指数**，并把它和一些**主要宽基指数**（比如沪深300、中证500、中证1000）进行对比，帮你更清楚地了解这个指数适合什么样的投资者。

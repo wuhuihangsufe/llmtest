@@ -1,6 +1,6 @@
 ---
 questionId: 74
-modelId: i问财
+modelId: 问财
 modelDisplayName: 匿名模型G
 ---
  ###  葛兰管医药基金投资价值分析

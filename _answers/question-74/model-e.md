@@ -10,11 +10,11 @@ modelDisplayName: 匿名模型E
 ### 一、基金净值表现
 
 
-|[Wind代码](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D355420\)\)%27)|基金名称|最新单位净值（2025-09-28）|本季度净值增长率|近一年净值增长率|近三年累计净值增长率|
-|---|---|---|---|---|---|
-|[003095.OF](windlocal://open?!CommandParam\(1400%2CWindCode%3D003095.OF\)%27)|[中欧医疗健康A](windlocal://open?!CommandParam\(1400%2CWindCode%3D003095.OF\)%27)|2.04|5.8%|29.26%|-38.93%|
-|[006228.OF](windlocal://open?!CommandParam\(1400%2CWindCode%3D006228.OF\)%27)|[中欧医疗创新A](windlocal://open?!CommandParam\(1400%2CWindCode%3D006228.OF\)%27)|1.73|9.9%|未提供|-36.47%|
-|[009776.OF](windlocal://open?!CommandParam\(1400%2CWindCode%3D009776.OF\)%27)|[中欧阿尔法A](windlocal://open?!CommandParam\(1400%2CWindCode%3D009776.OF\)%27)|0.81|-5.58%|未提供|未提供|
+| [代码](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D355420\)\)%27) | 基金名称                                                                        | 最新单位净值（2025-09-28） | 本季度净值增长率 | 近一年净值增长率 | 近三年累计净值增长率 |
+| -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------ | -------- | -------- | ---------- |
+| [003095.OF](windlocal://open?!CommandParam\(1400%2CWindCode%3D003095.OF\)%27)                                        | [中欧医疗健康A](windlocal://open?!CommandParam\(1400%2CWindCode%3D003095.OF\)%27) | 2.04               | 5.8%     | 29.26%   | -38.93%    |
+| [006228.OF](windlocal://open?!CommandParam\(1400%2CWindCode%3D006228.OF\)%27)                                        | [中欧医疗创新A](windlocal://open?!CommandParam\(1400%2CWindCode%3D006228.OF\)%27) | 1.73               | 9.9%     | 未提供      | -36.47%    |
+| [009776.OF](windlocal://open?!CommandParam\(1400%2CWindCode%3D009776.OF\)%27)                                        | [中欧阿尔法A](windlocal://open?!CommandParam\(1400%2CWindCode%3D009776.OF\)%27)  | 0.81               | -5.58%   | 未提供      | 未提供        |
 
 - **​中欧医疗健康A​**：2025年二季度单位净值增长5.8%，近一年累计增长29.26%，但近三年累计下跌38.93%。该基金在2025年二季度加仓了[科伦药业](windlocal://open?!CommandParam\(1400%2CWindCode%3D002422.SZ\)%27)，减仓了[恒瑞医药](windlocal://open?!CommandParam\(1400%2CWindCode%3D600276.SH\)%27)、[药明康德](windlocal://open?!CommandParam\(1400%2CWindCode%3D603259.SH\)%27)等个股。
 - **​中欧医疗创新A​**：2025年二季度单位净值增长9.9%，近3年累计下跌36.47%。该基金在2025年一季度加仓了[药明生物](windlocal://open?!CommandParam\(1400%2CWindCode%3D2269.HK\)%27)、[康方生物](windlocal://open?!CommandParam\(1400%2CWindCode%3D9926.HK\)%27)等港股标的，减仓了[药明合联](windlocal://open?!CommandParam\(1400%2CWindCode%3D2268.HK\)%27)、[康龙化成](windlocal://open?!CommandParam\(1400%2CWindCode%3D3759.HK\)%27)等。
@@ -25,11 +25,11 @@ modelDisplayName: 匿名模型E
 ### 二、资产配置情况
 
 
-|Wind代码|基金名称|2025年二季度股票市值占比|2025年二季度现金占比|2025年一季度股票市值占比|2025年一季度现金占比|
-|---|---|---|---|---|---|
-|003095.OF|中欧医疗健康A|94.04%|5.85%|94.24%|5.32%|
-|006228.OF|中欧医疗创新A|93.59%|5.65%|92.68%|5.54%|
-|009776.OF|中欧阿尔法A|未提供|未提供|92.68%|5.54%|
+| 代码        | 基金名称    | 2025年二季度股票市值占比 | 2025年二季度现金占比 | 2025年一季度股票市值占比 | 2025年一季度现金占比 |
+| --------- | ------- | -------------- | ------------ | -------------- | ------------ |
+| 003095.OF | 中欧医疗健康A | 94.04%         | 5.85%        | 94.24%         | 5.32%        |
+| 006228.OF | 中欧医疗创新A | 93.59%         | 5.65%        | 92.68%         | 5.54%        |
+| 009776.OF | 中欧阿尔法A  | 未提供            | 未提供          | 92.68%         | 5.54%        |
 
 - **​中欧医疗健康A​**：股票配置占比稳定在94%左右，现金占比约5.8%-5.3%，资产配置偏向股票，体现出对[医药行业](windlocal://open?!CommandParam\(26003%2CCmdName%3DHQCMD_STOCKLIST%2Cdisableuppercase%2CParam%3Da00103040p000000\)%27)的长期看好。
 - **​中欧医疗创新A​**：股票配置占比93.59%，现金占比5.65%，与一季度相比略有下降，但整体仍以股票为主。

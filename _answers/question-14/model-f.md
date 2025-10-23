@@ -1,6 +1,6 @@
 ---
 questionId: 14
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 当然有！人工智能（AI）和半导体是当前热门且高度相关的投资主题。许多ETF专注于这两个方向，以下是一些主流的、在基金池中经常可见的**AI与半导体主题ETF**，供你参考：

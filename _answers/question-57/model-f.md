@@ -1,6 +1,6 @@
 ---
 questionId: 57
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 非常好的问题。我们来**对比分析**这两只基金在市场变化中的**灵活性**，从产品类型、投资范围、调仓频率、管理风格等几个核心维度入手。

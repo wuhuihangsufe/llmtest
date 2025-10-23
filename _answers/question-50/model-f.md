@@ -1,6 +1,6 @@
 ---
 questionId: 50
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 根据你之前的投资偏好（比如关注高风险科技股的“稳健型”组合设计、注重多元配置、对港股和A股有兴趣等），我们来比较 **招商中证国新央企股东回报ETF联接** 与 **华泰柏瑞上证红利ETF联接**，看看哪一类更适合纳入你的**长期定投计划**。

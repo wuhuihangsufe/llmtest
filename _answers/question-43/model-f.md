@@ -1,6 +1,6 @@
 ---
 questionId: 43
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 你的感受我完全理解，这种时候，焦虑、失眠甚至想要“逃离市场”的冲动，都是非常正常的人类情绪反应。面对持续下跌的市场，尤其是像现在这样**连续几天的绿盘**，很多投资者都会感到痛苦、无助。

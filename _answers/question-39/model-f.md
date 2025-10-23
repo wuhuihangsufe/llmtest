@@ -1,6 +1,6 @@
 ---
 questionId: 39
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 你遇到的“系统提示需要再平衡”，背后反映的是资产配置中的一个**核心理念：控制风险、恢复配置目标、纪律性投资**。

@@ -1,6 +1,6 @@
 ---
 questionId: 34
-modelId: i问财
+modelId: 问财
 modelDisplayName: 匿名模型G
 ---
  ###  辉瑞事件对医疗板块影响分析
@@ -51,6 +51,6 @@ modelDisplayName: 匿名模型G
 - **清仓**：若持仓集中于辉瑞或美股医药股，短期需防范政策与竞争风险。
 - **抄底**：若布局A股疫苗指数（如884239.TI）或行业龙头，可等待事件明朗化信号。
 
-![[question-34/images/i问财.png]]
+![[question-34/images/问财.png]]
 
 **以上分析仅供参考，不作为投资依据。** 市场有风险，决策需谨慎！ 💪

@@ -1,6 +1,6 @@
 ---
 questionId: 5
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 以下是截至 **2025年7月17日** 的阿里巴巴（BABA.N）最新数据快照：

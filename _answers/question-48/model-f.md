@@ -1,6 +1,6 @@
 ---
 questionId: 48
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 下面是一套常见的“五年期保守化”思路和节奏供你参考，你可以根据自身风险承受能力和市场情况做微调。

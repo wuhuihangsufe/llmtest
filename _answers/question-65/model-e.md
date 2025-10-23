@@ -3,7 +3,7 @@ questionId: 65
 modelId: Alice
 modelDisplayName: 匿名模型E
 ---
-[金马游乐](windlocal://open?!CommandParam\(1400%2CWindCode%3D300756.SZ\)%27)（[300756.SZ](windlocal://open?!CommandParam\(1400%2CWindCode%3D300756.SZ\)%27)）2025年9月5日的[市盈率](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255284\)\)%27)（PE_TTM）为777.8倍，而您提到的“负1000多”可能是误解或数据来源错误。Wind提供的资料显示，金马游乐2025年第二季度[归属于母公司股东的净利润](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255873\)\)%27)为3598.36万元，[每股收益](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D452133\)\)%27)为0.22元，且2025年上半年归属于母公司股东的净利润为3531.92万元，同比增长132.69%。因此，其市盈率为正值，且在行业中处于较高水平。
+[金马游乐](windlocal://open?!CommandParam\(1400%2CWindCode%3D300756.SZ\)%27)（[300756.SZ](windlocal://open?!CommandParam\(1400%2CWindCode%3D300756.SZ\)%27)）2025年9月5日的[市盈率](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255284\)\)%27)（PE_TTM）为777.8倍，而您提到的“负1000多”可能是误解或数据来源错误。资料显示，金马游乐2025年第二季度[归属于母公司股东的净利润](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255873\)\)%27)为3598.36万元，[每股收益](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D452133\)\)%27)为0.22元，且2025年上半年归属于母公司股东的净利润为3531.92万元，同比增长132.69%。因此，其市盈率为正值，且在行业中处于较高水平。
 
 以下从财务数据和业务状况两个角度，对金马游乐的市盈率进行分析：
 

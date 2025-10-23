@@ -1,6 +1,6 @@
 ---
 questionId: 66
-modelId: i问财
+modelId: 问财
 modelDisplayName: 匿名模型G
 ---
 ### 恒生医药ETF(159892)与港股通创新药ETF(159570)的核心区别

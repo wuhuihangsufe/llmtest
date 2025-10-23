@@ -1,6 +1,6 @@
 ---
 questionId: 8
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 确实属实：伯克希尔·哈撒韦（巴菲特掌舵）在2024年中多次减持比亚迪H股。

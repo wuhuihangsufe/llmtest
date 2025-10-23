@@ -1,6 +1,6 @@
 ---
 questionId: 20
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 下面是为两个不同风险偏好和人生阶段的投资者设计的投资组合，并清晰对比两者的核心差异：

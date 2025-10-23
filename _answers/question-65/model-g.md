@@ -1,6 +1,6 @@
 ---
 questionId: 65
-modelId: i问财
+modelId: 问财
 modelDisplayName: 匿名模型G
 ---
 ### 金马游乐市盈率分析：为何呈现负值？

@@ -32,6 +32,6 @@ modelDisplayName: 匿名模型E
 
 药明康德在2025年第二季度实现了显著的[收入](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255841\)\)%27)和[利润](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D255871\)\)%27)增长，尤其是[净利润](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D84959\)\)%27)同比增幅超过110%，显示出公司在盈利能力方面的大幅提升。同时，[ROE](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D84328\)\)%27)和[ROA](windlocal://open?!CommandFunc\(ExecuteCmd\(CMDID%3D1601\)%3BAddSheet\(\)%3BSelectIndicator\(id%3D84336\)\)%27)也分别达到8.00%和5.88%，表明公司资产和资本的利用效率较高。
 
-如需进一步了解药明康德的财务详情，可参考Wind金融终端中提供的完整数据。请注意，以上信息基于Wind提供的数据，可能存在后续调整的风险，建议以公司正式公告为准。
+如需进一步了解药明康德的财务详情，可参考完整数据。请注意，以上信息基于**提供的数据，可能存在后续调整的风险，建议以公司正式公告为准。
 
 以上数据仅为参考，**​不构成投资建议​**。

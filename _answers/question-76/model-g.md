@@ -1,6 +1,6 @@
 ---
 questionId: 76
-modelId: i问财
+modelId: 问财
 modelDisplayName: 匿名模型G
 ---
 ###  2015年牛市行业轮动特点与当前市场阶段分析

@@ -1,7 +1,7 @@
 ---
 questionId: 3
 modelId: Gemeni
-modelDisplayName: 匿名模型G
+modelDisplayName: 匿名模型H
 ---
 你朋友的基金今年涨了30%，而你的涨了10%，这确实会让人产生“是不是买错了”的疑问。不过，**我强烈建议你不要仅仅因为朋友的短期高收益就盲目跟风，或者轻易更换自己的基金。**
 

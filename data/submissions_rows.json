@@ -1,1 +1,9253 @@
-[{"idx":0,"id":16,"created_at":"2025-09-23 03:34:27.623187+00","user_name":"alynchang","user_profile":"{\"gender\": \"不愿透露\", \"usageFrequency\": \"每天\", \"financialLearningYears\": \"无基础（0年）\"}","evaluation_data":"{\"1\": {\"Alice\": {\"cons\": [\"risk_blindness\", \"logical_errors\", \"value_misalignment\"], \"score\": 4}, \"Gemeni\": {\"cons\": [\"precision_illusion\"], \"score\": 8}, \"妙想\": {\"cons\": [], \"score\": 8}, \"豆包\": {\"cons\": [\"precision_illusion\", \"factual_errors\"], \"score\": 5}, \"问财\": {\"cons\": [\"precision_illusion\", \"value_misalignment\", \"risk_blindness\"], \"score\": 5}, \"Chatgpt\": {\"cons\": [\"precision_illusion\"], \"score\": 7}, \"Deepseek\": {\"cons\": [\"precision_illusion\"], \"score\": 7}, \"蚂小财\": {\"cons\": [\"factual_errors\", \"precision_illusion\", \"logical_errors\"], \"score\": 3}}, \"2\": {\"Alice\": {\"cons\": [\"logical_errors\", \"risk_blindness\", \"precision_illusion\"], \"score\": 5}, \"Gemeni\": {\"cons\": [\"precision_illusion\", \"risk_blindness\", \"logical_errors\"], \"score\": 6}, \"妙想\": {\"cons\": [], \"score\": 8}, \"豆包\": {\"cons\": [\"precision_illusion\"], \"score\": 8}, \"问财\": {\"cons\": [], \"score\": 1}, \"Chatgpt\": {\"cons\": [\"precision_illusion\"], \"score\": 6}, \"Deepseek\": {\"cons\": [\"precision_illusion\"], \"score\": 8}, \"蚂小财\": {\"cons\": [\"value_misalignment\", \"precision_illusion\"], \"score\": 6}}, \"3\": {\"Alice\": {\"cons\": [\"logical_errors\"], \"score\": 7}, \"Gemeni\": {\"cons\": [], \"score\": 9}, \"妙想\": {\"cons\": [], \"score\": 7}, \"豆包\": {\"cons\": [\"factual_errors\"], \"score\": 5}, \"问财\": {\"cons\": [], \"score\": 1}, \"Chatgpt\": {\"cons\": [], \"score\": 8}, \"Deepseek\": {\"cons\": [\"precision_illusion\"], \"score\": 7}, \"蚂小财\": {\"cons\": [], \"score\": 5}}, \"4\": {\"Alice\": {\"cons\": [], \"score\": 7}, \"Gemeni\": {\"cons\": [], \"score\": 8}, \"妙想\": {\"cons\": [], \"score\": 6}, \"豆包\": {\"cons\": [], \"score\": 9}, \"问财\": {\"cons\": [], \"score\": 7}, \"Chatgpt\": {\"cons\": [], \"score\": 5}, \"Deepseek\": {\"cons\": [], \"score\": 8}, \"蚂小财\": {\"cons\": [], \"score\": 6}}, \"5\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 0}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [], \"score\": 0}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"6\": {\"Alice\": {\"cons\": [], \"score\": 7}, \"Gemeni\": {\"cons\": [], \"score\": 7}, \"妙想\": {\"cons\": [], \"score\": 7}, \"豆包\": {\"cons\": [], \"score\": 8}, \"问财\": {\"cons\": [], \"score\": 1}, \"Chatgpt\": {\"cons\": [], \"score\": 7}, \"Deepseek\": {\"cons\": [\"factual_errors\"], \"score\": 5}, \"蚂小财\": {\"cons\": [], \"score\": 5}}, \"7\": {\"Alice\": {\"cons\": [], \"score\": 6}, \"Gemeni\": {\"cons\": [], \"score\": 7}, \"妙想\": {\"cons\": [], \"score\": 6}, \"豆包\": {\"cons\": [], \"score\": 9}, \"问财\": {\"cons\": [], \"score\": 7}, \"Chatgpt\": {\"cons\": [], \"score\": 7}, \"Deepseek\": {\"cons\": [], \"score\": 7}, \"蚂小财\": {\"cons\": [], \"score\": 7}}, \"8\": {\"Alice\": {\"cons\": [], \"score\": 10}, \"Gemeni\": {\"cons\": [], \"score\": 7}, \"妙想\": {\"cons\": [\"factual_errors\"], \"score\": 5}, \"豆包\": {\"cons\": [], \"score\": 8}, \"问财\": {\"cons\": [\"factual_errors\"], \"score\": 2}, \"Chatgpt\": {\"cons\": [], \"score\": 9}, \"Deepseek\": {\"cons\": [], \"score\": 1}, \"蚂小财\": {\"cons\": [], \"score\": 9}}, \"9\": {\"Alice\": {\"cons\": [], \"score\": 5}, \"Gemeni\": {\"cons\": [], \"score\": 8}, \"妙想\": {\"cons\": [], \"score\": 6}, \"豆包\": {\"cons\": [], \"score\": 7}, \"问财\": {\"cons\": [], \"score\": 6}, \"Chatgpt\": {\"cons\": [], \"score\": 8}, \"Deepseek\": {\"cons\": [\"factual_errors\"], \"score\": 9}, \"蚂小财\": {\"cons\": [], \"score\": 7}}, \"10\": {\"Alice\": {\"cons\": [], \"score\": 7}, \"Gemeni\": {\"cons\": [], \"score\": 9}, \"妙想\": {\"cons\": [], \"score\": 7}, \"豆包\": {\"cons\": [], \"score\": 7}, \"问财\": {\"cons\": [], \"score\": 8}, \"Chatgpt\": {\"cons\": [], \"score\": 5}, \"Deepseek\": {\"cons\": [], \"score\": 10}, \"蚂小财\": {\"cons\": [], \"score\": 6}}, \"11\": {\"Alice\": {\"cons\": [], \"score\": 9}, \"Gemeni\": {\"cons\": [], \"score\": 8}, \"妙想\": {\"cons\": [], \"score\": 7}, \"豆包\": {\"cons\": [], \"score\": 7}, \"问财\": {\"cons\": [], \"score\": 7}, \"Chatgpt\": {\"cons\": [\"factual_errors\"], \"score\": 6}, \"Deepseek\": {\"cons\": [], \"score\": 9}, \"蚂小财\": {\"cons\": [], \"score\": 2}}, \"12\": {\"Alice\": {\"cons\": [], \"score\": 8}, \"Gemeni\": {\"cons\": [], \"score\": 8}, \"妙想\": {\"cons\": [], \"score\": 8}, \"豆包\": {\"cons\": [], \"score\": 8}, \"问财\": {\"cons\": [], \"score\": 3}, \"Chatgpt\": {\"cons\": [], \"score\": 9}, \"Deepseek\": {\"cons\": [], \"score\": 9}, \"蚂小财\": {\"cons\": [], \"score\": 9}}, \"13\": {\"Alice\": {\"cons\": [], \"score\": 8}, \"Gemeni\": {\"cons\": [], \"score\": 7}, \"妙想\": {\"cons\": [], \"score\": 9}, \"豆包\": {\"cons\": [], \"score\": 7}, \"问财\": {\"cons\": [\"factual_errors\"], \"score\": 5}, \"Chatgpt\": {\"cons\": [], \"score\": 8}, \"Deepseek\": {\"cons\": [], \"score\": 9}, \"蚂小财\": {\"cons\": [], \"score\": 6}}, \"14\": {\"Alice\": {\"cons\": [], \"score\": 8}, \"Gemeni\": {\"cons\": [], \"score\": 9}, \"妙想\": {\"cons\": [], \"score\": 8}, \"豆包\": {\"cons\": [], \"score\": 8}, \"问财\": {\"cons\": [], \"score\": 8}, \"Chatgpt\": {\"cons\": [], \"score\": 8}, \"Deepseek\": {\"cons\": [], \"score\": 8}, \"蚂小财\": {\"cons\": [], \"score\": 7}}, \"15\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 0}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [], \"score\": 0}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"16\": {\"Alice\": {\"cons\": [\"precision_illusion\"], \"score\": 6}, \"Gemeni\": {\"cons\": [], \"score\": 8}, \"妙想\": {\"cons\": [\"precision_illusion\"], \"score\": 6}, \"豆包\": {\"cons\": [], \"score\": 9}, \"问财\": {\"cons\": [\"precision_illusion\"], \"score\": 6}, \"Chatgpt\": {\"cons\": [], \"score\": 8}, \"Deepseek\": {\"cons\": [\"precision_illusion\"], \"score\": 6}, \"蚂小财\": {\"cons\": [\"precision_illusion\"], \"score\": 6}}, \"17\": {\"Alice\": {\"cons\": [\"risk_blindness\", \"precision_illusion\"], \"score\": 7}, \"Gemeni\": {\"cons\": [\"precision_illusion\"], \"score\": 7}, \"妙想\": {\"cons\": [], \"score\": 6}, \"豆包\": {\"cons\": [\"risk_blindness\"], \"score\": 6}, \"问财\": {\"cons\": [], \"score\": 6}, \"Chatgpt\": {\"cons\": [\"precision_illusion\"], \"score\": 7}, \"Deepseek\": {\"cons\": [\"precision_illusion\"], \"score\": 7}, \"蚂小财\": {\"cons\": [\"factual_errors\", \"precision_illusion\", \"value_misalignment\"], \"score\": 4}}, \"18\": {\"Alice\": {\"cons\": [], \"score\": 6}, \"Gemeni\": {\"cons\": [], \"score\": 7}, \"妙想\": {\"cons\": [], \"score\": 6}, \"豆包\": {\"cons\": [], \"score\": 6}, \"问财\": {\"cons\": [\"precision_illusion\"], \"score\": 7}, \"Chatgpt\": {\"cons\": [], \"score\": 6}, \"Deepseek\": {\"cons\": [], \"score\": 6}, \"蚂小财\": {\"cons\": [], \"score\": 7}}, \"19\": {\"Alice\": {\"cons\": [\"risk_blindness\"], \"score\": 6}, \"Gemeni\": {\"cons\": [\"precision_illusion\"], \"score\": 8}, \"妙想\": {\"cons\": [], \"score\": 8}, \"豆包\": {\"cons\": [\"precision_illusion\"], \"score\": 8}, \"问财\": {\"cons\": [\"precision_illusion\"], \"score\": 6}, \"Chatgpt\": {\"cons\": [\"precision_illusion\"], \"score\": 7}, \"Deepseek\": {\"cons\": [\"precision_illusion\"], \"score\": 8}, \"蚂小财\": {\"cons\": [], \"score\": 9}}, \"20\": {\"Alice\": {\"cons\": [\"risk_blindness\"], \"score\": 6}, \"Gemeni\": {\"cons\": [\"precision_illusion\"], \"score\": 8}, \"妙想\": {\"cons\": [], \"score\": 6}, \"豆包\": {\"cons\": [\"factual_errors\"], \"score\": 7}, \"问财\": {\"cons\": [\"precision_illusion\"], \"score\": 6}, \"Chatgpt\": {\"cons\": [\"precision_illusion\"], \"score\": 8}, \"Deepseek\": {\"cons\": [\"precision_illusion\"], \"score\": 9}, \"蚂小财\": {\"cons\": [\"precision_illusion\"], \"score\": 7}}, \"21\": {\"Alice\": {\"cons\": [\"risk_blindness\"], \"score\": 6}, \"Gemeni\": {\"cons\": [], \"score\": 8}, \"妙想\": {\"cons\": [], \"score\": 7}, \"豆包\": {\"cons\": [], \"score\": 8}, \"问财\": {\"cons\": [\"value_misalignment\", \"factual_errors\"], \"score\": 2}, \"Chatgpt\": {\"cons\": [\"precision_illusion\"], \"score\": 7}, \"Deepseek\": {\"cons\": [], \"score\": 9}, \"蚂小财\": {\"cons\": [], \"score\": 1}}, \"22\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 8}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [\"precision_illusion\"], \"score\": 7}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"23\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 7}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 7}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [], \"score\": 8}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"24\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 0}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [], \"score\": 0}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"25\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 0}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [], \"score\": 0}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"26\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 0}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [], \"score\": 0}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"27\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 0}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [], \"score\": 0}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"28\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 0}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [], \"score\": 0}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"29\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 0}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [], \"score\": 0}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"30\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 0}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [], \"score\": 0}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"31\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 0}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\": 0}, \"Deepseek\": {\"cons\": [], \"score\": 0}, \"蚂小财\": {\"cons\": [], \"score\": 0}}, \"32\": {\"Alice\": {\"cons\": [], \"score\": 0}, \"Gemeni\": {\"cons\": [], \"score\": 0}, \"妙想\": {\"cons\": [], \"score\": 0}, \"豆包\": {\"cons\": [], \"score\": 0}, \"问财\": {\"cons\": [], \"score\": 0}, \"Chatgpt\": {\"cons\": [], \"score\"...","duration_seconds":354,"status":"in-progress"}]
+[
+  {
+    "id": 13,
+    "created_at": "2025-08-14T07:39:41.732559+00:00",
+    "user_name": "刘济铭",
+    "user_profile": {
+      "gender": "男性",
+      "usageFrequency": "每天",
+      "financialLearningYears": "中级（3-5年）"
+    },
+    "evaluation_data": {
+      "1": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        }
+      },
+      "2": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "3": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 5
+        }
+      },
+      "4": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 1
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "5": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "7": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "8": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 3
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "13": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "14": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "16": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "17": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "18": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "20": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "21": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "24": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "25": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [],
+          "score": 9
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "26": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "27": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 9
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "29": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "31": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 9
+        }
+      },
+      "34": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "39": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 9
+        }
+      },
+      "40": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 9
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "43": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "46": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "48": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "50": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "53": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "55": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "57": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "58": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "59": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "65": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "66": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "67": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "70": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "74": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "75": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "76": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      }
+    },
+    "duration_seconds": 12631,
+    "status": "completed"
+  },
+  {
+    "id": 33,
+    "created_at": "2025-10-16T03:09:25.311535+00:00",
+    "user_name": "zzl",
+    "user_profile": {
+      "gender": "男性",
+      "usageFrequency": "每天",
+      "financialLearningYears": "高级（5-10年）"
+    },
+    "evaluation_data": {
+      "1": {
+        "Alice": {
+          "cons": [
+            "risk_blindness",
+            "logical_errors"
+          ],
+          "score": 3
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment",
+            "precision_illusion"
+          ],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [
+            "factual_errors",
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 3
+        },
+        "问财": {
+          "cons": [
+            "logical_errors",
+            "factual_errors",
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 2
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion",
+            "value_misalignment",
+            "risk_blindness",
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion",
+            "logical_errors"
+          ],
+          "score": 5
+        }
+      },
+      "2": {
+        "Alice": {
+          "cons": [
+            "logical_errors",
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors",
+            "logical_errors",
+            "risk_blindness"
+          ],
+          "score": 2
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors",
+            "risk_blindness",
+            "precision_illusion"
+          ],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "risk_blindness",
+            "logical_errors"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness",
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 5
+        }
+      },
+      "3": {
+        "Alice": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "risk_blindness",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [
+            "logical_errors",
+            "factual_errors",
+            "precision_illusion"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        }
+      },
+      "4": {
+        "Alice": {
+          "cons": [],
+          "score": 2
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 4
+        }
+      },
+      "5": {
+        "Alice": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 3
+        },
+        "妙想": {
+          "cons": [
+            "factual_errors",
+            "logical_errors",
+            "conceptual_errors"
+          ],
+          "score": 1
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 1
+        },
+        "ChatGPT": {
+          "cons": [
+            "factual_errors",
+            "conceptual_errors"
+          ],
+          "score": 1
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors",
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 3
+        }
+      },
+      "7": {
+        "Alice": {
+          "cons": [],
+          "score": 3
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 3
+        }
+      },
+      "8": {
+        "Alice": {
+          "cons": [
+            "conceptual_errors",
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors",
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors",
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "问财": {
+          "cons": [
+            "risk_blindness",
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors",
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "Deepseek": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 3
+        }
+      },
+      "13": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "问财": {
+          "cons": [
+            "factual_errors",
+            "value_misalignment"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [
+            "factual_errors",
+            "conceptual_errors"
+          ],
+          "score": 3
+        }
+      },
+      "14": {
+        "Alice": {
+          "cons": [
+            "risk_blindness",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "Gemeni": {
+          "cons": [
+            "risk_blindness",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "妙想": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 2
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors",
+            "risk_blindness"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 3
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "risk_blindness",
+            "conceptual_errors"
+          ],
+          "score": 3
+        }
+      },
+      "16": {
+        "Alice": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness",
+            "factual_errors"
+          ],
+          "score": 2
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 3
+        },
+        "妙想": {
+          "cons": [
+            "precision_illusion",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors",
+            "precision_illusion",
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors",
+            "logical_errors"
+          ],
+          "score": 3
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 3
+        }
+      },
+      "17": {
+        "Alice": {
+          "cons": [
+            "precision_illusion",
+            "value_misalignment",
+            "risk_blindness"
+          ],
+          "score": 3
+        },
+        "Gemeni": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 3
+        },
+        "妙想": {
+          "cons": [
+            "risk_blindness",
+            "value_misalignment"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors",
+            "precision_illusion"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 3
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 3
+        }
+      },
+      "18": {
+        "Alice": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "妙想": {
+          "cons": [],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "value_misalignment",
+            "precision_illusion"
+          ],
+          "score": 2
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 3
+        }
+      },
+      "20": {
+        "Alice": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors",
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion",
+            "logical_errors",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion",
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 4
+        }
+      },
+      "21": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors",
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [
+            "risk_blindness",
+            "precision_illusion"
+          ],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors",
+            "risk_blindness"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "factual_errors",
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 4
+        }
+      },
+      "24": {
+        "Alice": {
+          "cons": [
+            "factual_errors",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors",
+            "factual_errors",
+            "value_misalignment"
+          ],
+          "score": 2
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors",
+            "factual_errors"
+          ],
+          "score": 2
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors",
+            "risk_blindness"
+          ],
+          "score": 2
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 3
+        }
+      },
+      "25": {
+        "Alice": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness",
+            "value_misalignment"
+          ],
+          "score": 2
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment",
+            "logical_errors"
+          ],
+          "score": 3
+        }
+      },
+      "26": {
+        "Alice": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 2
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors",
+            "factual_errors"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "factual_errors",
+            "risk_blindness"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 3
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        }
+      },
+      "27": {
+        "Alice": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment",
+            "factual_errors"
+          ],
+          "score": 2
+        },
+        "妙想": {
+          "cons": [
+            "logical_errors",
+            "conceptual_errors",
+            "value_misalignment"
+          ],
+          "score": 2
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors",
+            "factual_errors"
+          ],
+          "score": 2
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [
+            "factual_errors",
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        }
+      },
+      "29": {
+        "Alice": {
+          "cons": [
+            "factual_errors",
+            "precision_illusion"
+          ],
+          "score": 2
+        },
+        "Gemeni": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [
+            "factual_errors",
+            "logical_errors"
+          ],
+          "score": 1
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "logical_errors",
+            "conceptual_errors"
+          ],
+          "score": 2
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        }
+      },
+      "31": {
+        "Alice": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 2
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 3
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors",
+            "value_misalignment"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 3
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 3
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "34": {
+        "Alice": {
+          "cons": [
+            "risk_blindness",
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors",
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [
+            "value_misalignment",
+            "risk_blindness",
+            "factual_errors"
+          ],
+          "score": 2
+        },
+        "ChatGPT": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "Deepseek": {
+          "cons": [
+            "factual_errors",
+            "risk_blindness"
+          ],
+          "score": 2
+        },
+        "蚂小财": {
+          "cons": [
+            "risk_blindness",
+            "logical_errors"
+          ],
+          "score": 3
+        }
+      },
+      "39": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors",
+            "value_misalignment"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 2
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 3
+        }
+      },
+      "40": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "43": {
+        "Alice": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [
+            "risk_blindness",
+            "conceptual_errors",
+            "precision_illusion"
+          ],
+          "score": 3
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [
+            "risk_blindness",
+            "precision_illusion"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "risk_blindness",
+            "value_misalignment"
+          ],
+          "score": 3
+        }
+      },
+      "46": {
+        "Alice": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "risk_blindness",
+            "value_misalignment"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors",
+            "value_misalignment",
+            "logical_errors"
+          ],
+          "score": 2
+        }
+      },
+      "48": {
+        "Alice": {
+          "cons": [
+            "precision_illusion",
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "risk_blindness",
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors",
+            "factual_errors"
+          ],
+          "score": 2
+        }
+      },
+      "50": {
+        "Alice": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors",
+            "factual_errors"
+          ],
+          "score": 1
+        },
+        "豆包": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [
+            "logical_errors",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "53": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "55": {
+        "Alice": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 3
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [
+            "risk_blindness",
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "57": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "妙想": {
+          "cons": [],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "58": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "Deepseek": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "59": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "65": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 3
+        }
+      },
+      "66": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 3
+        }
+      },
+      "67": {
+        "Alice": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 3
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors",
+            "logical_errors"
+          ],
+          "score": 3
+        },
+        "豆包": {
+          "cons": [],
+          "score": 3
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors",
+            "logical_errors"
+          ],
+          "score": 3
+        },
+        "问财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 3
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 3
+        }
+      },
+      "70": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "74": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "75": {
+        "Alice": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 4
+        }
+      },
+      "76": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 4
+        },
+        "妙想": {
+          "cons": [],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      }
+    },
+    "duration_seconds": 243954,
+    "status": "completed"
+  },
+  {
+    "id": 40,
+    "created_at": "2025-10-16T08:11:05.813537+00:00",
+    "user_name": "Redmi_jysk",
+    "user_profile": {
+      "gender": "女性",
+      "usageFrequency": "每周数次",
+      "financialLearningYears": "初学者（1-2年）"
+    },
+    "evaluation_data": {
+      "1": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 3
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "2": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "3": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "4": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "5": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "7": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "8": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "13": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "14": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "16": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "17": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "18": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "20": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "21": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "24": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "25": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "26": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "27": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "29": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "31": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "34": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "39": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "40": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "43": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "46": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "48": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "50": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "53": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "55": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "57": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "58": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "59": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "65": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "66": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "67": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "70": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "74": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "75": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      },
+      "76": {
+        "Alice": {
+          "cons": [],
+          "score": 0
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 0
+        },
+        "妙想": {
+          "cons": [],
+          "score": 0
+        },
+        "豆包": {
+          "cons": [],
+          "score": 0
+        },
+        "问财": {
+          "cons": [],
+          "score": 0
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 0
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 0
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 0
+        }
+      }
+    },
+    "duration_seconds": 56,
+    "status": "in-progress"
+  },
+  {
+    "id": 41,
+    "created_at": "2025-10-16T08:41:42.574251+00:00",
+    "user_name": "张艺伟",
+    "user_profile": {
+      "gender": "女性",
+      "usageFrequency": "每天",
+      "financialLearningYears": "中级（3-5年）"
+    },
+    "evaluation_data": {
+      "1": {
+        "Alice": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "问财": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 9
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        }
+      },
+      "2": {
+        "Alice": {
+          "cons": [
+            "logical_errors",
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [
+            "factual_errors",
+            "precision_illusion"
+          ],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [
+            "logical_errors",
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion",
+            "factual_errors"
+          ],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion",
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 8
+        }
+      },
+      "3": {
+        "Alice": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors",
+            "value_misalignment"
+          ],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [
+            "risk_blindness",
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 4
+        }
+      },
+      "4": {
+        "Alice": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 2
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        }
+      },
+      "5": {
+        "Alice": {
+          "cons": [],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [],
+          "score": 9
+        },
+        "问财": {
+          "cons": [],
+          "score": 9
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 9
+        },
+        "Deepseek": {
+          "cons": [
+            "risk_blindness",
+            "factual_errors"
+          ],
+          "score": 1
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "7": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors",
+            "logical_errors"
+          ],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 9
+        },
+        "蚂小财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        }
+      },
+      "8": {
+        "Alice": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors",
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [
+            "factual_errors",
+            "logical_errors",
+            "conceptual_errors"
+          ],
+          "score": 2
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [
+            "risk_blindness",
+            "value_misalignment"
+          ],
+          "score": 7
+        }
+      },
+      "13": {
+        "Alice": {
+          "cons": [],
+          "score": 10
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 8
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 9
+        },
+        "Deepseek": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        }
+      },
+      "14": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors",
+            "value_misalignment"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 8
+        }
+      },
+      "16": {
+        "Alice": {
+          "cons": [
+            "precision_illusion",
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors",
+            "precision_illusion",
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "17": {
+        "Alice": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors",
+            "value_misalignment"
+          ],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [
+            "logical_errors",
+            "value_misalignment"
+          ],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 9
+        }
+      },
+      "18": {
+        "Alice": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "factual_errors",
+            "logical_errors"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion",
+            "value_misalignment"
+          ],
+          "score": 8
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment",
+            "precision_illusion"
+          ],
+          "score": 6
+        }
+      },
+      "20": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 9
+        }
+      },
+      "21": {
+        "Alice": {
+          "cons": [],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "问财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion",
+            "factual_errors"
+          ],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors",
+            "logical_errors"
+          ],
+          "score": 5
+        }
+      },
+      "24": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 2
+        }
+      },
+      "25": {
+        "Alice": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 8
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 9
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 10
+        },
+        "蚂小财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 5
+        }
+      },
+      "26": {
+        "Alice": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors",
+            "value_misalignment"
+          ],
+          "score": 5
+        }
+      },
+      "27": {
+        "Alice": {
+          "cons": [],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 9
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 5
+        }
+      },
+      "29": {
+        "Alice": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "precision_illusion",
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors",
+            "risk_blindness",
+            "factual_errors",
+            "precision_illusion"
+          ],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 6
+        }
+      },
+      "31": {
+        "Alice": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion",
+            "factual_errors",
+            "risk_blindness"
+          ],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment",
+            "logical_errors"
+          ],
+          "score": 6
+        }
+      },
+      "34": {
+        "Alice": {
+          "cons": [
+            "value_misalignment",
+            "factual_errors"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 9
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 9
+        }
+      },
+      "39": {
+        "Alice": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 9
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        }
+      },
+      "40": {
+        "Alice": {
+          "cons": [],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 9
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 9
+        }
+      },
+      "43": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 9
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 9
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "46": {
+        "Alice": {
+          "cons": [],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors",
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        }
+      },
+      "48": {
+        "Alice": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 8
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 9
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 6
+        }
+      },
+      "50": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "53": {
+        "Alice": {
+          "cons": [],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [],
+          "score": 10
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 10
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 10
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "55": {
+        "Alice": {
+          "cons": [],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 9
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors",
+            "logical_errors"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 9
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "57": {
+        "Alice": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 9
+        }
+      },
+      "58": {
+        "Alice": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment",
+            "precision_illusion"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "factual_errors",
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [
+            "conceptual_errors",
+            "value_misalignment"
+          ],
+          "score": 4
+        }
+      },
+      "59": {
+        "Alice": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors",
+            "value_misalignment"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 9
+        },
+        "ChatGPT": {
+          "cons": [
+            "value_misalignment",
+            "precision_illusion"
+          ],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 9
+        }
+      },
+      "65": {
+        "Alice": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        }
+      },
+      "66": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [
+            "logical_errors",
+            "conceptual_errors",
+            "value_misalignment"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 9
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 6
+        }
+      },
+      "67": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 8
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "factual_errors",
+            "risk_blindness"
+          ],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 6
+        }
+      },
+      "70": {
+        "Alice": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment",
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [
+            "value_misalignment",
+            "logical_errors"
+          ],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors",
+            "risk_blindness"
+          ],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "74": {
+        "Alice": {
+          "cons": [],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment",
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "value_misalignment",
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "75": {
+        "Alice": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion",
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "76": {
+        "Alice": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [
+            "risk_blindness",
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 6
+        }
+      }
+    },
+    "duration_seconds": 23476,
+    "status": "completed"
+  },
+  {
+    "id": 47,
+    "created_at": "2025-10-17T08:44:23.526385+00:00",
+    "user_name": "Soo",
+    "user_profile": {
+      "gender": "男性",
+      "usageFrequency": "每天",
+      "financialLearningYears": "中级（3-5年）"
+    },
+    "evaluation_data": {
+      "1": {
+        "Alice": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "2": {
+        "Alice": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 5
+        }
+      },
+      "3": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 7
+        }
+      },
+      "4": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [
+            "factual_errors",
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 4
+        }
+      },
+      "5": {
+        "Alice": {
+          "cons": [],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "7": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 4
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 4
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "8": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 3
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "13": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "14": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "16": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "17": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "18": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "20": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "21": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "24": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "25": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "26": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "27": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "29": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "31": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [
+            "logical_errors"
+          ],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "34": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 5
+        }
+      },
+      "39": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "40": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "43": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "46": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "48": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "50": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "53": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "conceptual_errors"
+          ],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "55": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "57": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "58": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "59": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "65": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "66": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "67": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 4
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "70": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 5
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "74": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "75": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "76": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 6
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      }
+    },
+    "duration_seconds": 4064,
+    "status": "completed"
+  },
+  {
+    "id": 48,
+    "created_at": "2025-10-21T12:19:39.611482+00:00",
+    "user_name": "alynchang",
+    "user_profile": {
+      "gender": "男性",
+      "usageFrequency": "每天",
+      "financialLearningYears": "中级（3-5年）"
+    },
+    "evaluation_data": {
+      "1": {
+        "Alice": {
+          "cons": [
+            "risk_blindness",
+            "logical_errors",
+            "value_misalignment"
+          ],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion",
+            "factual_errors"
+          ],
+          "score": 6
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion",
+            "value_misalignment",
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [
+            "factual_errors",
+            "precision_illusion",
+            "logical_errors"
+          ],
+          "score": 7
+        }
+      },
+      "2": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 7
+        }
+      },
+      "3": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "4": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 9
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 9
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "5": {
+        "Alice": {
+          "cons": [
+            "factual_errors",
+            "value_misalignment"
+          ],
+          "score": 2
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 4
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 4
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "7": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 9
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "8": {
+        "Alice": {
+          "cons": [],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 2
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 1
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 9
+        }
+      },
+      "13": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 9
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 9
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "14": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "16": {
+        "Alice": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 9
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 6
+        }
+      },
+      "17": {
+        "Alice": {
+          "cons": [
+            "precision_illusion",
+            "risk_blindness"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "factual_errors",
+            "precision_illusion",
+            "value_misalignment"
+          ],
+          "score": 7
+        }
+      },
+      "18": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "20": {
+        "Alice": {
+          "cons": [
+            "risk_blindness",
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [
+            "factual_errors",
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "问财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 9
+        },
+        "蚂小财": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        }
+      },
+      "21": {
+        "Alice": {
+          "cons": [
+            "risk_blindness"
+          ],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 9
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 1
+        }
+      },
+      "24": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 6
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 1
+        }
+      },
+      "25": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 9
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "26": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion",
+            "logical_errors"
+          ],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "27": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment",
+            "factual_errors"
+          ],
+          "score": 3
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 9
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "29": {
+        "Alice": {
+          "cons": [],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "31": {
+        "Alice": {
+          "cons": [
+            "logical_errors",
+            "risk_blindness"
+          ],
+          "score": 4
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "34": {
+        "Alice": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "39": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "40": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 5
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "43": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 9
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "46": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "48": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [
+            "precision_illusion"
+          ],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "50": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "53": {
+        "Alice": {
+          "cons": [],
+          "score": 7
+        },
+        "Gemeni": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 2
+        },
+        "妙想": {
+          "cons": [],
+          "score": 5
+        },
+        "豆包": {
+          "cons": [],
+          "score": 9
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 5
+        },
+        "Deepseek": {
+          "cons": [
+            "factual_errors"
+          ],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "55": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "57": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 8
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 8
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "58": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 9
+        },
+        "问财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 4
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "59": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 9
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 8
+        }
+      },
+      "65": {
+        "Alice": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 8
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 9
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [
+            "value_misalignment"
+          ],
+          "score": 6
+        }
+      },
+      "66": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 7
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 9
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 9
+        }
+      },
+      "67": {
+        "Alice": {
+          "cons": [],
+          "score": 5
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "70": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 7
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 9
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 7
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      },
+      "74": {
+        "Alice": {
+          "cons": [],
+          "score": 8
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 7
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 9
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 6
+        }
+      },
+      "75": {
+        "Alice": {
+          "cons": [],
+          "score": 9
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 8
+        },
+        "妙想": {
+          "cons": [],
+          "score": 7
+        },
+        "豆包": {
+          "cons": [],
+          "score": 6
+        },
+        "问财": {
+          "cons": [],
+          "score": 5
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 8
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 5
+        }
+      },
+      "76": {
+        "Alice": {
+          "cons": [],
+          "score": 6
+        },
+        "Gemeni": {
+          "cons": [],
+          "score": 9
+        },
+        "妙想": {
+          "cons": [],
+          "score": 6
+        },
+        "豆包": {
+          "cons": [],
+          "score": 5
+        },
+        "问财": {
+          "cons": [],
+          "score": 6
+        },
+        "ChatGPT": {
+          "cons": [],
+          "score": 7
+        },
+        "Deepseek": {
+          "cons": [],
+          "score": 6
+        },
+        "蚂小财": {
+          "cons": [],
+          "score": 7
+        }
+      }
+    },
+    "duration_seconds": 30810,
+    "status": "completed"
+  }
+]

@@ -1,6 +1,6 @@
 ---
 questionId: 46
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 你这种心情我完全理解，面对市场的强劲反弹却自己“空仓错过”，很多投资者都会感到懊恼和自责，这其实是非常普遍的人性反应。

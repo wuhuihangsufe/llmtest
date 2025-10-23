@@ -101,7 +101,7 @@ modelDisplayName: 匿名模型E
 
 ---
 
-## 八、Wind Alice的建议
+## 八、建议
 
 
 |投资者画像|是否建议80/20|理由|

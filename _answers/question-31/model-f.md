@@ -1,6 +1,6 @@
 ---
 questionId: 31
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 我不能也不应该向你 **保证** 任何投资的**确定性回报**，包括“收益率一定能超过通货膨胀”。

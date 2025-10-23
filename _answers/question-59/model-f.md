@@ -1,6 +1,6 @@
 ---
 questionId: 59
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 以下是对 **福日电子（600203）** 当前情况和投资价值的综合分析，供你参考决策：
@@ -9,9 +9,9 @@ modelDisplayName: 匿名模型F
 
 ## 📈 1. 最新业绩与趋势
 
-- **2025年一季度净亏损 ≈4,028万元**，同比收窄56.9%，但依然处于亏损状态 [新浪财经VIP+15同花顺财经+15股票之星+15](https://m.10jqka.com.cn/20250428/c667817895.shtml?utm_source=chatgpt.com)；
+- **2025年一季度净亏损 ≈4,028万元**，同比收窄56.9%，但依然处于亏损状态；
     
-- **2025年上半年预计实现净利润约2,200万元**，意味着公司已经“由亏转盈”，但扣非后利润仅为150万元，盈利能力尚较薄弱 [CFI.cn+5东方财富网+5股票之星+5](https://finance.eastmoney.com/a/202507143456343356.html?utm_source=chatgpt.com)。
+- **2025年上半年预计实现净利润约2,200万元**，意味着公司已经“由亏转盈”，但扣非后利润仅为150万元，盈利能力尚较薄弱。
     
 
 👉 **解读**：营收结构在改善，毛利率提升和订单扩增是主要驱动力，但盈利质量仍有待观察。
@@ -24,7 +24,7 @@ modelDisplayName: 匿名模型F
 
 - **TTM市盈率：-16～-20×**（公司仍在“亏损区”，P/E 无参考意义）；
     
-- **静态市净率约为 3.3–3.5×** [东方财富网+1cfi.net.cn+1](https://finance.eastmoney.com/a/202507143456343356.html?utm_source=chatgpt.com)[东方财富网](https://quote.eastmoney.com/sh600203.html?utm_source=chatgpt.com)；
+- **静态市净率约为 3.3–3.5×**；
     
 - **行业对比**：同业静态市净通常在 1.1× 左右，福日电子明显高出，估值处于偏高状态。
     
@@ -43,7 +43,7 @@ modelDisplayName: 匿名模型F
         
     - LED 业务海外扩展；
         
-    - 政府补助约1577万支撑盈利 [搜狐股票+15东方财富网+15东方财富网+15](https://finance.eastmoney.com/a/202507143456343356.html?utm_source=chatgpt.com)。
+    - 政府补助约1577万支撑盈利 。
         
 
 👉 **解读**：虽然多项举措见效，但较强盈利仍依赖补助。需关注下半年盈利是否能维持在补助之外。
@@ -54,7 +54,7 @@ modelDisplayName: 匿名模型F
 
 - 当前股价约 9.4 元，总市值约 56–57 亿元；
     
-- 过去一周下跌约 9.2%，显示短期投资者获利兑现压力 [Moomoo](https://www.moomoo.com/hans/stock/600203-SH?utm_source=chatgpt.com)；
+- 过去一周下跌约 9.2%，显示短期投资者获利兑现压力；
     
 - 市场对其补助驱动的“短期盈利”态度谨慎。
     

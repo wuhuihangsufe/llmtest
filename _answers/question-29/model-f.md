@@ -1,6 +1,6 @@
 ---
 questionId: 29
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 你这个问题非常好，而且代表了很多理性投资者越来越关注的核心观点：**费用越低，长期回报越有保障**。你说的没错，**低费率的指数基金确实在很多情况下更划算**，尤其是在以下几个方面：

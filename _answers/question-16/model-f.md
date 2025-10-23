@@ -1,6 +1,6 @@
 ---
 questionId: 16
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 要在“年化波动率低于10%”的风险控制前提下，**配置全球股票、中国债券和黄金以实现最高收益**，可采用如下系统性方法：

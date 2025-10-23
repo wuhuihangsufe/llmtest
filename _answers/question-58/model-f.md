@@ -1,6 +1,6 @@
 ---
 questionId: 58
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 以下是近期市场上与 **液冷服务器技术**高度相关的 A 股上市公司，这些企业在液冷散热、AI 数据中心、电源、热管理、服务器整机等环节均有实际布局，并受到主力资金关注：

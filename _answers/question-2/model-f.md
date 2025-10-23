@@ -1,6 +1,6 @@
 ---
 questionId: 2
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 你目前的情况总结如下：

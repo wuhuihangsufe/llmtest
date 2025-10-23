@@ -1,6 +1,6 @@
 ---
 questionId: 40
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 今天下午A股开盘后的跳水，主要有以下几大可能原因：

@@ -1,6 +1,6 @@
 ---
 questionId: 3
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 你看到朋友的基金今年涨了 30%，而你的只有 10%，直觉上确实会觉得“是不是自己买错了”，但在考虑是否换基金前，**你需要从以下几个角度冷静分析**：

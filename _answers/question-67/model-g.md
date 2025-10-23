@@ -1,6 +1,6 @@
 ---
 questionId: 67
-modelId: i问财
+modelId: 问财
 modelDisplayName: 匿名模型G
 ---
 #### 一、技术指标：多空博弈激烈

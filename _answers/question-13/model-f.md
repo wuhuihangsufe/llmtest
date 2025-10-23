@@ -1,6 +1,6 @@
 ---
 questionId: 13
-modelId: Chatgpt
+modelId: ChatGPT
 modelDisplayName: 匿名模型F
 ---
 以下是**瑞幸咖啡（Luckin Coffee）**自遭遇做空至重新盈利的关键发展历程，按时间顺序梳理：
