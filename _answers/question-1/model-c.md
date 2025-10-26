@@ -1,6 +1,6 @@
 ---
 questionId: 1
-modelId: ChatGPT
+modelId: Chatgpt
 modelDisplayName: 匿名模型C
 ---
 你好！恭喜你拿到50万年终奖，这是一笔非常不错的资金起点。你现在不再想随便投资、随便亏钱，而是想“正经规划”——这个意识本身就非常重要。

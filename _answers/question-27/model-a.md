@@ -1,6 +1,6 @@
 ---
 questionId: 59
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型A
 ---
 好的，我们来查询一下药明康德在**2025年第二季度**的业绩财报情况。

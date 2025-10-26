@@ -1,6 +1,6 @@
 ---
 questionId: 39
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型G
 ---
 ### 再平衡：为什么要把涨得多的股票基金卖掉，买入债券基金？

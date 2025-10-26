@@ -1,6 +1,6 @@
 ---
 questionId: 59
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型G
 ---
 分析一家公司的股票是否值得投资，需要结合其**基本面、业绩趋势、所处行业前景**以及**估值水平**等多个方面综合判断。

@@ -1,7 +1,7 @@
 ---
 questionId: 4
-modelId: Gemeni
-modelDisplayName: 匿名模型H
+modelId: Gemini
+modelDisplayName: 匿名模型G
 ---
 好的，很高兴您选择使用我们的智能理财助手！
 

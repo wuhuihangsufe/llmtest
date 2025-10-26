@@ -1,6 +1,6 @@
 ---
 questionId: 70
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型A
 ---
 ### **市场表现与业绩解读**

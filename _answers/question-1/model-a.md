@@ -1,6 +1,6 @@
 ---
 questionId: 1
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型A
 ---
 你好！恭喜你拿到50万年终奖，这笔钱确实是一个很好的起点，可以为你未来的财务健康打下坚实的基础。很高兴你现在想认真规划，而不是盲目投资。下面我给你一些建议，希望能帮助你理清思路：

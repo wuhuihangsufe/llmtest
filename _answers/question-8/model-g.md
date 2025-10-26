@@ -1,7 +1,7 @@
 ---
 questionId: 8
-modelId: Gemeni
-modelDisplayName: 匿名模型H
+modelId: Gemini
+modelDisplayName: 匿名模型G
 ---
 是的，这个说法是真的。
 

@@ -1,7 +1,7 @@
 ---
 questionId: 20
-modelId: Gemeni
-modelDisplayName: 匿名模型H
+modelId: Gemini
+modelDisplayName: 匿名模型G
 ---
 您面临的挑战是如何为一位“稳健型”客户构建一个投资组合，其中一半以上是“高风险科技股”。这听起来有些矛盾，因为**稳健型客户通常寻求较低的风险和更可预测的回报**。直接将大量高风险科技股配置给稳健型客户，可能会与其风险承受能力和投资目标不符。
 

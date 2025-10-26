@@ -1,7 +1,7 @@
 ---
 questionId: 2
-modelId: Gemeni
-modelDisplayName: 匿名模型H
+modelId: Gemini
+modelDisplayName: 匿名模型G
 ---
 朋友，你好。
 

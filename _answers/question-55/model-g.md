@@ -1,6 +1,6 @@
 ---
 questionId: 55
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型G
 ---
 在分析洋河股份（002304.SZ）和古井贡酒（000596.SZ）这两家白酒企业哪个更具投资价值时，我们需要从企业基本面和业绩趋势两个核心维度进行深入对比。

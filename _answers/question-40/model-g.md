@@ -1,6 +1,6 @@
 ---
 questionId: 40
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型G
 ---
 下午A股突然跳水，上证指数跌幅超过2%，这确实会让投资者感到担忧。在没有具体新闻的情况下，股市大跌往往是多种因素叠加作用的结果。

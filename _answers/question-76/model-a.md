@@ -1,6 +1,6 @@
 ---
 questionId: 76
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型A
 ---
 好的，这是一个非常深刻和专业的问题。我们来分三步进行详细的分析：首先回顾2015年牛市的轮动特点，然后结合当前市场情况判断所处阶段，最后给出未来的行业选择策略。

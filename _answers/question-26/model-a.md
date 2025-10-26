@@ -1,6 +1,6 @@
 ---
 questionId: 26
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型A
 ---
 好的，这是一个非常贴近当前市场热点的问题。在分析山东黄金（A股：600547.SS；H股：1787.HK）的目标价之前，我必须先做出一个重要声明：

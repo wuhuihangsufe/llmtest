@@ -1,6 +1,6 @@
 ---
 questionId: 74
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型A
 ---
 好的，我们来详细聊聊您提到的葛兰管理的医药基金，通常大家最关注的是她的代表作——**中欧医疗健康混合基金（A类代码：003095，C类代码：003096）**。

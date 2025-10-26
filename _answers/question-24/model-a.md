@@ -1,6 +1,6 @@
 ---
 questionId: 24
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型A
 ---
 好的，很高兴为您推荐一些在过去三年（大约从2022年底到2025年底）市场波动中表现相对稳健的债券型基金。

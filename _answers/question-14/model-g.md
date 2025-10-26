@@ -1,7 +1,7 @@
 ---
 questionId: 14
-modelId: Gemeni
-modelDisplayName: 匿名模型H
+modelId: Gemini
+modelDisplayName: 匿名模型G
 ---
 您好！很高兴您对人工智能和半导体这两个前沿且充满潜力的行业感兴趣。在当前的投资市场中，确实有许多ETF专注于这两个主题，为您提供了便捷的投资途径。
 

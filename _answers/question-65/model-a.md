@@ -1,6 +1,6 @@
 ---
 questionId: 65
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型A
 ---
 好的，我们来分析一下为什么金马游乐（Golden Horse Amusement, 股票代码：300756.SZ）的市盈率（P/E ratio）会出现-1000多的情况。

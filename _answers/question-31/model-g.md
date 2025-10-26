@@ -1,6 +1,6 @@
 ---
 questionId: 31
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型G
 ---
 ---

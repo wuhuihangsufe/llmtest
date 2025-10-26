@@ -1,7 +1,7 @@
 ---
 questionId: 16
-modelId: Gemeni
-modelDisplayName: 匿名模型H
+modelId: Gemini
+modelDisplayName: 匿名模型G
 ---
 在全球股票、中国债券和黄金的组合中，要在波动率低于10%的前提下获得最高收益，这是一个典型的投资组合优化问题，通常需要运用现代投资组合理论（Modern Portfolio Theory, MPT）中的**均值-方差优化**方法。
 

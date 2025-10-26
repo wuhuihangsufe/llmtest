@@ -1,6 +1,6 @@
 ---
 questionId: 57
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型G
 ---
 要对比**大成优势企业混合A**和**国泰君安君得益三个月持有期混合(FOF)A**在市场动态变化中的灵活性，我们需要理解它们各自的基金类型和投资策略。

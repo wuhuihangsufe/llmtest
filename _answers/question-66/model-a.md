@@ -1,6 +1,6 @@
 ---
 questionId: 66
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型A
 ---
 恒生医药ETF（159892）和港股通创新药ETF（159570）虽然都投资于港股医药健康领域，但在跟踪指数、投资范围和侧重点上存在显著区别。
