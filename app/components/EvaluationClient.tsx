@@ -220,7 +220,10 @@ export default function EvaluationClient({ allQuestions }: { allQuestions: Quest
       // 提交成功后，清理该用户的进度
       await supabase.from('user_progress').delete().eq('user_id', userInfo.name);
       localStorage.removeItem('fineval_user_info');
-      router.push('/thank-you');
+      
+      const params = new URLSearchParams();
+      params.set('name', userInfo.name);
+      router.push(`/thank-you?${params.toString()}`);
     }
   };
 

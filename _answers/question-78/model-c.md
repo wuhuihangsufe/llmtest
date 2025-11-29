@@ -36,7 +36,7 @@ modelDisplayName: 匿名模型C
 - **高波动性**：年化波动率超18%，回撤率近22%，显示短期波动风险较高。
 - **风险收益比**：夏普比率仅0.11，表明单位风险回报偏低，需警惕回调。
 
-![](https://s.thsi.cn/cd/iwc-aime-jgy-materials/jgy/img/container2-loading.gif)图表正在生成中...
+![](https://s.thsi.cn/cd/iwc-aime-jgy-materials/jgy/img/container2-loading.gif
 
 ---
 

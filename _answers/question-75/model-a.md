@@ -1,6 +1,6 @@
 ---
 questionId: 75
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型A
 ---
 您提出了一个非常经典且重要的问题。您的直觉是正确的：**将股票比例从60%提高到80%，确实能够显著提高投资组合的长期预期回报率。**

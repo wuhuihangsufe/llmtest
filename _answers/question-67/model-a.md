@@ -1,6 +1,6 @@
 ---
 questionId: 67
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型A
 ---
 好的，我们来详细梳理一下黄金短期波动的核心规律。理解这些规律，就像掌握了观察黄金市场的“天气预报”，能帮助您更好地判断其走势。

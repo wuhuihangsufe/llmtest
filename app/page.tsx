@@ -156,11 +156,12 @@ export default function WelcomePage() {
                   <h2>您的任务：成为 RIA 评测官</h2>
                   <p>接下来，您将化身为一位专业的 &quot;RIA 评测官&quot;。您的任务很简单：</p>
                   <ul>
-                      <li><strong>比较回答</strong>：我们会向您展示 60个相同的问题，以及 10个匿名RIA对这些问题的回答。</li>
+                      <li><strong>比较回答</strong>：您可以自由选择回答N个不同的问题，以及 8个匿名RIA对这些问题的回答。</li>
                       <li><strong>打分评价</strong>：为每个回答打出 1-10星 的分数。</li>
-                      <li><strong>勾选标签</strong>：勾选每个回答的优缺点。</li>
+                      <li><strong>勾选标签</strong>：勾选每个回答你认为的缺点。</li>
+                      <li><strong>注</strong>：推荐使用谷歌浏览器，如果显示有不全的问题，请按下 ctrl + +(-) 放大(缩小)网页。</li>
                   </ul>
-                  <p>整个评测过程预计需要 <strong>30 - 45分钟</strong>。感谢您投入宝贵的时间参与这个有意义的项目！</p>
+                  <p>整个评测过程预计需要 <strong> 10分钟（回答5题所需时间）</strong>。感谢您投入宝贵的时间参与这个有意义的项目！</p>
                   
                   <h3 className="text-center mt-10">准备好了吗？</h3>
                   <p className="text-center">请您填写以下基本信息，它将帮助我们更好地理解评测结果。</p>

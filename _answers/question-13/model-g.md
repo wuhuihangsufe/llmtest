@@ -1,6 +1,6 @@
 ---
 questionId: 13
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型H
 ---
 瑞幸咖啡从被做空、退市到重新盈利的历程，是一段充满戏剧性的商业案例，其间经历了财务造假丑闻、管理层更迭、业务模式调整等一系列重大事件。

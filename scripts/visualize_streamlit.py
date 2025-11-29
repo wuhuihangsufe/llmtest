@@ -300,11 +300,53 @@ def main():
     if exclude_zero and "score" in eval_df.columns:
         eval_df = eval_df[eval_df["score"] > 0]
 
+    # 侧栏：用户多选筛选（空表示不过滤）
+    if not profiles_df.empty:
+        all_users = sorted(profiles_df["user_name"].unique().tolist())
+    else:
+        all_users = []
+    selected_users = st.sidebar.multiselect(
+        "只保留这些用户（不选=全部）",
+        options=all_users,
+        default=[],
+        help="选择后仅展示这些用户的画像与评测数据"
+    )
+
+    if selected_users:
+        profiles_df = profiles_df[profiles_df["user_name"].isin(selected_users)]
+        eval_df = eval_df[eval_df["user_name"].isin(selected_users)]
+
+    # 侧栏：题目排除（不选=不排除，仅影响基于得分的统计）
+    if not eval_df.empty:
+        qids_unique = eval_df["question_id"].dropna().unique().tolist()
+        def _qid_sort_key(q):
+            s = str(q)
+            try:
+                return (0, int(s))
+            except Exception:
+                return (1, s)
+        qids_options = sorted(qids_unique, key=_qid_sort_key)
+    else:
+        qids_options = []
+
+    excluded_questions = st.sidebar.multiselect(
+        "排除这些题目（不选=不排除）",
+        options=qids_options,
+        default=[],
+        help="被排除的题目不会参与任何基于得分的图表与统计"
+    )
+
+    # 得分相关统计的专用副本（应用题目排除）
+    eval_df_scored = eval_df
+    if excluded_questions:
+        eval_df_scored = eval_df_scored[~eval_df_scored["question_id"].isin(excluded_questions)]
+
     st.subheader("数据概览")
     col1, col2, col3 = st.columns(3)
     col1.metric("提交总数", len(profiles_df["user_name"].unique()))
-    col2.metric("评分记录数", len(eval_df))
-    col3.metric("覆盖问题数", len(eval_df["question_id"].unique()))
+    # 概览中的评分记录数与覆盖问题数以排除后的得分数据为准
+    col2.metric("评分记录数", len(eval_df_scored))
+    col3.metric("覆盖问题数", len(eval_df_scored["question_id"].unique()))
 
     # 用户情况统计
     st.subheader("用户情况统计")
@@ -318,8 +360,8 @@ def main():
 
     # 模型情况统计 - 平均得分 + 误差线；固定Y轴到0-10
     st.subheader("模型平均得分（含标准差误差线）")
-    if not eval_df.empty:
-        model_scores = eval_df.groupby("model_name")["score"].agg(["mean", "std", "count"]).reset_index()
+    if not eval_df_scored.empty:
+        model_scores = eval_df_scored.groupby("model_name")["score"].agg(["mean", "std", "count"]).reset_index()
         model_scores.rename(columns={"mean": "avg_score", "std": "std_score", "count": "samples"}, inplace=True)
         # 固定评分范围到0-10
         bar_chart_with_error(
@@ -335,16 +377,16 @@ def main():
 
     # 新增：模型在不同价值链维度的平均得分（雷达图）
     st.subheader("模型在价值链维度的平均得分（雷达图）")
-    if not eval_df.empty and 'value_chain' in eval_df.columns and len(chain_order) > 0:
-        radar_chain_df = build_radar_dataset(eval_df, "value_chain", chain_order, normalize_to=10.0)
+    if not eval_df_scored.empty and 'value_chain' in eval_df_scored.columns and len(chain_order) > 0:
+        radar_chain_df = build_radar_dataset(eval_df_scored, "value_chain", chain_order, normalize_to=10.0)
         plot_radar_chart("价值链（平均分）", radar_chain_df, chain_order)
     else:
         st.info("暂无价值链分类或评分数据")
 
     # 新增：模型在不同阶段的平均得分（雷达图）
     st.subheader("模型在阶段维度的平均得分（雷达图）")
-    if not eval_df.empty and 'stage_name' in eval_df.columns and len(stage_order) > 0:
-        radar_stage_df = build_radar_dataset(eval_df, "stage_name", stage_order, normalize_to=10.0)
+    if not eval_df_scored.empty and 'stage_name' in eval_df_scored.columns and len(stage_order) > 0:
+        radar_stage_df = build_radar_dataset(eval_df_scored, "stage_name", stage_order, normalize_to=10.0)
         plot_radar_chart("阶段（平均分）", radar_stage_df, stage_order)
     else:
         st.info("暂无阶段分类或评分数据")
@@ -415,6 +457,65 @@ def main():
             color=alt.value("#000")
         )
         st.altair_chart(heat + text, use_container_width=True)
+
+    # 新增模块：统计每个模型得分最低的10个题目
+    st.subheader("各模型最低分题目TOP10")
+    if not eval_df_scored.empty:
+        # 每模型总体平均分
+        model_avg_df = eval_df_scored.groupby("model_name")["score"].mean().reset_index().rename(columns={"score": "model_avg"})
+
+        # 每模型-题目 平均分与样本数
+        mq = (
+            eval_df_scored.groupby(["model_name", "question_id"])['score']
+            .agg(['mean', 'count'])
+            .reset_index()
+            .rename(columns={'mean': 'avg_score', 'count': 'samples'})
+        )
+
+        # 合并总体平均分，计算低于总体平均分的差值
+        mq = mq.merge(model_avg_df, on="model_name", how="left")
+        mq["diff_lower_than_model_avg"] = mq["model_avg"] - mq["avg_score"]
+
+        # 为展示准备标签和排序
+        models = sorted(mq["model_name"].unique().tolist())
+        tabs = st.tabs(models if models else ["无模型数据"])
+        for i, m in enumerate(models):
+            with tabs[i]:
+                mdf = mq[mq["model_name"] == m].sort_values(by="avg_score", ascending=True).head(10)
+                if mdf.empty:
+                    st.info("该模型暂无题目评分数据")
+                    continue
+
+                overall = mdf["model_avg"].iloc[0]
+                st.write(f"模型：{m}（总体平均分：{overall:.2f}）")
+
+                table = mdf[["question_id", "avg_score", "samples", "diff_lower_than_model_avg"]].copy()
+                table = table.rename(columns={
+                    "question_id": "题目ID",
+                    "avg_score": "该题平均分",
+                    "samples": "样本数",
+                    "diff_lower_than_model_avg": "低于模型平均分"
+                })
+                st.dataframe(table, use_container_width=True)
+
+                # 可视化：最低分题目条形图（颜色映射为低于平均分的差值）
+                chart_df = mdf.copy()
+                chart = alt.Chart(chart_df).mark_bar().encode(
+                    x=alt.X("question_id:N", title="题目ID"),
+                    y=alt.Y("avg_score:Q", title="该题平均分"),
+                    color=alt.Color(
+                        "diff_lower_than_model_avg:Q",
+                        title="低于模型平均分",
+                        scale=alt.Scale(scheme="reds")
+                    ),
+                    tooltip=[
+                        "question_id",
+                        alt.Tooltip("avg_score:Q", title="该题平均分", format=".2f"),
+                        alt.Tooltip("samples:Q", title="样本数"),
+                        alt.Tooltip("diff_lower_than_model_avg:Q", title="低于平均分", format=".2f")
+                    ]
+                ).properties(height=320)
+                st.altair_chart(chart, use_container_width=True)
 
     with st.expander("查看原始数据（可选）", expanded=False):
         st.write("Profiles（用户画像）", profiles_df)

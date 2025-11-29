@@ -1,6 +1,6 @@
 ---
 questionId: 29
-modelId: Gemeni
+modelId: Gemini
 modelDisplayName: 匿名模型G
 ---
 这是一个非常好的问题！你在投资中能关注到费率，说明你对成本控制有很高的意识，这在长期投资中至关重要。
