@@ -19,12 +19,24 @@ export default async function ThankYouPage({ searchParams }: PageProps) {
         <p className="text-gray-700">
           您的宝贵意见已经成功提交，这对我们的研究至关重要。
         </p>
-        <Link 
-            href="/"
-            className="inline-block px-6 py-3 font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors"
-        >
-          返回首页
-        </Link>
+        
+        <div className="flex flex-col space-y-3 sm:flex-row sm:space-y-0 sm:space-x-4 justify-center pt-4">
+            <Link 
+                href="/"
+                className="inline-block px-6 py-3 font-semibold text-gray-700 bg-gray-200 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition-colors"
+            >
+            返回首页
+            </Link>
+            
+            {displayName && (
+                <Link 
+                    href={`/my-stats?name=${encodeURIComponent(displayName)}`}
+                    className="inline-block px-6 py-3 font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors"
+                >
+                查看我的评测报告(计算需要等待十几秒，请稍等)
+                </Link>
+            )}
+        </div>
       </div>
     </main>
   );
